@@ -15,11 +15,11 @@ class StudentSystemUtil:
 
 class DiskUtil:
     @classmethod
-    def insertStu(self, name, java, python):
+    def insertStu(self, id, name, java, python):
         fileName = os.getcwd() + "\\studentInfo.txt"
         with open(fileName, "a") as file:
-            studentStr = {'name': name, "java": java, "python": python}.__str__()
+            studentStr = {"id": id, 'name': name, "java": java, "python": python}.__str__()
             file.writelines(studentStr.encode("UTF-8").__str__())
 
 if __name__ == '__main__':
-    DiskUtil.insertStu("张三", "100", "90")
+    DiskUtil.insertStu(1, "张三", "100", "90")
