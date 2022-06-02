@@ -3,13 +3,6 @@ with open("url.txt","r") as file:
     print(file.readline())
 
 
-
-
-
-
-
-
-
 class MyOpen:
     def __enter__(self):
         print("调用了enter")

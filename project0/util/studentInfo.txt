@@ -1,0 +1,1 @@
+b"{'name': '\xe5\xbc\xa0\xe4\xb8\x89', 'java': '100', 'python': '90'}"

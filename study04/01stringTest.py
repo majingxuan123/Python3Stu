@@ -51,3 +51,6 @@ print(str4.isdecimal())
 print(str1.isidentifier())
 ##是否全是字母
 print(str5.isalpha())
+
+print("-------拼接---------")
+print(1,2,3,4,5,6,sep="|")
