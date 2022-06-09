@@ -17,9 +17,10 @@ class DiskUtil:
     @classmethod
     def insertStu(self, id, name, java, python):
         fileName = os.getcwd() + "\\studentInfo.txt"
-        with open(fileName, "a") as file:
-            studentStr = {"id": id, 'name': name, "java": java, "python": python}.__str__()
-            file.writelines(studentStr.encode("UTF-8").__str__())
+        ##以这个格式打开之后 写入也是这个格式
+        with open(fileName, "a", encoding="utf-8") as file:
+            file.writelines(str({"id": id, 'name': name, "java": java, "python": python}) + "\n")
+
 
 if __name__ == '__main__':
     DiskUtil.insertStu(1, "张三", "100", "90")
