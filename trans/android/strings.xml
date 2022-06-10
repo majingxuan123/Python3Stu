@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XYZ</string>
+    <string name="network_error">网络异常</string>
+    <string name="page_404">404</string>
+    <string name="ok">确认</string>
+    <string name="coming_soon">暂未开放</string>
+
+    <!-- 登录、注册 -->
+    <string name="login">登录</string>
+    <string name="login_account_hint_0">请输入您的用户名</string>
+    <string name="login_password_hint">请输入您的密码</string>
+    <string name="login_remember_password">记住我</string>
+    <string name="login_welcome">welcome</string>
+    <string name="login_0_account">没有账号？</string>
+    <string name="login_register">立即注册</string>
+    <string name="login_contacts">联系我们</string>
+    <string name="register">注册</string>
+    <string name="register_account_hint_0">请输入您的用户名</string>
+    <string name="register_password_hint">请输入您的密码</string>
+    <string name="register_invite_hint">请输入邀请码</string>
+    <string name="register_auth_hint">请输入图片验证码</string>
+    <string name="register_trc_hint">请输入TRC20地址</string>
+    <string name="register_1_account">没有账号？</string>
+    <string name="register_login">立即登录</string>
+
+    <!-- 首页 -->
+    <string name="main_home">首页</string>
+    <string name="main_discount">优惠</string>
+    <string name="main_rebate">返水</string>
+    <string name="main_promote">推广</string>
+    <string name="main_my">我的</string>
+
+    <string name="main_home_games">区块链游戏</string>
+    <string name="main_home_process">参与流程</string>
+    <string name="main_home_invite">邀请好友</string>
+    <string name="main_home_rank">全球排名</string>
+    <string name="main_home_help">常见问题</string>
+    <string name="main_home_about">关于我们</string>
+
+    <!-- 优惠 -->
+    <string name="main_discount_item_desc">活动时间：%1$s - %2$s</string>
+
+    <!-- 返水 -->
+    <string name="main_rebate_return">历史总返水</string>
+    <string name="main_rebate_bet">历史总投注</string>
+    <string name="main_rebate_rule">活动规则</string>
+    <string name="main_rebate_rule_1">反水结算发放时间:每日的00: 00:00系统自动派发(发放前一日)</string>
+    <string name="main_rebate_rule_2">反水计算方式-反水=用户的总投注*0.5%</string>
+
+    <!-- 推广 -->
+    <string name="main_promote_1">推者有礼 \n 人脉变钱买</string>
+    <string name="main_promote_3">-呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">一级用户数</string>
+    <string name="main_promote_second_user">二级用户数</string>
+    <string name="main_promote_third_user">三级用户数</string>
+    <string name="main_promote_first_rebate">一级%1$s佣金</string>
+    <string name="main_promote_second_rebate">二级%1$s佣金</string>
+    <string name="main_promote_third_rebate">三级%1$s佣金</string>
+    <string name="main_promote_first_bet">一级%1$s投注</string>
+    <string name="main_promote_second_bet">二级%1$s投注</string>
+    <string name="main_promote_third_bet">三级%1$s投注</string>
+    <string name="main_promote_first_recharge">一级充值投注</string>
+    <string name="main_promote_second_recharge">二级充值投注</string>
+    <string name="main_promote_third_recharge">三级充值投注</string>
+    <string name="main_promote_rule_1">佣金结算发放时间:每日的00: 00: 00系统自动派发(发放前一日)</string>
+    <string name="main_promote_rule_2">佣金计算方式</string>
+    <string name="main_promote_rule_2_1">一级返佣=一级用户的总投注*20%</string>
+    <string name="main_promote_rule_2_2">二级返佣=二级用户的总投注*10%</string>
+    <string name="main_promote_rule_2_3">三级返佣=三级级用户的总投注*10%</string>
+    <string name="main_promote_share">分享好友</string>
+    <string name="main_promote_share_save">保存二维码</string>
+    <string name="main_promote_share_copy">复制链接</string>
+    <string name="main_promote_share_1">复制链接分享好友</string>
+
+    <!-- 我的 -->
+    <string name="main_my_user">账号：</string>
+    <string name="main_my_level">等级：</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">TRX</string>
+    <string name="main_my_point">积分</string>
+    <string name="main_my_trc">TRC地址</string>
+    <string name="main_my_mining">挖矿收益</string>
+    <string name="main_my_withdrawing">提现</string>
+    <string name="main_my_recharge">充值</string>
+    <string name="main_my_mall">积分商城</string>
+    <string name="main_my_profit_loss">盈亏报表</string>
+    <string name="main_my_withdrawn">提现记录</string>
+    <string name="main_my_bet">投注记录</string>
+    <string name="main_my_change">账变记录</string>
+    <string name="main_my_return">返水记录</string>
+    <string name="main_my_rebate">返佣记录</string>
+    <string name="main_my_login_pwd">登录密码</string>
+    <string name="main_my_pay_pwd">支付密码</string>
+    <string name="main_my_apps">下载App</string>
+    <string name="main_my_share">分享好友</string>
+    <string name="main_my_logout">退出登录</string>
+
+    <!-- 关于我们 -->
+
+    <!-- 游戏 -->
+    <string name="game_start">立即游戏</string>
+    <string name="game_rule">游戏规则</string>
+    <string name="game_detail">游戏详情</string>
+    <string name="game_win_rule">中奖规则</string>
+    <string name="game_win_eg">中奖实例</string>
+    <string name="game_qrcode_tip">扫描下方二维码投注</string>
+    <string name="game_address">官方投注地址</string>
+    <string name="game_copy">一键复制</string>
+
+    <!-- 参与流程 -->
+    <string name="process">参与流程</string>
+    <string name="process_1_a">数字币【去中心化】钱包下载地址</string>
+    <string name="process_1_b">平台</string>
+    <string name="process_1_c">网址</string>
+    <string name="process_1_d">教程</string>
+    <string name="process_1_e">查看教程</string>
+    <string name="process_2_a">数字货币交易所中购买TRX</string>
+    <string name="process_3_a">向本平台转账参与抽奖</string>
+    <string name="process_3_b">向下方地址按规定金额转账后即成功参与抽奖</string>
+    <string name="process_4_a">中奖自动回款</string>
+    <string name="process_4_b">中奖后系统10内自动返奖</string>
+
+    <!-- 全球排名 -->
+    <string name="rank_now">实时派彩</string>
+    <string name="rank_day">日排行</string>
+    <string name="rank_week">周排行</string>
+    <string name="rank_month">月排行</string>
+    <string name="rank_item_address">地址</string>
+    <string name="rank_item_token">币种</string>
+    <string name="rank_item_amount">总派彩</string>
+    <string name="rank_item_time">时间</string>
+
+    <string name="report_profit_loss_recharge">充值金额</string>
+    <string name="report_profit_loss_bet">投注金额</string>
+    <string name="report_profit_loss_win">中奖金额</string>
+    <string name="report_profit_loss_refund">退款金额</string>
+
+    <string name="income_token">币种类型</string>
+    <string name="income_amount">影响金额</string>
+    <string name="income_type">类型</string>
+    <string name="income_time">订单时间</string>
+
+    <string name="mining_usdt">USDT收益</string>
+    <string name="mining_trx">TRX收益</string>
+    <string name="mining_sub1">挖矿收益</string>
+    <string name="mining_sub2">24小时收益</string>
+
+    <string name="pwd_1">旧密码</string>
+    <string name="pwd_1_hint">请输入旧密码</string>
+    <string name="pwd_2">新密码</string>
+    <string name="pwd_2_hint">请输入新密码</string>
+    <string name="pwd_3">再次确认</string>
+    <string name="pwd_3_hint">请再次确认新密码</string>
+    <string name="pwd__hint">两次密码不一致</string>
+    <string name="pwd_update_success">修改成功</string>
+
+    <!-- 提现 -->
+    <string name="withdrawal_amount_hint">请输入提现金额</string>
+    <string name="withdrawal_pwd_hint">请输入您的交易密码</string>
+    <string name="withdrawal_balance">%1$s余额</string>
+    <string name="withdrawal_24">24小时提现</string>
+    <string name="withdrawal_success">提现申请成功</string>
+    <string name="withdrawal_amount">提现金额</string>
+    <string name="withdrawal_status">状态</string>
+    <string name="withdrawal_time">时间</string>
+    <string name="withdrawal_status_0">待审核</string>
+    <string name="withdrawal_status_1">审核通过</string>
+    <string name="withdrawal_status_2">审核不通过</string>
+    <string name="withdrawal_status_3">审核中</string>
+
+    <!-- 邀请好友 -->
+    <string name="invite_1">2022风口项目\n在家躺赚USDT</string>
+
+    <!-- 下载App -->
+    <string name="app_download">点击下载</string>
+
+    <!-- 客服 -->
+    <string name="kefu">客服</string>
+    <string name="kefu_1">客服24小时\n为您竭诚服务</string>
+    <string name="kefu_2">如遇到问题需要帮助，请联系线上客服</string>
+    <string name="kefu_ask">咨询</string>
+
+    <!-- 未登陆提示 -->
+    <string name="guest_tip">新用户注册三重好礼</string>
+    <string name="guest_tip_content">立即开通0.5%流水返利\n立即开通最高1%的代理佣金返利\n实时查看投注返奖记录</string>
+    <string name="guest_tip_button">立即注册</string>
+
+    <!-- 未登陆提示 -->
+    <string name="announcement_previous">上一条</string>
+    <string name="announcement_next">下一条</string>
+    <string name="announcement_close">关闭</string>
+
+    <!-- 积分 -->
+    <string name="point_detail">积分明细</string>
+    <string name="point_order">订单号</string>
+    <string name="point_change">影响积分</string>
+    <string name="point_before">操作前</string>
+    <string name="point_after">操作后</string>
+
+    <!-- 投注 -->
+    <string name="bet_detail">投注详情</string>
+    <string name="bet_detail_amount">投注金额：</string>
+    <string name="bet_detail_status">状态：</string>
+    <string name="bet_detail_win">中奖金额：</string>
+    <string name="bet_detail_refund">退款金额：</string>
+    <string name="bet_detail_pay">结算方式：</string>
+    <string name="bet_detail_failed">失败原因：</string>
+    <string name="bet_detail_trial">是否试玩：</string>
+    <string name="bet_detail_prize">中奖详情</string>
+    <string name="bet_detail_hash">哈希值：</string>
+    <string name="bet_detail_zhuang">庄：</string>
+    <string name="bet_detail_xian">闲：</string>
+    <string name="bet_detail_prize_time">开奖时间：</string>
+    <string name="bet_detail_buy_time">下单时间：</string>
+    <string name="bet_detail_order_no">下单号码</string>
+    <string name="bet_detail_order_amount">下单金额</string>
+    <string name="bet_detail_order_bet">投注金额</string>
+    <string name="bet_detail_order_result">是否中奖</string>
+    <string name="bet_detail_order_rate">赔率</string>
+    <string name="bet_detail_order_win">中奖金额</string>
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_rebate</item>
+        <item>@string/main_promote</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_rebate</item>
+        <item>@drawable/main_tab_promote</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="lang">
+        <item>简体中文</item>
+        <item>繁体中文</item>
+        <item>English</item>
+        <item>日本語</item>
+        <item>한국인</item>
+        <item>ไทย</item>
+        <item>Tiếng Việt</item>
+        <item>Indonesian</item>
+        <item>Türkçe</item>
+    </string-array>
+
+    <string-array name="process_tabs_name">
+        <item>注册钱包</item>
+        <item>交易虚拟币</item>
+        <item>转账抽奖</item>
+        <item>中奖回款</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

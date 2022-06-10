@@ -2,12 +2,12 @@ import sys;
 import os
 import json
 
-# 将国际化en.js英文文件中的value值改成首字母大写，效果
 from trans.translate import Baidu_trans
 
 
-def test(trans):
-    f_new = open('zh-CN1.js', 'w+', encoding='utf-8')
+def transJs(trans):
+    f_new = open('../new_zh-CN.js', 'w+', encoding='utf-8')
+
     with open('zh-CN.js', 'r', encoding='utf8') as f:
         for line in f:
             print(line)
@@ -42,4 +42,4 @@ def test(trans):
 
 if __name__ == '__main__':
     trans = Baidu_trans()
-    test(trans)
+    transJs(trans)

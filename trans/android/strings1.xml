@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">XYZ</string>
+    <string name="network_error">Network exception</string>
+    <string name="page_404">four hundred and four</string>
+    <string name="ok">confirm</string>
+    <string name="coming_soon">Not open yet</string>
+
+    
+    <string name="login">Sign in</string>
+    <string name="login_account_hint_0">Please enter your user name</string>
+    <string name="login_password_hint">Please enter your password</string>
+    <string name="login_remember_password">Remember me</string>
+    <string name="login_welcome">welcome</string>
+    <string name="login_0_account">No account?</string>
+    <string name="login_register">Register now</string>
+    <string name="login_contacts">contact us</string>
+    <string name="register">register</string>
+    <string name="register_account_hint_0">Please enter your user name</string>
+    <string name="register_password_hint">Please enter your password</string>
+    <string name="register_invite_hint">Please enter the invitation code</string>
+    <string name="register_auth_hint">Please enter the picture verification code</string>
+    <string name="register_trc_hint">Please enter trc20 address</string>
+    <string name="register_1_account">No account?</string>
+    <string name="register_login">Log in now</string>
+
+    
+    <string name="main_home">home page</string>
+    <string name="main_discount">Discount</string>
+    <string name="main_rebate">Backwater</string>
+    <string name="main_promote">extension</string>
+    <string name="main_my">my</string>
+
+    <string name="main_home_games">Blockchain games</string>
+    <string name="main_home_process">Participation process</string>
+    <string name="main_home_invite">Invite friends</string>
+    <string name="main_home_rank">Global ranking</string>
+    <string name="main_home_help">common problem</string>
+    <string name="main_home_about">About us</string>
+
+    
+    <string name="main_discount_item_desc">Activity time:%1$s -%2$s</string>
+
+    
+    <string name="main_rebate_return">Historical total return water</string>
+    <string name="main_rebate_bet">Historical total bet</string>
+    <string name="main_rebate_rule">Activity rules</string>
+    <string name="main_rebate_rule_1">Backwater settlement distribution time: 00:00:00 every day, the system will automatically distribute it (the day before distribution)</string>
+    <string name="main_rebate_rule_2">Backwater calculation method - backwater = user's total bet *0.5%</string>
+
+    
+    <string name="main_promote_1">The promoter is polite \n contacts change money to buy</string>
+    <string name="main_promote_3">-Call friends and enjoy many good gifts-</string>
+    <string name="main_promote_first_user">Number of primary users</string>
+    <string name="main_promote_second_user">Number of secondary users</string>
+    <string name="main_promote_third_user">Number of tertiary users</string>
+    <string name="main_promote_first_rebate">First level%1$s Commission</string>
+    <string name="main_promote_second_rebate">Secondary%1$s Commission</string>
+    <string name="main_promote_third_rebate">Level 3%1$s Commission</string>
+    <string name="main_promote_first_bet">Level 1%1$s bet</string>
+    <string name="main_promote_second_bet">Secondary%1$s bet</string>
+    <string name="main_promote_third_bet">Level 3%1$s bet</string>
+    <string name="main_promote_first_recharge">Level 1 recharge betting</string>
+    <string name="main_promote_second_recharge">Secondary recharge betting</string>
+    <string name="main_promote_third_recharge">Three level recharge betting</string>
+    <string name="main_promote_rule_1">Payment time of commission settlement: 00:00:00 of each day (the day before payment)</string>
+    <string name="main_promote_rule_2">Commission calculation method</string>
+    <string name="main_promote_rule_2_1">Level 1 rebate = total bet of level 1 users *20%</string>
+    <string name="main_promote_rule_2_2">Level 2 rebate = total bets of level 2 users *10%</string>
+    <string name="main_promote_rule_2_3">Level 3 rebate = total bets of level 3 users *10%</string>
+    <string name="main_promote_share">Share friends</string>
+    <string name="main_promote_share_save">Save QR code</string>
+    <string name="main_promote_share_copy">Copy link</string>
+    <string name="main_promote_share_1">Copy links share friends</string>
+
+    
+    <string name="main_my_user">account number:</string>
+    <string name="main_my_level">Grade:</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">TRX</string>
+    <string name="main_my_point">integral</string>
+    <string name="main_my_trc">TRC address</string>
+    <string name="main_my_mining">Mining income</string>
+    <string name="main_my_withdrawing">Withdrawal</string>
+    <string name="main_my_recharge">Recharge</string>
+    <string name="main_my_mall">Points mall</string>
+    <string name="main_my_profit_loss">Profit and loss statement</string>
+    <string name="main_my_withdrawn">Withdrawal record</string>
+    <string name="main_my_bet">Betting record</string>
+    <string name="main_my_change">Account change record</string>
+    <string name="main_my_return">Water return record</string>
+    <string name="main_my_rebate">Rebate record</string>
+    <string name="main_my_login_pwd">Login password</string>
+    <string name="main_my_pay_pwd">Payment password</string>
+    <string name="main_my_apps">Download app</string>
+    <string name="main_my_share">Share friends</string>
+    <string name="main_my_logout">Log out</string>
+
+    
+
+    
+    <string name="game_start">Play now</string>
+    <string name="game_rule">Rules of the game</string>
+    <string name="game_detail">Game details</string>
+    <string name="game_win_rule">Winning rules</string>
+    <string name="game_win_eg">Winning examples</string>
+    <string name="game_qrcode_tip">Scan QR code betting below</string>
+    <string name="game_address">Official betting address</string>
+    <string name="game_copy">One click Copy</string>
+
+    
+    <string name="process">Participation process</string>
+    <string name="process_1_a">Digital currency [decentralization] wallet download address</string>
+    <string name="process_1_b">platform</string>
+    <string name="process_1_c">website</string>
+    <string name="process_1_d">course</string>
+    <string name="process_1_e">View tutorial</string>
+    <string name="process_2_a">Purchase of TRX in digital currency exchange</string>
+    <string name="process_3_a">Transfer money to this platform to participate in the lottery</string>
+    <string name="process_3_b">Successfully participate in the lottery after transferring the specified amount to the following address</string>
+    <string name="process_4_a">Automatic collection of winning prizes</string>
+    <string name="process_4_b">After winning the prize, the system will automatically return the prize within 10</string>
+
+    
+    <string name="rank_now">Real time lottery</string>
+    <string name="rank_day">Daily ranking</string>
+    <string name="rank_week">Weekly ranking</string>
+    <string name="rank_month">Monthly ranking</string>
+    <string name="rank_item_address">address</string>
+    <string name="rank_item_token">currency</string>
+    <string name="rank_item_amount">payout </string>
+    <string name="rank_item_time">time</string>
+
+    <string name="report_profit_loss_recharge">Recharge amount</string>
+    <string name="report_profit_loss_bet">Bet amount</string>
+    <string name="report_profit_loss_win">Winning amount</string>
+    <string name="report_profit_loss_refund">refund amount </string>
+
+    <string name="income_token">Currency type</string>
+    <string name="income_amount">Affected amount</string>
+    <string name="income_type">type</string>
+    <string name="income_time">Order time</string>
+
+    <string name="mining_usdt">Usdt revenue</string>
+    <string name="mining_trx">TRX revenue</string>
+    <string name="mining_sub1">Mining income</string>
+    <string name="mining_sub2">24-hour revenue</string>
+
+    <string name="pwd_1">Old password</string>
+    <string name="pwd_1_hint">Please enter your old password</string>
+    <string name="pwd_2">New password</string>
+    <string name="pwd_2_hint">Please enter a new password</string>
+    <string name="pwd_3">Reconfirm</string>
+    <string name="pwd_3_hint">Please confirm the new password again</string>
+    <string name="pwd__hint">The two passwords are inconsistent</string>
+    <string name="pwd_update_success">Modified successfully</string>
+
+    
+    <string name="withdrawal_amount_hint">Please enter the withdrawal amount</string>
+    <string name="withdrawal_pwd_hint">Please enter your transaction password</string>
+    <string name="withdrawal_balance">%1$s balance</string>
+    <string name="withdrawal_24">24-hour withdrawal</string>
+    <string name="withdrawal_success">Withdrawal application succeeded</string>
+    <string name="withdrawal_amount">Withdrawal amount</string>
+    <string name="withdrawal_status">state</string>
+    <string name="withdrawal_time">time</string>
+    <string name="withdrawal_status_0">To be reviewed</string>
+    <string name="withdrawal_status_1">Approved</string>
+    <string name="withdrawal_status_2">Audit failed</string>
+    <string name="withdrawal_status_3">Under review</string>
+
+    
+    <string name="invite_1">2022 tuyere project \n earn usdt at home</string>
+
+    
+    <string name="app_download">Click download</string>
+
+    
+    <string name="kefu">customer service</string>
+    <string name="kefu_1">Customer service 24 hours \ nwill serve you wholeheartedly</string>
+    <string name="kefu_2">If you need help, please contact online customer service</string>
+    <string name="kefu_ask">consulting service</string>
+
+    
+    <string name="guest_tip">Three good gifts for new user registration</string>
+    <string name="guest_tip_content">Open 0.5% daily rebate immediately \n open up the maximum 1% agent commission rebate immediately \n view the betting rebate records in real time</string>
+    <string name="guest_tip_button">Register now</string>
+
+    
+    <string name="announcement_previous">Previous</string>
+    <string name="announcement_next">Next</string>
+    <string name="announcement_close">close</string>
+
+    
+    <string name="point_detail">Points details</string>
+    <string name="point_order">order number</string>
+    <string name="point_change">Influence integral</string>
+    <string name="point_before">Before operation</string>
+    <string name="point_after">After operation</string>
+
+    
+    <string name="bet_detail">Betting details</string>
+    <string name="bet_detail_amount">Bet amount:</string>
+    <string name="bet_detail_status">Status:</string>
+    <string name="bet_detail_win">Winning amount:</string>
+    <string name="bet_detail_refund">Refund amount:</string>
+    <string name="bet_detail_pay">Settlement method:</string>
+    <string name="bet_detail_failed">Failure reason:</string>
+    <string name="bet_detail_trial">Try or not:</string>
+    <string name="bet_detail_prize">Winning details</string>
+    <string name="bet_detail_hash">Hash value:</string>
+    <string name="bet_detail_zhuang">Zhuang:</string>
+    <string name="bet_detail_xian">Free:</string>
+    <string name="bet_detail_prize_time">Lottery time:</string>
+    <string name="bet_detail_buy_time">Order time:</string>
+    <string name="bet_detail_order_no">Order No</string>
+    <string name="bet_detail_order_amount">Order amount</string>
+    <string name="bet_detail_order_bet">Bet amount</string>
+    <string name="bet_detail_order_result">Win or not</string>
+    <string name="bet_detail_order_rate">Odds </string>
+    <string name="bet_detail_order_win">Winning amount</string>
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_rebate</item>
+        <item>@string/main_promote</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_rebate</item>
+        <item>@drawable/main_tab_promote</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="lang">
+        <item>简体中文</item>
+        <item>繁体中文</item>
+        <item>English</item>
+        <item>日本語</item>
+        <item>한국인</item>
+        <item>ไทย</item>
+        <item>Tiếng Việt</item>
+        <item>Indonesian</item>
+        <item>Türkçe</item>
+    </string-array>
+
+    <string-array name="process_tabs_name">
+        <item>注册钱包</item>
+        <item>交易虚拟币</item>
+        <item>转账抽奖</item>
+        <item>中奖回款</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

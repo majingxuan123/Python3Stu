@@ -40,11 +40,47 @@ class Baidu_trans(object):
             salt) + '&sign=' + sign
         return myurl
 
+    def get_url_to_lang(self, query, toLang):
+        base_url = '/api/trans/vip/translate'
+        salt = random.randint(32768, 65536)
+        sign = self.appid + query + str(salt) + self.secret_key
+        sign = hashlib.md5(sign.encode()).hexdigest()
+        myurl = base_url + '?appid=' + self.appid + '&q=' + urllib.parse.quote(
+            query) + '&from=' + self.from_lang + '&to=' + toLang + '&salt=' + str(
+            salt) + '&sign=' + sign
+        return myurl
+
     def trans(self, query):
         httpClient = None
-
         myurl = self.get_url(query)
+        try:
+            httpClient = http.client.HTTPConnection('api.fanyi.baidu.com')
+            httpClient.request('GET', myurl)
 
+            response = httpClient.getresponse()
+            result_all = response.read().decode("utf-8")
+            result = json.loads(result_all)
+
+            data = result.get('trans_result', ['error'])[0]
+            error_code = result.get('error_code', '')
+            error_msg = result.get('error_msg', '')
+
+            if isinstance(data, dict):
+                code = 2000
+            else:
+                code = 2001
+            return {"code": code, "result": data, "error_code": error_code, "error_msg": error_msg}
+        except Exception as e:
+            print(e)
+            return {"code": 2001, "data": {}}
+
+        finally:
+            if httpClient:
+                httpClient.close()
+
+    def trans_to_lang(self, query, toLang):
+        httpClient = None
+        myurl = self.get_url_to_lang(query, toLang)
         try:
             httpClient = http.client.HTTPConnection('api.fanyi.baidu.com')
             httpClient.request('GET', myurl)
@@ -80,7 +116,7 @@ class Baidu_trans(object):
 if __name__ == '__main__':
     trans = Baidu_trans()
     query_list = [
-        "先去逛逛"
+        "返水计算方式-返水=用户的总投注*0.5%"
     ]
 
     for query in query_list:
