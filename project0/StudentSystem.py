@@ -72,8 +72,22 @@ def insertStudent():
         except:
             print("\033[0;31;40m python得分格式有误\033[0m")
             continue
-        stuUtil.DiskUtil.insertStu(stuId, studentName, javaScope, pythonScope)
+        stuUtil.DiskUtil.checkWrite(stuId, studentName, javaScope, pythonScope)
 
+        if(not continueInput()):
+            break
+
+#是否继续输入
+def continueInput():
+    while (True):
+        continueInput = input("是否继续输入? y/n")
+        if (continueInput == 'y'):
+            return True
+        elif (continueInput == 'n'):
+            return False
+        else:
+            print("\033[0;31;40m 输入有误默认继续输入\033[0m")
+            return True
 
 def getInputStr(inputNum):
     print("输入了{0}".format(inputNum))
@@ -95,7 +109,7 @@ def getInputStr(inputNum):
     elif inputNum == 0:
         pass
 
-
+##确认是否继续
 def checkExitSystem(title="您确定要退出系统吗？  y/n"):
     inputStr = input(title)
     if ("n" == inputStr or "N" == inputStr):
@@ -105,9 +119,7 @@ def checkExitSystem(title="您确定要退出系统吗？  y/n"):
     else:
         return checkExitSystem("请输入 y/n")
 
-
 if __name__ == '__main__':
-
     while True:
         inputNum = printDashboard("学生管理菜单")
         if (0 == inputNum):
