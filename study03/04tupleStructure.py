@@ -19,11 +19,11 @@ print("空元组",())
 print("===========以下是测试===========")
 
 
+##函数直接返回元组
 def getTuple():
-    print(group1[1])
+    return group1[0],group1[1],group1[2]
 
-    for item in group1:
-        print(item)
-
-
-getTuple()
+if __name__ == '__main__':
+    python,java,go = getTuple()
+    # 直接三个参数接入元组
+    print(python,java,go)

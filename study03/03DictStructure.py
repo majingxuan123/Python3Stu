@@ -59,4 +59,5 @@ def zipDic():
     print(type(dict(zipDic)))
     print(type(list(zipDic)))
 
-zipDic()
+if __name__ == '__main__':
+    getDic()

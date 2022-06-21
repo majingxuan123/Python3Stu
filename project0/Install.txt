@@ -1,0 +1,6 @@
+'C:\Users\FYT\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+-f代表只生成一个可执行文件
+
+需要把这个txt文件放过去才能使用
+
+pyinstaller -F D:\gitProject\Python3Stu\project0\StudentSystem.py
