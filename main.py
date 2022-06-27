@@ -2,21 +2,14 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+from translate import Translator
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+def print_hi():
+    print(Translator(from_lange="Chinese", to_lang="English").translate("你好"))
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-
-
-def test0():
-    name="majingxuan";
-    print("name",name);
+    print_hi()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
