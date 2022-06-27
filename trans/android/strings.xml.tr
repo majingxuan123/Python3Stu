@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Okx-hash</string>
+    <string name="network_error">İnternet yok</string>
+    <string name="page_404">404</string>
+    <string name="coming_soon">Geliyorum.</string>
+    <string name="data_null">Veri yok</string>
+    <string name="ok">Tamam.</string>
+    <string name="copy">Kopiyalar</string>
+    <string name="copied">Kopyalandı</string>
+    <string name="yes">Evet.</string>
+    <string name="no">Hayır, hayır.</string>
+
+    
+    <string name="launcher">platform</string>
+
+    
+    <string name="login">İçeri gir</string>
+    <string name="login_account_hint_0">Lütfen hesabınızı girin</string>
+    <string name="login_password_hint">Lütfen parolanızı girin</string>
+    <string name="login_remember_password">Beni hatırla.</string>
+    <string name="login_welcome">Hoşgeldiniz.</string>
+    <string name="login_0_account">Hesap yok mu?</string>
+    <string name="login_register">İmzala şimdi.</string>
+    <string name="login_privacy">Lütfen Kullanıcı Anlaşmasını ve Gizlilik Politikasını okuyun</string>
+    <string name="login_privacy_1">Lütfen okuyun.</string>
+    <string name="login_privacy_2">Kullanıcı Anlaşması</string>
+    <string name="login_privacy_3">Ve</string>
+    <string name="login_privacy_4">Gizlilik politikası</string>
+    <string name="register">İmzala</string>
+    <string name="register_account_hint_0">Lütfen hesabınızı girin</string>
+    <string name="register_password_hint">Lütfen parolanızı girin</string>
+    <string name="register_invite_hint_0">Lütfen davet kodunu girin</string>
+    <string name="register_invite_hint_1">Lütfen davet kodunu girin</string>
+    <string name="register_auth_hint">Please enter the image verification code</string>
+    <string name="register_trc_hint">Lütfen TRC20 adresini girin</string>
+    <string name="register_1_account">Bir hesap var mı?</string>
+    <string name="register_login">Şimdi gir</string>
+
+    
+    <string name="main_home">Home</string>
+    <string name="main_discount">Araştırma</string>
+    <string name="main_reback">Geri çekil</string>
+    <string name="main_invest">EarnMoney</string>
+    <string name="main_my">Profil</string>
+
+    <string name="main_home_games">Blok zinciri oyunu</string>
+    <string name="main_home_process">Oyuna katılın</string>
+    <string name="main_home_exchange">Değiştir</string>
+    <string name="main_home_rank">Ranking</string>
+    <string name="main_home_help">FAQs</string>
+    <string name="main_home_about">ABD hakkında</string>
+
+    
+    <string name="main_discount_item_desc">Zaman: %1$s - %2$s</string>
+
+    
+    <string name="main_reback_reback">Tarihi geri döndür</string>
+    <string name="main_reback_bet">Transfer Tarihi</string>
+    <string name="main_reback_rule">Etkinlik Kuralları</string>
+    <string name="main_reback_rule_1">Yerleştirme ve dağıtım zamanı yeniden başlat: Sistem her gün 00:00:00'da otomatik olarak aktarılacak (önceki günün miktarı)</string>
+    <string name="main_reback_rule_2">Hesaplama yöntemi yeniden başlat - yeniden başlat = kullanıcı toplam bahis * yeniden başlat oranı</string>
+
+    
+    <string name="main_income_invest">Yatırım</string>
+    <string name="main_income_mining">Mini</string>
+    <string name="main_income_promote">Komisyon</string>
+
+    
+    <string name="main_income_invest_usdt">USDT Cumulative Geldi</string>
+    <string name="main_income_invest_trx">TRX Cumulative Geldi</string>
+    <string name="main_income_invest_all">Tüm ürünler</string>
+    <string name="main_income_invest_my">Benim yatırımlarım</string>s
+    <string name="main_income_invest_income">Yatırım Geldi</string>
+    <string name="main_income_invest_no_more">Geçici olarak veri yok...</string>
+
+    
+    <string name="main_promote_title">Komisyon</string>
+    <string name="main_promote_1">推者有礼\ n 人脉变钱买</string>
+    <string name="main_promote_3">- Evet. 呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">Lvl 1 üyesi</string>
+    <string name="main_promote_second_user">Lvl 2 üyesi</string>
+    <string name="main_promote_third_user">Lvl 3 üyesi</string>
+    <string name="main_promote_first_commission">Lvl 1 %1$s Komisyonu</string>
+    <string name="main_promote_second_commission">Lvl 2 %1$s Komisyonu</string>
+    <string name="main_promote_third_commission">Lvl 3 %1$s Komisyonu</string>
+    <string name="main_promote_first_bet">Lvl 1% 1$s Bet</string>
+    <string name="main_promote_second_bet">Lvl 2 %1$s Bet</string>
+    <string name="main_promote_third_bet">Lvl 3 %1$s Bet</string>
+    <string name="main_promote_first_rebate">Lvl 1 Recharge</string>
+    <string name="main_promote_second_rebate">Lvl 2 Recharge</string>
+    <string name="main_promote_third_rebate">Lvl 3 Recharge</string>
+    <string name="main_promote_rule_1">Komisyon saat sonra aynı gün</string>
+    <string name="main_promote_rule_2">Komisyonu nasıl hesaplamak</string>
+    <string name="main_promote_rule_2_1">1. seviye komisyonu=1. seviye üye Bet Amount*%1$s</string>
+    <string name="main_promote_rule_2_2">2. seviye komisyonu=2. seviye üye Bet Amount*%1$s</string>
+    <string name="main_promote_rule_2_3">3. seviye komisyonu=3. seviye üye Bet Amount*%1$s</string>
+    <string name="main_promote_share">Arkadaşları davet et</string>
+    <string name="main_promote_share_save">QRCode Kaydet</string>
+    <string name="main_promote_share_copy">Hat kopyala</string>
+    <string name="main_promote_share_1">Arkadaşlarla paylaşmak için bağlantı kopyalayın</string>
+
+    
+    <string name="main_my_user">Hesap:</string>
+    <string name="main_my_level">Seviye:</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">TRX</string>
+    <string name="main_my_point">Doğru</string>
+    <string name="main_my_trc">TRC Adresi</string>
+    <string name="main_my_mining">Minik Geldi</string>
+    <string name="main_my_withdrawing">Çıkart</string>
+    <string name="main_my_recharge">Tekrar yükle</string>
+    <string name="main_my_mall">Points Mall</string>
+    <string name="main_my_profit_loss">Profit ve kaybedecek ifade</string>
+    <string name="main_my_withdrawn">Kaldırma kayıtları</string>
+    <string name="main_my_bet">Taşıma Ayrıntıları</string>
+    <string name="main_my_change">Aktarım detayları</string>
+    <string name="main_my_reback">Ayrıntıları yeniden başlat</string>
+    <string name="main_my_rebate">Komisyon Ayrıntıları</string>
+    <string name="main_my_login_pwd">Giriş Parola</string>
+    <string name="main_my_pay_pwd">Ödeme Parola</string>
+    <string name="main_my_apps">Uygulamaları indir</string>
+    <string name="main_my_share">Invite Friends</string>
+    <string name="main_my_logout">İmzala</string>
+
+    
+
+    
+    <string name="game_odds">%1$sOdds</string>
+    <string name="game_start">Çal şimdi</string>
+    <string name="game_rule">Oyun Kuralları</string>
+    <string name="game_detail">Oyun Ayrıntıları</string>
+    <string name="game_win_rule">Kazanan Kurallar</string>
+    <string name="game_win_eg">Ödüller listesi</string>
+    <string name="game_qrcode_tip">Scan the QR code below to bet</string>
+    <string name="game_address">Resmi Cüzdanın Adresi</string>
+    <string name="game_copy">Kopyalamak için tıklayın</string>
+
+    
+    <string name="process">Oyuna katılın</string>
+    <string name="process_1">Cüzdanı Kaydet</string>
+    <string name="process_1_a">Kıpırdama adresi</string>
+    <string name="process_1_b">Platform</string>
+    <string name="process_1_c">URL</string>
+    <string name="process_1_d">Öğretmen</string>
+    <string name="process_1_e">Görüntü</string>
+    <string name="process_2">Sanal Vali Alın</string>
+    <string name="process_2_a">Dijital para değişimlerinde TRX satın alın</string>
+    <string name="process_3">Transfer Beti</string>
+    <string name="process_3_a">Loteriye katılmak için bu platforma para taşıyın.</string>
+    <string name="process_3_b">Şanslı çizime katılmak için aşağıdaki adrese başarıyla transfer</string>
+    <string name="process_4">Geri çekil</string>
+    <string name="process_4_a">Kazanan miktarı için otomatik aktarım</string>
+    <string name="process_4_b">Dönüş 10 saniye içinde cüzdanına otomatik olarak taşınacak.</string>
+
+    
+    <string name="rank_now">Canlı Ödemeler</string>
+    <string name="rank_day">Gün</string>
+    <string name="rank_week">Haftada</string>
+    <string name="rank_month">Aylık</string>
+    <string name="rank_item_address">Adres</string>
+    <string name="rank_item_token">Para</string>
+    <string name="rank_item_amount">Toplam ödeme</string>
+    <string name="rank_item_time">Zaman</string>
+
+    <string name="report_profit_loss_recharge">Tekrar yükle miktarı</string>
+    <string name="report_profit_loss_bet">Bahse miktarı</string>
+    <string name="report_profit_loss_win">Kazananlar</string>
+    <string name="report_profit_loss_refund">Tekrar miktarı</string>
+
+    <string name="report_user_name">Kullanıcı adı</string>
+    <string name="report_user_register_time">Register Time</string>
+
+
+    <string name="record_date_picker">Tarihi Seç</string>
+    <string name="record_date_start">Başlangıç tarihi</string>
+    <string name="record_date_end">End Date</string>
+    <string name="record_trx_num">TRX Sıradan Sayı:</string>
+    <string name="record_usdt_num">USDT Sıradan Sayı:</string>
+    <string name="record_trx_amount">TRX Lump sumu:</string>
+    <string name="record_usdt_amount">USDT Lump toplamı:</string>
+
+    <string name="income_token">Para</string>
+    <string name="income_amount">Etkileyici</string>
+    <string name="income_type">Türü</string>
+    <string name="income_time">Order Time</string>
+
+    <string name="mining_title">Minik Geldi</string>
+    <string name="mining_usdt">USDT Geldi</string>
+    <string name="mining_trx">TRX Geldi</string>
+    <string name="mining_sub1">Minik Geldi</string>
+    <string name="mining_sub2">24 saat araştırma</string>
+
+    <string name="user_pwd_1">Eski Parola</string>
+    <string name="user_pwd_1_hint">Lütfen eski parola girin</string>
+    <string name="user_pwd_2">Yeni Parola</string>
+    <string name="user_pwd_2_hint">Lütfen yeni bir parola girin</string>
+    <string name="user_pwd_3">Parola doğrula</string>
+    <string name="user_pwd_3_hint">Lütfen yeni parola yeniden girin</string>
+    <string name="user_pwd__hint">İki parola eşleşmiyor.</string>
+    <string name="user_pwd_update_success">Başarılı Güncelle</string>
+    <string name="user_trc_edit">TRC Adresini değiştir</string>
+    <string name="user_trc_address">TRC Adresi</string>
+    <string name="user_trc_address_hint">Lütfen TRC Adresini girin (\\ T\' ile başlayın, en uzunluğu 34 karakter)</string>
+    <string name="user_trc_pwd">Ödeme paroli</string>
+    <string name="user_trc_pwd_hint">Lütfen ödeme parolanı girin</string>
+
+    
+    <string name="withdrawal_amount_hint">Lütfen miktarı girin</string>
+    <string name="withdrawal_pwd_hint">Lütfen ödeme parolanı girin</string>
+    <string name="withdrawal_balance">%1$s Balansı</string>
+    <string name="withdrawal_24">24 saat çekilme</string>
+    <string name="withdrawal_success">Çıkarma uygulaması başarılı.</string>
+    <string name="withdrawal_token">Para</string>
+    <string name="withdrawal_amount">Kıymet</string>
+    <string name="withdrawal_status">Durum</string>
+    <string name="withdrawal_time">Zaman</string>
+    <string name="withdrawal_status_0">padding</string>
+    <string name="withdrawal_status_1">geçti</string>
+    <string name="withdrawal_status_2">geçmedi</string>
+    <string name="withdrawal_status_3">review</string>
+
+    
+    <string name="invite_title">QRCode paylaş</string>
+    <string name="invite_1">2022 İyi Proje\nEarn USDT evde</string>
+
+    
+    <string name="app_download">İndir</string>
+
+    
+    <string name="kefu">Canlı sohbet</string>
+    <string name="kefu_1">Müşteriler hizmeti 24 saat</string>
+    <string name="kefu_2">Eğer sorunlara karşılaşırsanız ve yardıma ihtiyacınız olursa, lütfen internet müşteri hizmetine bağlantı edin.</string>
+    <string name="kefu_ask">Konsult</string>
+
+    
+    <string name="guest_tip">Yeni kullanıcı kayıt üç hediye</string>
+    <string name="guest_tip_content">Derhal 0.5% dön üş yeniden tekrar etkinleştir\ hemen %1 ajansı komisyonuna yeniden etkinleştir\ n Gerçek zamanda bahse giriş kayıtlarını görün</string>
+    <string name="guest_tip_button">İmzala şimdi.</string>
+
+    
+    <string name="announcement_previous">Önceki</string>
+    <string name="announcement_next">Sonraki</string>
+    <string name="announcement_close">Kapat</string>
+
+    
+    <string name="point_detail">Noktalar Ayrıntıları</string>
+    <string name="point_order">Sıra Hayır</string>
+    <string name="point_change">Noktalar</string>
+    <string name="point_before">Daha önce</string>
+    <string name="point_after">Sonra</string>
+
+    
+    <string name="bet_detail">Daha iyi detaylar</string>
+    <string name="bet_detail_order">Sıra numarası:</string>
+    <string name="bet_detail_game_name">Oyun adı:</string>
+    <string name="bet_detail_recharge_token">Parayı yeniden yükleyin:</string>
+    <string name="bet_detail_recharge_amount">Recharge amount：</string>
+    <string name="bet_detail_recharge_first">Önce yüklenecek mi:</string>
+    <string name="bet_detail_amount">Bahse miktarı:</string>
+    <string name="bet_detail_status">Durum:</string>
+    <string name="bet_detail_status_1">Kazanan</string>
+    <string name="bet_detail_status_0">Bindi</string>
+    <string name="bet_detail_status_01">Kaybedeceğiz.</string>
+    <string name="bet_detail_status_02">Keçersiz</string>
+    <string name="bet_detail_status_03">Çizilmedi</string>
+    <string name="bet_detail_win">Kazanan miktarı:</string>
+    <string name="bet_detail_refund">Tekrar miktarı:</string>
+    <string name="bet_detail_pay">Dönüştürme yöntemi:</string>
+    <string name="bet_detail_failed">Başarısızlığın sebebi:</string>
+    <string name="bet_detail_trial">Denemek:</string>
+    <string name="bet_detail_prize">Kazanan detaylar</string>
+
+    <string name="exchange_title">USDT/TRX değiştir</string>
+    <string name="exchange_to">- Evet.</string>
+    <string name="exchange_usdt_trx">USDT TRX'e</string>
+    <string name="exchange_trx_usdt">TRX USDT</string>
+    <string name="exchange_calc">Budget</string>
+    <string name="exchange_a">Adres aktarım değişimi</string>
+    <string name="exchange_min">%1$s Minimum exchange amount: %2$s %3$s</string>
+    <string name="exchange_max">%1$s Maksimum değiştirme miktarı: %2$s %3$s</string>
+    <string name="exchange_address">Cüzdanın Adresi</string>
+    <string name="exchange_warning">Teşekkürler:</string>
+    <string name="exchange_warning_content">1.Üçüncü tarafından dijital cüzdanı a ç, aktarım adresini kopyalayın; \n2.Sadece TRON TRC20-USDT ve TRX destekleniyor, aktarım miktarı sınırdan aşağı olmamalı ve sınırdan aşağı olsa ödüllendirilmez; \n3.The platform will return the equivalent value of TRX or USDT to you within 10 seconds for free</string>
+
+    
+    <string name="product_list">Produkt Listesi</string>
+    <string name="product_rate">Günlük faiz oranı 5% %1$d%%</string>
+    <string name="product_day">Döngü: %1$d Gün</string>
+    <string name="product_detail_balance">Hesap mevcut</string>
+    <string name="product_detail_min">başlangıç miktarı</string>
+    <string name="product_detail_max">maksimum yatırım</string>
+    <string name="product_detail_cycle">Döngü</string>
+    <string name="product_detail_day">%1$d Gün</string>
+    <string name="product_detail_rate">ortalama faiz oranı</string>
+    <string name="product_detail_invest_amount">yatırım miktarı</string>
+    <string name="product_detail_invest_pwd">Ödeme paroli</string>
+    <string name="product_detail_pwd_hint">Lütfen ödeme parolanı girin</string>
+    <string name="product_detail_calc">%1$s+(%1$sx%2$fx%3$d)=%4$s</string>
+    <string name="product_detail_invest">Yatırımlara katılın</string>
+    <string name="product_detail_invest_success">yatırım başarısı</string>
+
+    
+    <string name="invest_my">yatırımlarım</string>
+    <string name="invest_order">Sıra numarası: %1$s</string>
+    <string name="invest_amount">Yatırım miktarı:</string>
+    <string name="invest_status">Durum:</string>
+    <string name="invest_time">Yatırım zamanı: %1$s</string>
+    <string name="invest_status_1">Normal</string>
+    <string name="invest_status_2">Maturity</string>
+    <string name="invest_status_3">redemption</string>
+
+    <string name="upgrade">Yeni Sürüm</string>
+    <string name="upgrade_now">Şimdi Güncelle</string>
+
+    <string name="recharge_amount_hint">Lütfen yeniden yükleme miktarını girin</string>
+    <string name="recharge_scan_tip">Aşağıdaki QRCode'u yeniden yüklemek için tarayın</string>
+    <string name="recharge_time_tip">Zaman geldiğiniz için lütfen %1$s ödemenizi sağlayın</string>
+    <string name="recharge_time_h">%1$2 saat</string>
+    <string name="recharge_time_m">%1$2 dakika</string>
+    <string name="recharge_time_s">%1$2d saniye</string>
+    <string name="recharge_tip">Lütfen cüzdanınızı tarayın\ nOr copy the address to complete the payment</string>
+    <string name="recharge_failed">Yeniden yükleme başarısız oldu</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

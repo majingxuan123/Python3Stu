@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Okx雜湊</string>
+    <string name="network_error">沒有Internet</string>
+    <string name="page_404">404</string>
+    <string name="coming_soon">馬上就來</string>
+    <string name="data_null">無數據</string>
+    <string name="ok">好啊</string>
+    <string name="copy">複製</string>
+    <string name="copied">已複製</string>
+    <string name="yes">對</string>
+    <string name="no">不</string>
+
+    
+    <string name="launcher">站臺</string>
+
+    
+    <string name="login">登錄名</string>
+    <string name="login_account_hint_0">請輸入您的帳戶</string>
+    <string name="login_password_hint">請輸入您的密碼</string>
+    <string name="login_remember_password">記住我</string>
+    <string name="login_welcome">歡迎</string>
+    <string name="login_0_account">沒有帳戶</string>
+    <string name="login_register">立即注册</string>
+    <string name="login_privacy">請閱讀使用者協定和隱私政策</string>
+    <string name="login_privacy_1">請閱讀</string>
+    <string name="login_privacy_2">用戶協議書</string>
+    <string name="login_privacy_3">和</string>
+    <string name="login_privacy_4">隱私政策</string>
+    <string name="register">注册</string>
+    <string name="register_account_hint_0">請輸入您的帳戶</string>
+    <string name="register_password_hint">請輸入您的密碼</string>
+    <string name="register_invite_hint_0">請輸入邀請程式碼（選項）</string>
+    <string name="register_invite_hint_1">請輸入邀請程式碼</string>
+    <string name="register_auth_hint">請輸入影像驗證碼</string>
+    <string name="register_trc_hint">請輸入TRC20地址</string>
+    <string name="register_1_account">有帳戶嗎</string>
+    <string name="register_login">立即登入</string>
+
+    
+    <string name="main_home">家</string>
+    <string name="main_discount">折扣</string>
+    <string name="main_reback">獎勵</string>
+    <string name="main_invest">掙到錢</string>
+    <string name="main_my">輪廓</string>
+
+    <string name="main_home_games">區塊鏈遊戲</string>
+    <string name="main_home_process">加入遊戲</string>
+    <string name="main_home_exchange">交換</string>
+    <string name="main_home_rank">排名</string>
+    <string name="main_home_help">常見問題解答</string>
+    <string name="main_home_about">關於我們</string>
+
+    
+    <string name="main_discount_item_desc">時間：%1$s-%2$s</string>
+
+    
+    <string name="main_reback_reback">獎勵歷史記錄</string>
+    <string name="main_reback_bet">交易處理歷史記錄</string>
+    <string name="main_reback_rule">活動規則</string>
+    <string name="main_reback_rule_1">返利結算及發放時間：系統每天00:00:00自動轉帳（前一天金額）</string>
+    <string name="main_reback_rule_2">返利計算方法-返利=用戶的總賭注*返利率</string>
+
+    
+    <string name="main_income_invest">投資</string>
+    <string name="main_income_mining">採礦</string>
+    <string name="main_income_promote">委員會</string>
+
+    
+    <string name="main_income_invest_usdt">USDT累計收入</string>
+    <string name="main_income_invest_trx">TRX累計收入</string>
+    <string name="main_income_invest_all">所有產品</string>
+    <string name="main_income_invest_my">我的投資</string>s
+    <string name="main_income_invest_income">投資收益</string>
+    <string name="main_income_invest_no_more">暫時沒有數據…</string>
+
+    
+    <string name="main_promote_title">委員會</string>
+    <string name="main_promote_1">推者有礼\ n 人脉变钱买</string>
+    <string name="main_promote_3">- 呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">1級成員</string>
+    <string name="main_promote_second_user">二級成員</string>
+    <string name="main_promote_third_user">3級成員</string>
+    <string name="main_promote_first_commission">1%1美元傭金</string>
+    <string name="main_promote_second_commission">2級%1美元傭金</string>
+    <string name="main_promote_third_commission">3級1美元傭金</string>
+    <string name="main_promote_first_bet">1級%1美元賭注</string>
+    <string name="main_promote_second_bet">2級%1美元賭注</string>
+    <string name="main_promote_third_bet">3級%1美元賭注</string>
+    <string name="main_promote_first_rebate">1級充值</string>
+    <string name="main_promote_second_rebate">二級充值</string>
+    <string name="main_promote_third_rebate">3級充值</string>
+    <string name="main_promote_rule_1">當日00:00後轉帳傭金</string>
+    <string name="main_promote_rule_2">如何計算傭金</string>
+    <string name="main_promote_rule_2_1">1級傭金=1級會員下注金額*%1美元</string>
+    <string name="main_promote_rule_2_2">二級傭金=二級會員下注金額*%1美元</string>
+    <string name="main_promote_rule_2_3">三級傭金=三級會員下注金額*%1美元</string>
+    <string name="main_promote_share">邀請朋友</string>
+    <string name="main_promote_share_save">保存QRCode</string>
+    <string name="main_promote_share_copy">複製行</string>
+    <string name="main_promote_share_1">複製連結以與朋友共用</string>
+
+    
+    <string name="main_my_user">帳戶：</string>
+    <string name="main_my_level">級別：</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">TRX公司</string>
+    <string name="main_my_point">指向</string>
+    <string name="main_my_trc">TRC地址</string>
+    <string name="main_my_mining">採礦收入</string>
+    <string name="main_my_withdrawing">撤退</string>
+    <string name="main_my_recharge">充電</string>
+    <string name="main_my_mall">Points購物中心</string>
+    <string name="main_my_profit_loss">損益表</string>
+    <string name="main_my_withdrawn">提款記錄</string>
+    <string name="main_my_bet">傳輸詳細資訊</string>
+    <string name="main_my_change">交易詳細資訊</string>
+    <string name="main_my_reback">返利明細</string>
+    <string name="main_my_rebate">傭金明細</string>
+    <string name="main_my_login_pwd">登入密碼</string>
+    <string name="main_my_pay_pwd">付款密碼</string>
+    <string name="main_my_apps">下載應用程序</string>
+    <string name="main_my_share">邀請朋友</string>
+    <string name="main_my_logout">退出</string>
+
+    
+
+    
+    <string name="game_odds">%1美元sOdds</string>
+    <string name="game_start">立即播放</string>
+    <string name="game_rule">遊戲規則</string>
+    <string name="game_detail">遊戲詳細資訊</string>
+    <string name="game_win_rule">獲勝規則</string>
+    <string name="game_win_eg">獎品清單</string>
+    <string name="game_qrcode_tip">掃描下麵的二維碼下注</string>
+    <string name="game_address">官方錢包地址</string>
+    <string name="game_copy">按一下以複製</string>
+
+    
+    <string name="process">加入遊戲</string>
+    <string name="process_1">注册錢包</string>
+    <string name="process_1_a">加密貨幣【分散】錢包下載地址</string>
+    <string name="process_1_b">站臺</string>
+    <string name="process_1_c">統一資源定位地址</string>
+    <string name="process_1_d">輔導的</string>
+    <string name="process_1_e">看法</string>
+    <string name="process_2">購買虛擬貨幣</string>
+    <string name="process_2_a">在數位貨幣交易所購買TRX</string>
+    <string name="process_3">轉移賭注</string>
+    <string name="process_3_a">轉帳到這個平臺參加彩票</string>
+    <string name="process_3_b">成功轉到以下地址參加抽獎</string>
+    <string name="process_4">獎勵</string>
+    <string name="process_4_a">中獎金額自動轉帳</string>
+    <string name="process_4_b">獎勵將在10秒內自動轉移到您的錢包中。</string>
+
+    
+    <string name="rank_now">實时支付</string>
+    <string name="rank_day">白天</string>
+    <string name="rank_week">每週的</string>
+    <string name="rank_month">月刊</string>
+    <string name="rank_item_address">住址</string>
+    <string name="rank_item_token">通貨</string>
+    <string name="rank_item_amount">支出總額</string>
+    <string name="rank_item_time">時間</string>
+
+    <string name="report_profit_loss_recharge">充值金額</string>
+    <string name="report_profit_loss_bet">下注金額</string>
+    <string name="report_profit_loss_win">中獎金額</string>
+    <string name="report_profit_loss_refund">退款金額</string>
+
+    <string name="report_user_name">用戶名</string>
+    <string name="report_user_register_time">註冊時間</string>
+
+
+    <string name="record_date_picker">選擇日期</string>
+    <string name="record_date_start">開始日期</string>
+    <string name="record_date_end">結束日期</string>
+    <string name="record_trx_num">TRX訂單編號：</string>
+    <string name="record_usdt_num">USDT訂單編號：</string>
+    <string name="record_trx_amount">TRX總額：</string>
+    <string name="record_usdt_amount">USDT包乾價：</string>
+
+    <string name="income_token">通貨</string>
+    <string name="income_amount">影響金額</string>
+    <string name="income_type">類型</string>
+    <string name="income_time">訂貨時間</string>
+
+    <string name="mining_title">採礦收入</string>
+    <string name="mining_usdt">USDT收入</string>
+    <string name="mining_trx">TRX收入</string>
+    <string name="mining_sub1">採礦收入</string>
+    <string name="mining_sub2">24小時結算</string>
+
+    <string name="user_pwd_1">舊密碼</string>
+    <string name="user_pwd_1_hint">請輸入舊密碼</string>
+    <string name="user_pwd_2">新建密碼</string>
+    <string name="user_pwd_2_hint">請輸入新密碼</string>
+    <string name="user_pwd_3">確認密碼</string>
+    <string name="user_pwd_3_hint">請重新輸入新密碼</string>
+    <string name="user_pwd__hint">輸入的兩個密碼不匹配</string>
+    <string name="user_pwd_update_success">更新成功</string>
+    <string name="user_trc_edit">修改TRC地址</string>
+    <string name="user_trc_address">TRC地址</string>
+    <string name="user_trc_address_hint">請輸入TRC地址（以“T”開頭，最大長度為34個字元）</string>
+    <string name="user_trc_pwd">付款密碼</string>
+    <string name="user_trc_pwd_hint">請輸入付款密碼</string>
+
+    
+    <string name="withdrawal_amount_hint">請輸入金額</string>
+    <string name="withdrawal_pwd_hint">請輸入付款密碼</string>
+    <string name="withdrawal_balance">%1美元餘額</string>
+    <string name="withdrawal_24">24小時取款</string>
+    <string name="withdrawal_success">提款申請成功</string>
+    <string name="withdrawal_token">通貨</string>
+    <string name="withdrawal_amount">數量</string>
+    <string name="withdrawal_status">地位</string>
+    <string name="withdrawal_time">時間</string>
+    <string name="withdrawal_status_0">襯料</string>
+    <string name="withdrawal_status_1">通過</string>
+    <string name="withdrawal_status_2">未通過</string>
+    <string name="withdrawal_status_3">回顧</string>
+
+    
+    <string name="invite_title">共亯QRCode</string>
+    <string name="invite_1">2022年國內未完成項目</string>
+
+    
+    <string name="app_download">下載</string>
+
+    
+    <string name="kefu">實时聊天</string>
+    <string name="kefu_1">24小時客戶服務\n我們竭誠為您服務</string>
+    <string name="kefu_2">如果您遇到問題並需要幫助，請聯系線上客服</string>
+    <string name="kefu_ask">諮詢</string>
+
+    
+    <string name="guest_tip">新用戶註冊三重禮品</string>
+    <string name="guest_tip_content">立即啟動0.5%的營業額回扣\n立即啟動高達1%的代理傭金回扣\n實时查看投注返回記錄</string>
+    <string name="guest_tip_button">立即注册</string>
+
+    
+    <string name="announcement_previous">以前的</string>
+    <string name="announcement_next">下一個</string>
+    <string name="announcement_close">關</string>
+
+    
+    <string name="point_detail">積分詳細資訊</string>
+    <string name="point_order">訂單編號</string>
+    <string name="point_change">積分</string>
+    <string name="point_before">之前</string>
+    <string name="point_after">之後</string>
+
+    
+    <string name="bet_detail">下注詳細資訊</string>
+    <string name="bet_detail_order">訂單號：</string>
+    <string name="bet_detail_game_name">遊戲名稱：</string>
+    <string name="bet_detail_recharge_token">充值幣種：</string>
+    <string name="bet_detail_recharge_amount">充值金額：</string>
+    <string name="bet_detail_recharge_first">是否先充電：</string>
+    <string name="bet_detail_amount">下注金額：</string>
+    <string name="bet_detail_status">狀態：</string>
+    <string name="bet_detail_status_1">贏</string>
+    <string name="bet_detail_status_0">領帶</string>
+    <string name="bet_detail_status_01">失去</string>
+    <string name="bet_detail_status_02">無效的</string>
+    <string name="bet_detail_status_03">未繪製</string>
+    <string name="bet_detail_win">獲勝金額：</string>
+    <string name="bet_detail_refund">退款金額：</string>
+    <string name="bet_detail_pay">結算方式：</string>
+    <string name="bet_detail_failed">故障原因：</string>
+    <string name="bet_detail_trial">是否嘗試：</string>
+    <string name="bet_detail_prize">獲獎詳細資訊</string>
+
+    <string name="exchange_title">美元兌盧比</string>
+    <string name="exchange_to">到</string>
+    <string name="exchange_usdt_trx">USDT至TRX</string>
+    <string name="exchange_trx_usdt">TRX至USDT</string>
+    <string name="exchange_calc">預算</string>
+    <string name="exchange_a">地址傳輸交換機</string>
+    <string name="exchange_min">%1$s最小兌換金額：%2$s%3$s</string>
+    <string name="exchange_max">%1$s最大兌換金額：%2$s%3$s</string>
+    <string name="exchange_address">錢包地址</string>
+    <string name="exchange_warning">種類提示：</string>
+    <string name="exchange_warning_content">1、打開協力廠商數位錢包，複製轉帳地址進行轉帳； \n2、僅支持TRON TRC20-USDT和TRX，轉帳金額不得低於限額，低於限額不予退款； \n3.平臺將在10秒內免費向您返回等價的TRX或USDT</string>
+
+    
+    <string name="product_list">產品清單</string>
+    <string name="product_rate">日利率5%%1$d%%</string>
+    <string name="product_day">週期：%1$d天</string>
+    <string name="product_detail_balance">帳戶可用餘額</string>
+    <string name="product_detail_min">起始金額</string>
+    <string name="product_detail_max">最大投資額</string>
+    <string name="product_detail_cycle">週期</string>
+    <string name="product_detail_day">%每天1美元</string>
+    <string name="product_detail_rate">平均利率</string>
+    <string name="product_detail_invest_amount">投資金額</string>
+    <string name="product_detail_invest_pwd">付款密碼</string>
+    <string name="product_detail_pwd_hint">請輸入付款密碼</string>
+    <string name="product_detail_calc">%1$s+（%1$sx%2$fx%3$d）=%4$s</string>
+    <string name="product_detail_invest">參與投資</string>
+    <string name="product_detail_invest_success">投資成功率</string>
+
+    
+    <string name="invest_my">我的投資</string>
+    <string name="invest_order">訂單號：%1$s</string>
+    <string name="invest_amount">投資金額：</string>
+    <string name="invest_status">狀態：</string>
+    <string name="invest_time">投資時間：%1$s</string>
+    <string name="invest_status_1">典型的</string>
+    <string name="invest_status_2">成熟</string>
+    <string name="invest_status_3">贖回</string>
+
+    <string name="upgrade">新版本</string>
+    <string name="upgrade_now">立即陞級</string>
+
+    <string name="recharge_amount_hint">請輸入充值金額</string>
+    <string name="recharge_scan_tip">掃描下麵的QRCode進行充電</string>
+    <string name="recharge_time_tip">為了您能按時到達，請務必支付%1美元</string>
+    <string name="recharge_time_h">%1美元2小時</string>
+    <string name="recharge_time_m">%1美元2分鐘</string>
+    <string name="recharge_time_s">%1美元2秒鐘</string>
+    <string name="recharge_tip">請用您的錢包掃描或複製地址以完成付款</string>
+    <string name="recharge_failed">充值失敗</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

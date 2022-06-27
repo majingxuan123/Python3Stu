@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OKX hash</string>
+    <string name="network_error">ไม่มีอินเทอร์เน็ต</string>
+    <string name="page_404">color</string>
+    <string name="coming_soon">กำลังมา</string>
+    <string name="data_null">ไม่มีข้อมูล</string>
+    <string name="ok">ได้สิ</string>
+    <string name="copy">ทำสำเนา</string>
+    <string name="copied">ทำสำเนา</string>
+    <string name="yes">ถูกต้อง</string>
+    <string name="no">ไม่</string>
+
+    
+    <string name="launcher">ชานชาลา</string>
+
+    
+    <string name="login">ชื่อผู้ใช้</string>
+    <string name="login_account_hint_0">โปรดระบุบัญชีของคุณ</string>
+    <string name="login_password_hint">กรุณาใส่รหัสผ่านของคุณ</string>
+    <string name="login_remember_password">จำฉันไว้</string>
+    <string name="login_welcome">ต้อนรับ</string>
+    <string name="login_0_account">ไม่มีบัญชี</string>
+    <string name="login_register">ลงทะเบียนทันที</string>
+    <string name="login_privacy">โปรดอ่านข้อตกลงผู้ใช้และนโยบายความเป็นส่วนตัว</string>
+    <string name="login_privacy_1">โปรดอ่าน</string>
+    <string name="login_privacy_2">ข้อตกลงผู้ใช้</string>
+    <string name="login_privacy_3">แล้วก็</string>
+    <string name="login_privacy_4">นโยบายความเป็นส่วนตัว</string>
+    <string name="register">ลงทะเบียน</string>
+    <string name="register_account_hint_0">โปรดระบุบัญชีของคุณ</string>
+    <string name="register_password_hint">กรุณาใส่รหัสผ่านของคุณ</string>
+    <string name="register_invite_hint_0">กรุณาป้อนรหัสเชิญตัวเลือก</string>
+    <string name="register_invite_hint_1">กรุณาใส่รหัสเชิญ</string>
+    <string name="register_auth_hint">ป้อนรหัสการตรวจสอบภาพ</string>
+    <string name="register_trc_hint">กรุณาใส่ trc20 ที่อยู่</string>
+    <string name="register_1_account">มีบัญชี</string>
+    <string name="register_login">เข้าสู่ระบบทันที</string>
+
+    
+    <string name="main_home">บ้าน</string>
+    <string name="main_discount">ส่วนลด</string>
+    <string name="main_reback">รางวัล</string>
+    <string name="main_invest">ได้รับเงิน</string>
+    <string name="main_my">โครงร่าง</string>
+
+    <string name="main_home_games">เกมโซ่</string>
+    <string name="main_home_process">เข้าร่วมเกม</string>
+    <string name="main_home_exchange">แลกเปลี่ยน</string>
+    <string name="main_home_rank">อันดับ</string>
+    <string name="main_home_help">คำตอบของคำถามที่พบบ่อย</string>
+    <string name="main_home_about">เกี่ยวกับเรา</string>
+
+    
+    <string name="main_discount_item_desc">เวลาสำหรับการทำเช่นนั้น</string>
+
+    
+    <string name="main_reback_reback">ประวัติรางวัล</string>
+    <string name="main_reback_bet">ประวัติรายการ</string>
+    <string name="main_reback_rule">กฎของกิจกรรม</string>
+    <string name="main_reback_rule_1">เวลาสำหรับการชำระเงินและการชำระเงินคืนระบบสำหรับการถ่ายโอนอัตโนมัติของ 58800 ต่อวัน</string>
+    <string name="main_reback_rule_2">การเดิมพันทั้งหมดของผู้ใช้สำหรับการเดิมพัน</string>
+
+    
+    <string name="main_income_invest">ลงทุน</string>
+    <string name="main_income_mining">เหมืองแร่</string>
+    <string name="main_income_promote">คณะกรรมการ</string>
+
+    
+    <string name="main_income_invest_usdt">รายได้สะสม</string>
+    <string name="main_income_invest_trx">รายได้สะสม</string>
+    <string name="main_income_invest_all">ผลิตภัณฑ์ทั้งหมด</string>
+    <string name="main_income_invest_my">การลงทุนของฉัน</string>s
+    <string name="main_income_invest_income">ผลตอบแทนจากการลงทุน</string>
+    <string name="main_income_invest_no_more">ไม่มีข้อมูลชั่วคราว</string>
+
+    
+    <string name="main_promote_title">คณะกรรมการ</string>
+    <string name="main_promote_1">推者有礼\ N 人脉变钱买</string>
+    <string name="main_promote_3">วิธีการ 呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">สมาชิกระดับ</string>
+    <string name="main_promote_second_user">สมาชิกระดับทุติยภูมิ</string>
+    <string name="main_promote_third_user">สมาชิกระดับ</string>
+    <string name="main_promote_first_commission">คณะกรรมการดอลลาร์</string>
+    <string name="main_promote_second_commission">ค่าคอมมิชชั่นดอลลาร์</string>
+    <string name="main_promote_third_commission">เกรด 3-1 ดอลลาร์คณะกรรมการ</string>
+    <string name="main_promote_first_bet">เดิมพันดอลลาร์</string>
+    <string name="main_promote_second_bet">เดิมพันดอลลาร์</string>
+    <string name="main_promote_third_bet">เดิมพันดอลลาร์</string>
+    <string name="main_promote_first_rebate">ระดับเติม</string>
+    <string name="main_promote_second_rebate">ค่าใช้จ่ายทุติยภูมิ</string>
+    <string name="main_promote_third_rebate">ระดับเติม</string>
+    <string name="main_promote_rule_1">ค่าคอมมิชชั่นการโอนหลังจากวัน</string>
+    <string name="main_promote_rule_2">วิธีการคำนวณค่าคอมมิชชั่น</string>
+    <string name="main_promote_rule_2_1">การเดิมพันเงินสำหรับสมาชิก</string>
+    <string name="main_promote_rule_2_2">ค่าคอมมิชชั่นทุติยภูมิสำหรับสมาชิกทุติยภูมิ</string>
+    <string name="main_promote_rule_2_3">การเดิมพันเงินสำหรับสมาชิกที่สาม</string>
+    <string name="main_promote_share">เชิญเพื่อน</string>
+    <string name="main_promote_share_save">บันทึก QRCode</string>
+    <string name="main_promote_share_copy">คัดลอกแถว</string>
+    <string name="main_promote_share_1">คัดลอกการเชื่อมโยงเพื่อแบ่งปันกับเพื่อน</string>
+
+    
+    <string name="main_my_user">บัญชี</string>
+    <string name="main_my_level">ระดับ</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">บริษัท TRX</string>
+    <string name="main_my_point">จุดสำคัญ</string>
+    <string name="main_my_trc">ที่อยู่ TRC</string>
+    <string name="main_my_mining">รายได้จากเหมืองแร่</string>
+    <string name="main_my_withdrawing">ถอนกำลัง</string>
+    <string name="main_my_recharge">ประจุ</string>
+    <string name="main_my_mall">ศูนย์การค้าจุด</string>
+    <string name="main_my_profit_loss">งบกำไรขาดทุน</string>
+    <string name="main_my_withdrawn">บันทึกการถอนเงิน</string>
+    <string name="main_my_bet">ส่งรายละเอียด</string>
+    <string name="main_my_change">รายละเอียดการซื้อขาย</string>
+    <string name="main_my_reback">รายละเอียดผลตอบแทน</string>
+    <string name="main_my_rebate">รายละเอียดคณะกรรมการ</string>
+    <string name="main_my_login_pwd">รหัสผ่านเข้าสู่ระบบ</string>
+    <string name="main_my_pay_pwd">รหัสผ่านการชำระเงิน</string>
+    <string name="main_my_apps">ดาวน์โหลดโปรแกรม</string>
+    <string name="main_my_share">เชิญเพื่อน</string>
+    <string name="main_my_logout">ถอนตัว</string>
+
+    
+
+    
+    <string name="game_odds">ดอลลาร์สหรัฐ</string>
+    <string name="game_start">เล่นทันที</string>
+    <string name="game_rule">กฎของเกม</string>
+    <string name="game_detail">รายละเอียดเกม</string>
+    <string name="game_win_rule">กฎแห่งชัยชนะ</string>
+    <string name="game_win_eg">รายการของรางวัล</string>
+    <string name="game_qrcode_tip">สแกนรหัส 2D ด้านล่างเดิมพัน</string>
+    <string name="game_address">ที่อยู่กระเป๋าสตางค์อย่างเป็นทางการ</string>
+    <string name="game_copy">คลิกเพื่อคัดลอก</string>
+
+    
+    <string name="process">เข้าร่วมเกม</string>
+    <string name="process_1">ลงทะเบียนกระเป๋าสตางค์</string>
+    <string name="process_1_a">Default ที่อยู่ดาวน์โหลดกระเป๋าสตางค์</string>
+    <string name="process_1_b">ชานชาลา</string>
+    <string name="process_1_c">รวมทรัพยากรที่อยู่</string>
+    <string name="process_1_d">กวดวิชา</string>
+    <string name="process_1_e">ความคิดเห็น</string>
+    <string name="process_2">ซื้อสกุลเงินเสมือน</string>
+    <string name="process_2_a">ซื้อในการแลกเปลี่ยนเงินตราต่างประเทศดิจิตอล</string>
+    <string name="process_3">โอนเดิมพัน</string>
+    <string name="process_3_a">โอนไปยังแพลตฟอร์มนี้สำหรับการจับสลาก</string>
+    <string name="process_3_b">ประสบความสำเร็จไปที่ที่อยู่ด้านล่างเพื่อเข้าร่วมในการจับสลาก</string>
+    <string name="process_4">รางวัล</string>
+    <string name="process_4_a">โอนเงินอัตโนมัติสำหรับรางวัล</string>
+    <string name="process_4_b">รางวัลจะถูกโอนโดยอัตโนมัติไปยังกระเป๋าสตางค์ของคุณในวินาที</string>
+
+    
+    <string name="rank_now">การชำระเงินแบบเรียลไทม์</string>
+    <string name="rank_day">กลางวัน</string>
+    <string name="rank_week">รายสัปดาห์</string>
+    <string name="rank_month">รายเดือน</string>
+    <string name="rank_item_address">แถมท้าย</string>
+    <string name="rank_item_token">สกุลเงิน</string>
+    <string name="rank_item_amount">รายจ่ายรวม</string>
+    <string name="rank_item_time">กาละ</string>
+
+    <string name="report_profit_loss_recharge">คิดผลรวม</string>
+    <string name="report_profit_loss_bet">การวางเดิมพัน</string>
+    <string name="report_profit_loss_win">ชนะ</string>
+    <string name="report_profit_loss_refund">จำนวนเงินคืน</string>
+
+    <string name="report_user_name">สวัสดีเราชื่อ</string>
+    <string name="report_user_register_time">เวลาลงทะเบียน</string>
+
+
+    <string name="record_date_picker">เลือกวันที่</string>
+    <string name="record_date_start">วันที่เริ่มต้น</string>
+    <string name="record_date_end">วันที่สิ้นสุด</string>
+    <string name="record_trx_num">หมายเลขการสั่งซื้อ</string>
+    <string name="record_usdt_num">หมายเลขการสั่งซื้อ</string>
+    <string name="record_trx_amount">จำนวนทั้งหมด</string>
+    <string name="record_usdt_amount">บริการรับเหมาราคา</string>
+
+    <string name="income_token">สกุลเงิน</string>
+    <string name="income_amount">จำนวนเงินที่ได้รับผลกระทบ</string>
+    <string name="income_type">รูปร่างลักษณะ</string>
+    <string name="income_time">เวลาสั่งซื้อ</string>
+
+    <string name="mining_title">รายได้จากเหมืองแร่</string>
+    <string name="mining_usdt">รายได้</string>
+    <string name="mining_trx">รายได้</string>
+    <string name="mining_sub1">รายได้จากเหมืองแร่</string>
+    <string name="mining_sub2">ชั่วโมงชำระบัญชี</string>
+
+    <string name="user_pwd_1">รหัสผ่านเก่า</string>
+    <string name="user_pwd_1_hint">กรุณาใส่รหัสผ่านเก่า</string>
+    <string name="user_pwd_2">รหัสผ่านใหม่</string>
+    <string name="user_pwd_2_hint">กรุณาใส่รหัสผ่านใหม่</string>
+    <string name="user_pwd_3">ยืนยันรหัสผ่าน</string>
+    <string name="user_pwd_3_hint">กรุณาใส่รหัสผ่านใหม่</string>
+    <string name="user_pwd__hint">สองรหัสผ่านที่ป้อนไม่ตรงกัน</string>
+    <string name="user_pwd_update_success">ปรับปรุงเรียบร้อยแล้ว</string>
+    <string name="user_trc_edit">แก้ไขที่อยู่ TRC</string>
+    <string name="user_trc_address">ที่อยู่ TRC</string>
+    <string name="user_trc_address_hint">กรุณาป้อนที่อยู่ TRC เริ่มต้นด้วย T และความยาวสูงสุดของ 34 ตัวอักษร</string>
+    <string name="user_trc_pwd">รหัสผ่านการชำระเงิน</string>
+    <string name="user_trc_pwd_hint">กรุณาใส่รหัสผ่านการชำระเงิน</string>
+
+    
+    <string name="withdrawal_amount_hint">โปรดระบุจำนวนเงิน</string>
+    <string name="withdrawal_pwd_hint">กรุณาใส่รหัสผ่านการชำระเงิน</string>
+    <string name="withdrawal_balance">ดุลดอลลาร์</string>
+    <string name="withdrawal_24">การถอนเงินชั่วโมง</string>
+    <string name="withdrawal_success">โปรแกรมถอนเงินสำเร็จ</string>
+    <string name="withdrawal_token">สกุลเงิน</string>
+    <string name="withdrawal_amount">จำนวนรวม</string>
+    <string name="withdrawal_status">ตำแหน่งในทีม</string>
+    <string name="withdrawal_time">กาละ</string>
+    <string name="withdrawal_status_0">แนวสาย</string>
+    <string name="withdrawal_status_1">ผ่าน</string>
+    <string name="withdrawal_status_2">แคล้วคลาด</string>
+    <string name="withdrawal_status_3">บทวิจารณ์</string>
+
+    
+    <string name="invite_title">QRCode ร่วมกัน</string>
+    <string name="invite_1">โครงการในประเทศที่ยังไม่เสร็จ</string>
+
+    
+    <string name="app_download">ดาวน์โหลด</string>
+
+    
+    <string name="kefu">แชทสด</string>
+    <string name="kefu_1">เราให้บริการคุณด้วยความจริงใจ</string>
+    <string name="kefu_2">ถ้าคุณมีปัญหาและต้องการความช่วยเหลือกรุณาติดต่อฝ่ายบริการลูกค้าออนไลน์</string>
+    <string name="kefu_ask">ปรึกษาหารือ</string>
+
+    
+    <string name="guest_tip">ผู้ใช้ใหม่ลงทะเบียนสามของขวัญ</string>
+    <string name="guest_tip_content">เปิดใช้งานได้ทันทีส่วนลดการค้าสำหรับ 0.5 เปอร์เซ็นต์และทันทีที่เปิดใช้งานทางธุรกิจสำหรับการเปิดใช้งานได้ถึงหนึ่งเปอร์เซ็นต์ของค่าคอมมิชชั่นตัวแทนส่วนลดสำหรับการเดิมพ</string>
+    <string name="guest_tip_button">ลงทะเบียนทันที</string>
+
+    
+    <string name="announcement_previous">ก่อนหน้านี้</string>
+    <string name="announcement_next">คนต่อไป</string>
+    <string name="announcement_close">สิ้นสุด</string>
+
+    
+    <string name="point_detail">รายละเอียดครบถ้วน</string>
+    <string name="point_order">หมายเลขการสั่งซื้อ</string>
+    <string name="point_change">จุดสำคัญ</string>
+    <string name="point_before">ก่อนหน้านี้</string>
+    <string name="point_after">หลังจากนั้น</string>
+
+    
+    <string name="bet_detail">รายละเอียดการเดิมพัน</string>
+    <string name="bet_detail_order">หมายเลขการสั่งซื้อ</string>
+    <string name="bet_detail_game_name">ชื่อเกม</string>
+    <string name="bet_detail_recharge_token">สกุลเงินชาร์จ</string>
+    <string name="bet_detail_recharge_amount">ค่าใช้จ่าย</string>
+    <string name="bet_detail_recharge_first">ไม่ว่าจะชาร์จก่อนหรือไม่</string>
+    <string name="bet_detail_amount">จำนวนเงินเดิมพัน</string>
+    <string name="bet_detail_status">สถานะ</string>
+    <string name="bet_detail_status_1">ชนะ</string>
+    <string name="bet_detail_status_0">เนคไท</string>
+    <string name="bet_detail_status_01">เสียเหลี่ยม</string>
+    <string name="bet_detail_status_02">โมฆะ</string>
+    <string name="bet_detail_status_03">เปิดโล่ง</string>
+    <string name="bet_detail_win">จำนวนชนะ</string>
+    <string name="bet_detail_refund">จำนวนเงินคืน</string>
+    <string name="bet_detail_pay">โหมดการตั้งถิ่นฐาน</string>
+    <string name="bet_detail_failed">สาเหตุของความล้มเหลว</string>
+    <string name="bet_detail_trial">ไม่ว่าจะพยายามหรือไม่</string>
+    <string name="bet_detail_prize">รายละเอียดรางวัล</string>
+
+    <string name="exchange_title">ดอลลาร์ต่อรูปี</string>
+    <string name="exchange_to">ไปถึง</string>
+    <string name="exchange_usdt_trx">USDT TRX</string>
+    <string name="exchange_trx_usdt">TRX USDT</string>
+    <string name="exchange_calc">งบประมาณ</string>
+    <string name="exchange_a">สวิตช์โอนที่อยู่</string>
+    <string name="exchange_min">สำหรับจำนวนเงินขั้นต่ำของการเปลี่ยนแปลง</string>
+    <string name="exchange_max">สำหรับการเปลี่ยนแปลงสูงสุด</string>
+    <string name="exchange_address">ที่อยู่กระเป๋าสตางค์</string>
+    <string name="exchange_warning">เคล็ดลับประเภท</string>
+    <string name="exchange_warning_content">เปิดกระเป๋าสตางค์ดิจิตอลของบุคคลที่สามและคัดลอกที่อยู่โอน คุณจะไม่ได้รับเงินคืนถ้าคุณต้องการที่จะได้รับเงินใดๆที่คุณต้องการ คุณจะได้รับฟรีเพื่อคืนเทียบเท่า trx หรือ usdt ภายใน 10 วินาที</string>
+
+    
+    <string name="product_list">รายการผลิตภัณฑ์</string>
+    <string name="product_rate">อัตราดอกเบี้ยรายวันสำหรับ</string>
+    <string name="product_day">สำหรับ iPhone iPhone</string>
+    <string name="product_detail_balance">ยอดคงเหลือในบัญชี</string>
+    <string name="product_detail_min">จำนวนเริ่มต้น</string>
+    <string name="product_detail_max">การลงทุนสูงสุด</string>
+    <string name="product_detail_cycle">กลมดิก</string>
+    <string name="product_detail_day">ดอลลาร์ต่อวัน</string>
+    <string name="product_detail_rate">อัตราดอกเบี้ยเฉลี่ย</string>
+    <string name="product_detail_invest_amount">จำนวนเงินลงทุน</string>
+    <string name="product_detail_invest_pwd">รหัสผ่านการชำระเงิน</string>
+    <string name="product_detail_pwd_hint">กรุณาใส่รหัสผ่านการชำระเงิน</string>
+    <string name="product_detail_calc">สำหรับผม</string>
+    <string name="product_detail_invest">การมีส่วนร่วมในการลงทุน</string>
+    <string name="product_detail_invest_success">อัตราความสำเร็จในการลงทุน</string>
+
+    
+    <string name="invest_my">การลงทุนของฉัน</string>
+    <string name="invest_order">หมายเลขการสั่งซื้อ</string>
+    <string name="invest_amount">จำนวนเงินลงทุน</string>
+    <string name="invest_status">สถานะ</string>
+    <string name="invest_time">เวลาการลงทุน</string>
+    <string name="invest_status_1">โดยทั่วไป</string>
+    <string name="invest_status_2">เจริญเติบโต</string>
+    <string name="invest_status_3">ไถ่ถอน</string>
+
+    <string name="upgrade">ฉบับใหม่</string>
+    <string name="upgrade_now">อัพเกรดทันที</string>
+
+    <string name="recharge_amount_hint">กรุณาป้อนค่าใช้จ่าย</string>
+    <string name="recharge_scan_tip">สแกน QRCode ด้านล่างสำหรับชาร์จ</string>
+    <string name="recharge_time_tip">ให้แน่ใจว่าได้จ่าย %1 ดอลลาร์เพื่อให้คุณสามารถมาถึงในเวลา</string>
+    <string name="recharge_time_h">ดอลลาร์สำหรับชั่วโมง</string>
+    <string name="recharge_time_m">ดอลลาร์สำหรับนาที</string>
+    <string name="recharge_time_s">ดอลลาร์สำหรับวินาที</string>
+    <string name="recharge_tip">กรุณาสแกนหรือคัดลอกที่อยู่ในกระเป๋าสตางค์ของคุณเพื่อให้ชำระเงิน</string>
+    <string name="recharge_failed">ความล้มเหลวในการชาร์จ</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

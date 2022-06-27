@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Okx 해시</string>
+    <string name="network_error">인터넷 없음</string>
+    <string name="page_404">404</string>
+    <string name="coming_soon">곧 올 것이다</string>
+    <string name="data_null">데이터 없음</string>
+    <string name="ok">좋다</string>
+    <string name="copy">복사</string>
+    <string name="copied">복사됨</string>
+    <string name="yes">맞다</string>
+    <string name="no">아니오</string>
+
+    
+    <string name="launcher">플랫폼</string>
+
+    
+    <string name="login">로그인 이름</string>
+    <string name="login_account_hint_0">계정을 입력하십시오.</string>
+    <string name="login_password_hint">암호를 입력하십시오.</string>
+    <string name="login_remember_password">날 기억해</string>
+    <string name="login_welcome">환영</string>
+    <string name="login_0_account">계정 없음</string>
+    <string name="login_register">지금 등록</string>
+    <string name="login_privacy">사용자 프로토콜 및 개인 정보 보호 정책 읽기</string>
+    <string name="login_privacy_1">읽으십시오</string>
+    <string name="login_privacy_2">사용자 계약서</string>
+    <string name="login_privacy_3">화목하다</string>
+    <string name="login_privacy_4">프라이버시 정책</string>
+    <string name="register">등록</string>
+    <string name="register_account_hint_0">계정을 입력하십시오.</string>
+    <string name="register_password_hint">암호를 입력하십시오.</string>
+    <string name="register_invite_hint_0">초대 코드(옵션)를 입력하십시오.</string>
+    <string name="register_invite_hint_1">초대 코드를 입력하십시오.</string>
+    <string name="register_auth_hint">이미지 인증 코드를 입력하십시오.</string>
+    <string name="register_trc_hint">TRC20 주소를 입력하십시오.</string>
+    <string name="register_1_account">계좌가 있습니까?</string>
+    <string name="register_login">지금 로그인</string>
+
+    
+    <string name="main_home">집.</string>
+    <string name="main_discount">디스카운트</string>
+    <string name="main_reback">장려</string>
+    <string name="main_invest">돈을 벌다</string>
+    <string name="main_my">윤곽</string>
+
+    <string name="main_home_games">블록체인 게임</string>
+    <string name="main_home_process">게임에 가입하다</string>
+    <string name="main_home_exchange">교환</string>
+    <string name="main_home_rank">서열</string>
+    <string name="main_home_help">FAQ</string>
+    <string name="main_home_about">우리에 관하여</string>
+
+    
+    <string name="main_discount_item_desc">시간:%1$s -%2$s</string>
+
+    
+    <string name="main_reback_reback">기록 보상</string>
+    <string name="main_reback_bet">트랜잭션 기록</string>
+    <string name="main_reback_rule">활동 규칙</string>
+    <string name="main_reback_rule_1">이윤 반환 결산 및 발급 시간: 시스템은 매일 00:00:00 자동 이체(전날 금액)</string>
+    <string name="main_reback_rule_2">이윤 반환 계산 방법 - 이윤 반환 = 사용자의 총 노름돈 * 이윤 반환율</string>
+
+    
+    <string name="main_income_invest">투자</string>
+    <string name="main_income_mining">채광</string>
+    <string name="main_income_promote">위원회</string>
+
+    
+    <string name="main_income_invest_usdt">USDT 누적 수입</string>
+    <string name="main_income_invest_trx">TRX 누적 수익</string>
+    <string name="main_income_invest_all">모든 제품</string>
+    <string name="main_income_invest_my">내 투자</string>s
+    <string name="main_income_invest_income">투자 수익</string>
+    <string name="main_income_invest_no_more">당분간 데이터가 없어서...</string>
+
+    
+    <string name="main_promote_title">위원회</string>
+    <string name="main_promote_1">推者有礼\n人脉变钱买</string>
+    <string name="main_promote_3">-呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">1 레벨 멤버</string>
+    <string name="main_promote_second_user">2급 구성원</string>
+    <string name="main_promote_third_user">3 레벨 구성원</string>
+    <string name="main_promote_first_commission">1% 1달러 커미션</string>
+    <string name="main_promote_second_commission">2 레벨% 1달러 커미션</string>
+    <string name="main_promote_third_commission">3레벨 1달러 커미션</string>
+    <string name="main_promote_first_bet">1 레벨% 1달러 내기</string>
+    <string name="main_promote_second_bet">2 레벨% 1달러 내기</string>
+    <string name="main_promote_third_bet">3 레벨% 1달러 내기</string>
+    <string name="main_promote_first_rebate">1 레벨 충전</string>
+    <string name="main_promote_second_rebate">2 레벨 충전</string>
+    <string name="main_promote_third_rebate">3 레벨 충전</string>
+    <string name="main_promote_rule_1">당일 00:00 이후 이체 커미션</string>
+    <string name="main_promote_rule_2">어떻게 커미션을 계산합니까</string>
+    <string name="main_promote_rule_2_1">1 레벨 커미션 = 1 레벨 회원 베팅 금액 *% 1달러</string>
+    <string name="main_promote_rule_2_2">2급 커미션 = 2급 회원 투자 금액 *% 1달러</string>
+    <string name="main_promote_rule_2_3">3급 커미션 = 3급 회원 투자 금액 *% 1달러</string>
+    <string name="main_promote_share">친구를 초대하다</string>
+    <string name="main_promote_share_save">QRCode 저장</string>
+    <string name="main_promote_share_copy">행 복사</string>
+    <string name="main_promote_share_1">친구와 공유할 링크 복사</string>
+
+    
+    <string name="main_my_user">계정:</string>
+    <string name="main_my_level">레벨:</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">TRX 회사</string>
+    <string name="main_my_point">가리키다</string>
+    <string name="main_my_trc">TRC 주소</string>
+    <string name="main_my_mining">채광 수입</string>
+    <string name="main_my_withdrawing">퇴각하다</string>
+    <string name="main_my_recharge">충전</string>
+    <string name="main_my_mall">Points 쇼핑몰</string>
+    <string name="main_my_profit_loss">손익계산서</string>
+    <string name="main_my_withdrawn">인출 기록</string>
+    <string name="main_my_bet">전송 세부 정보</string>
+    <string name="main_my_change">거래 상세 정보</string>
+    <string name="main_my_reback">이윤 반환 내역</string>
+    <string name="main_my_rebate">커미션 내역</string>
+    <string name="main_my_login_pwd">로그인 암호</string>
+    <string name="main_my_pay_pwd">결제 비밀번호</string>
+    <string name="main_my_apps">응용 프로그램 다운로드</string>
+    <string name="main_my_share">친구를 초대하다</string>
+    <string name="main_my_logout">물러나다</string>
+
+    
+
+    
+    <string name="game_odds">% 1달러 sOdds</string>
+    <string name="game_start">지금 재생</string>
+    <string name="game_rule">게임 규칙</string>
+    <string name="game_detail">게임 상세 정보</string>
+    <string name="game_win_rule">승리 규칙</string>
+    <string name="game_win_eg">상품 목록</string>
+    <string name="game_qrcode_tip">아래의 QR코드를 스캔하여 베팅합니다.</string>
+    <string name="game_address">공식 지갑 주소</string>
+    <string name="game_copy">복사하려면 클릭하십시오.</string>
+
+    
+    <string name="process">게임에 가입하다</string>
+    <string name="process_1">등록 지갑</string>
+    <string name="process_1_a">암호화폐 [분산] 지갑 다운로드 주소</string>
+    <string name="process_1_b">플랫폼</string>
+    <string name="process_1_c">통합 리소스 포지셔닝 주소</string>
+    <string name="process_1_d">지도의</string>
+    <string name="process_1_e">견해</string>
+    <string name="process_2">가상화폐 구매</string>
+    <string name="process_2_a">디지털 화폐 거래소에서 TRX 구매</string>
+    <string name="process_3">노름돈을 옮기다</string>
+    <string name="process_3_a">이 플랫폼으로 이체하여 복권에 참가하다</string>
+    <string name="process_3_b">추첨에 참가하기 위해 아래 주소로 이동하였습니다.</string>
+    <string name="process_4">장려</string>
+    <string name="process_4_a">당첨금 자동이체</string>
+    <string name="process_4_b">보상은 10초 안에 당신의 지갑으로 자동으로 이동됩니다.</string>
+
+    
+    <string name="rank_now">실시간 결제</string>
+    <string name="rank_day">낮.</string>
+    <string name="rank_week">매주의</string>
+    <string name="rank_month">월간</string>
+    <string name="rank_item_address">주소</string>
+    <string name="rank_item_token">통화</string>
+    <string name="rank_item_amount">지출 총액</string>
+    <string name="rank_item_time">시간</string>
+
+    <string name="report_profit_loss_recharge">충전 금액</string>
+    <string name="report_profit_loss_bet">베팅 금액</string>
+    <string name="report_profit_loss_win">당첨 금액</string>
+    <string name="report_profit_loss_refund">환불 금액</string>
+
+    <string name="report_user_name">사용자 이름</string>
+    <string name="report_user_register_time">등록 시간</string>
+
+
+    <string name="record_date_picker">날짜 선택</string>
+    <string name="record_date_start">시작 날짜</string>
+    <string name="record_date_end">종료 날짜</string>
+    <string name="record_trx_num">TRX 주문 번호:</string>
+    <string name="record_usdt_num">USDT 주문 번호:</string>
+    <string name="record_trx_amount">TRX 총액:</string>
+    <string name="record_usdt_amount">USDT 패키지 가격:</string>
+
+    <string name="income_token">통화</string>
+    <string name="income_amount">영향 금액</string>
+    <string name="income_type">유형</string>
+    <string name="income_time">주문 시간</string>
+
+    <string name="mining_title">채광 수입</string>
+    <string name="mining_usdt">USDT 수입</string>
+    <string name="mining_trx">TRX 수익</string>
+    <string name="mining_sub1">채광 수입</string>
+    <string name="mining_sub2">24시간 결제</string>
+
+    <string name="user_pwd_1">이전 암호</string>
+    <string name="user_pwd_1_hint">이전 암호를 입력하십시오.</string>
+    <string name="user_pwd_2">새 암호</string>
+    <string name="user_pwd_2_hint">새 암호를 입력하십시오.</string>
+    <string name="user_pwd_3">암호 확인</string>
+    <string name="user_pwd_3_hint">새 암호를 다시 입력하십시오.</string>
+    <string name="user_pwd__hint">입력한 두 암호가 일치하지 않습니다.</string>
+    <string name="user_pwd_update_success">업데이트 성공</string>
+    <string name="user_trc_edit">TRC 주소 수정</string>
+    <string name="user_trc_address">TRC 주소</string>
+    <string name="user_trc_address_hint">TRC 주소를 입력하십시오(T로 시작하여 최대 34자)</string>
+    <string name="user_trc_pwd">결제 비밀번호</string>
+    <string name="user_trc_pwd_hint">결제 비밀번호를 입력하십시오.</string>
+
+    
+    <string name="withdrawal_amount_hint">금액을 입력하십시오.</string>
+    <string name="withdrawal_pwd_hint">결제 비밀번호를 입력하십시오.</string>
+    <string name="withdrawal_balance">% 1달러 잔액</string>
+    <string name="withdrawal_24">24시간 인출</string>
+    <string name="withdrawal_success">인출 신청 성공</string>
+    <string name="withdrawal_token">통화</string>
+    <string name="withdrawal_amount">수량</string>
+    <string name="withdrawal_status">지위</string>
+    <string name="withdrawal_time">시간</string>
+    <string name="withdrawal_status_0">안감</string>
+    <string name="withdrawal_status_1">통과</string>
+    <string name="withdrawal_status_2">통과되지 않음</string>
+    <string name="withdrawal_status_3">되돌아보다</string>
+
+    
+    <string name="invite_title">QRCode 공유</string>
+    <string name="invite_1">2022년 국내 미완성 프로젝트</string>
+
+    
+    <string name="app_download">다운로드</string>
+
+    
+    <string name="kefu">실시간 채팅</string>
+    <string name="kefu_1">24시간 고객 서비스</string>
+    <string name="kefu_2">문제가 있고 도움이 필요하시면 온라인 고객센터에 연락하십시오.</string>
+    <string name="kefu_ask">문의</string>
+
+    
+    <string name="guest_tip">새 사용자 등록 삼중 선물</string>
+    <string name="guest_tip_content">0.5% 의 영업 리베이트 즉시 활성화 \n 최대 1% 의 에이전트 커미션 리베이트 즉시 활성화 \n 베팅 반환 기록 실시간 보기</string>
+    <string name="guest_tip_button">지금 등록</string>
+
+    
+    <string name="announcement_previous">이전의</string>
+    <string name="announcement_next">다음</string>
+    <string name="announcement_close">닫다</string>
+
+    
+    <string name="point_detail">포인트 상세 정보</string>
+    <string name="point_order">주문 번호</string>
+    <string name="point_change">포인트</string>
+    <string name="point_before">이전</string>
+    <string name="point_after">이후</string>
+
+    
+    <string name="bet_detail">베팅 세부 정보</string>
+    <string name="bet_detail_order">주문 번호:</string>
+    <string name="bet_detail_game_name">게임 이름:</string>
+    <string name="bet_detail_recharge_token">충전 화폐 종류:</string>
+    <string name="bet_detail_recharge_amount">충전 금액:</string>
+    <string name="bet_detail_recharge_first">먼저 충전 여부:</string>
+    <string name="bet_detail_amount">베팅 금액:</string>
+    <string name="bet_detail_status">상태:</string>
+    <string name="bet_detail_status_1">이기다</string>
+    <string name="bet_detail_status_0">넥타이</string>
+    <string name="bet_detail_status_01">잃다</string>
+    <string name="bet_detail_status_02">무효</string>
+    <string name="bet_detail_status_03">그려지지 않음</string>
+    <string name="bet_detail_win">우승 금액:</string>
+    <string name="bet_detail_refund">환불 금액:</string>
+    <string name="bet_detail_pay">결제 방법:</string>
+    <string name="bet_detail_failed">장애 원인:</string>
+    <string name="bet_detail_trial">시도 여부:</string>
+    <string name="bet_detail_prize">수상 내역</string>
+
+    <string name="exchange_title">달러 루피</string>
+    <string name="exchange_to">... 에 이르다</string>
+    <string name="exchange_usdt_trx">USDT-TRX</string>
+    <string name="exchange_trx_usdt">TRX-USDT</string>
+    <string name="exchange_calc">예산</string>
+    <string name="exchange_a">주소 전송 스위치</string>
+    <string name="exchange_min">%1$s 최소 교환 금액:%2$s%3$s</string>
+    <string name="exchange_max">%1$s 최대 교환 금액:%2$s%3$s</string>
+    <string name="exchange_address">지갑 주소</string>
+    <string name="exchange_warning">종류 힌트:</string>
+    <string name="exchange_warning_content">1. 제3자 디지털 지갑을 열고 이체 주소를 복사하여 이체한다.\n2, TRON TRC20-USDT와 TRX만 지원하며 이체 금액은 한도액보다 낮으면 안 되며 한도액보다 낮으면 환불하지 않습니다.\n3. 플랫폼은 10초 이내에 무료로 동일한 가격의 TRX 또는 USDT를 반환합니다.</string>
+
+    
+    <string name="product_list">제품 목록</string>
+    <string name="product_rate">일 이율 5%%1$d%%</string>
+    <string name="product_day">주기:%1$d 일</string>
+    <string name="product_detail_balance">계정 사용 가능 잔액</string>
+    <string name="product_detail_min">시작 금액</string>
+    <string name="product_detail_max">최대 투자액</string>
+    <string name="product_detail_cycle">주기</string>
+    <string name="product_detail_day">% 매일 1달러</string>
+    <string name="product_detail_rate">평균 이율</string>
+    <string name="product_detail_invest_amount">투자 금액</string>
+    <string name="product_detail_invest_pwd">결제 비밀번호</string>
+    <string name="product_detail_pwd_hint">결제 비밀번호를 입력하십시오.</string>
+    <string name="product_detail_calc">%1$s+（%1$sx%2$fx%3$d）=%4$s</string>
+    <string name="product_detail_invest">투자 참여</string>
+    <string name="product_detail_invest_success">투자 성공률</string>
+
+    
+    <string name="invest_my">내 투자</string>
+    <string name="invest_order">주문 번호:%1$s</string>
+    <string name="invest_amount">투자 금액:</string>
+    <string name="invest_status">상태:</string>
+    <string name="invest_time">투자 시간:%1$s</string>
+    <string name="invest_status_1">전형적</string>
+    <string name="invest_status_2">성숙하다</string>
+    <string name="invest_status_3">되찾다</string>
+
+    <string name="upgrade">새 버전</string>
+    <string name="upgrade_now">지금 업그레이드</string>
+
+    <string name="recharge_amount_hint">충전 금액을 입력하세요</string>
+    <string name="recharge_scan_tip">다음 QRCode를 스캔하여 충전</string>
+    <string name="recharge_time_tip">제때에 도착하기 위해서는% 1달러를 지불해야 합니다</string>
+    <string name="recharge_time_h">% 1달러 2시간</string>
+    <string name="recharge_time_m">% 1달러 2분</string>
+    <string name="recharge_time_s">% 1달러 2초</string>
+    <string name="recharge_tip">지불을 완료하려면 지갑으로 주소를 스캔하거나 복사하십시오.</string>
+    <string name="recharge_failed">충전 실패</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

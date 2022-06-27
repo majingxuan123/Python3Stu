@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Okx-hash</string>
+    <string name="network_error">Walang Internet</string>
+    <string name="page_404">404</string>
+    <string name="coming_soon">PAGALAYON</string>
+    <string name="data_null">Walang Data</string>
+    <string name="ok">OK</string>
+    <string name="copy">Kopyahin</string>
+    <string name="copied">Copied</string>
+    <string name="yes">Opo</string>
+    <string name="no">Hindi</string>
+
+    
+    <string name="launcher">platform</string>
+
+    
+    <string name="login">Login</string>
+    <string name="login_account_hint_0">Pakiusap ipasok ang iyong account</string>
+    <string name="login_password_hint">Pakiusap ipasok ang iyong password</string>
+    <string name="login_remember_password">Tandaan ako</string>
+    <string name="login_welcome">Maligayang pagdating</string>
+    <string name="login_0_account">Walang Account</string>
+    <string name="login_register">Mag-sign up na ngayon</string>
+    <string name="login_privacy">Mangyaring basahin ang User Agreement at Privacy Policy</string>
+    <string name="login_privacy_1">Mangyaring basahin ang</string>
+    <string name="login_privacy_2">User Agreement</string>
+    <string name="login_privacy_3">At</string>
+    <string name="login_privacy_4">Privacy Policy</string>
+    <string name="register">Mag-sign up</string>
+    <string name="register_account_hint_0">Pakiusap ipasok ang iyong account</string>
+    <string name="register_password_hint">Pakiusap ipasok ang iyong password</string>
+    <string name="register_invite_hint_0">Pakipasok ang invitation code Option option;</string>
+    <string name="register_invite_hint_1">Paki-pasok ang invitation code</string>
+    <string name="register_auth_hint">Paki-enter ang image verification code</string>
+    <string name="register_trc_hint">Paki-pasok ang TRC20 address</string>
+    <string name="register_1_account">Mayroon ng account[UNK]</string>
+    <string name="register_login">Mag-login na ngayon</string>
+
+    
+    <string name="main_home">Home</string>
+    <string name="main_discount">Stock label</string>
+    <string name="main_reback">keyboard label</string>
+    <string name="main_invest">EarnMoney</string>
+    <string name="main_my">Profil</string>
+
+    <string name="main_home_games">Laro sa blockchain</string>
+    <string name="main_home_process">Magsumali sa laro</string>
+    <string name="main_home_exchange">Exchange</string>
+    <string name="main_home_rank">Pag-rank</string>
+    <string name="main_home_help">query-sort</string>
+    <string name="main_home_about">Tungkol sa US</string>
+
+    
+    <string name="main_discount_item_desc">Oras</string>
+
+    
+    <string name="main_reback_reback">Stock label</string>
+    <string name="main_reback_bet">Translation History</string>
+    <string name="main_reback_rule">Mga Regla ng Aktividad</string>
+    <string name="main_reback_rule_1">Rebate settlement and distribution time: The system will automatically transfer at 00:00:00 every day (previous day\'s amount)</string>
+    <string name="main_reback_rule_2">Rebate calculation method - rebate = user\'s total bet * rebate ratio</string>
+
+    
+    <string name="main_income_invest">Invest</string>
+    <string name="main_income_mining">Mining</string>
+    <string name="main_income_promote">Kummisyon</string>
+
+    
+    <string name="main_income_invest_usdt">USDT Cumulative Income</string>
+    <string name="main_income_invest_trx">TRX Cumulative Income</string>
+    <string name="main_income_invest_all">Lahat ng mga produkto</string>
+    <string name="main_income_invest_my">Ang Aking Inversiyon</string>s
+    <string name="main_income_invest_income">Ingatan sa Inversiyon</string>
+    <string name="main_income_invest_no_more">Walang datos na sementara...</string>
+
+    
+    <string name="main_promote_title">Kummisyon</string>
+    <string name="main_promote_1">推者有礼\ paper size 人脉变钱买</string>
+    <string name="main_promote_3">- 呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">paper size</string>
+    <string name="main_promote_second_user">Lvl 2 Member</string>
+    <string name="main_promote_third_user">paper size</string>
+    <string name="main_promote_first_commission">Lvl 1 %1$s Commission</string>
+    <string name="main_promote_second_commission">Lvl 2 %1$s Commission</string>
+    <string name="main_promote_third_commission">Lvl 3 %1$s Commission</string>
+    <string name="main_promote_first_bet">Lvl 1 %1$s Bet</string>
+    <string name="main_promote_second_bet">Lvl 2 %1$s Bet</string>
+    <string name="main_promote_third_bet">Lvl 3 %1$s Bet</string>
+    <string name="main_promote_first_rebate">Lvl 1 Recharge</string>
+    <string name="main_promote_second_rebate">Lvl 2 Recharge</string>
+    <string name="main_promote_third_rebate">Lvl 3 Recharge</string>
+    <string name="main_promote_rule_1">Ang Comisiyon ay inilipat sa parehong araw pagkatapos ng 00:00</string>
+    <string name="main_promote_rule_2">Paano kalkulahin ang komisyon</string>
+    <string name="main_promote_rule_2_1">Level 1 commission=Level 1 Member Bet Amount*%1$s</string>
+    <string name="main_promote_rule_2_2">Level 2 commission=Level 2 Member Bet Amount*%1$s</string>
+    <string name="main_promote_rule_2_3">Level 3 commission=Level 3 Member Bet Amount*%1$s</string>
+    <string name="main_promote_share">Invite friends</string>
+    <string name="main_promote_share_save">I-save ang QRCode</string>
+    <string name="main_promote_share_copy">Kopyahin ang Linya</string>
+    <string name="main_promote_share_1">Kopyahin ang link upang ibahagi sa mga kaibigan</string>
+
+    
+    <string name="main_my_user">Account</string>
+    <string name="main_my_level">Araw</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">paper size</string>
+    <string name="main_my_point">Punto</string>
+    <string name="main_my_trc">TRC Address</string>
+    <string name="main_my_mining">Ingatan sa Mina</string>
+    <string name="main_my_withdrawing">keyboard label</string>
+    <string name="main_my_recharge">Reload</string>
+    <string name="main_my_mall">Points Mall</string>
+    <string name="main_my_profit_loss">Ang profit and loss statement</string>
+    <string name="main_my_withdrawn">Stock label</string>
+    <string name="main_my_bet">Mga detalye sa Transfer</string>
+    <string name="main_my_change">Stock label</string>
+    <string name="main_my_reback">Rebate Details</string>
+    <string name="main_my_rebate">Mga Detalyo ng Komisyon</string>
+    <string name="main_my_login_pwd">Password</string>
+    <string name="main_my_pay_pwd">Payment Password</string>
+    <string name="main_my_apps">Download App</string>
+    <string name="main_my_share">Invite Friends</string>
+    <string name="main_my_logout">I-sign Out</string>
+
+    
+
+    
+    <string name="game_odds">%1$sOdds</string>
+    <string name="game_start">Play Now</string>
+    <string name="game_rule">Mga patakaran ng laro</string>
+    <string name="game_detail">Mga detalye ng laro</string>
+    <string name="game_win_rule">Mga patakarang Pagtatagumpay</string>
+    <string name="game_win_eg">Ang listahan ng mga premyo</string>
+    <string name="game_qrcode_tip">Iscan ang QR code sa ibaba upang magbet</string>
+    <string name="game_address">Official Wallet Address</string>
+    <string name="game_copy">Klik upang i-copy</string>
+
+    
+    <string name="process">Magsumali sa laro</string>
+    <string name="process_1">Stock label</string>
+    <string name="process_1_a">paper size</string>
+    <string name="process_1_b">Platform</string>
+    <string name="process_1_c">URL</string>
+    <string name="process_1_d">Tutorial</string>
+    <string name="process_1_e">Tingnan</string>
+    <string name="process_2">Bilin ng Virtual Currency</string>
+    <string name="process_2_a">Buy TRX on digital currency exchanges</string>
+    <string name="process_3">Transfer Bet</string>
+    <string name="process_3_a">Itransfer ang pera sa platapormang ito upang sumali sa loterya</string>
+    <string name="process_3_b">Ang matagumpay na paglipat sa address sa ibaba upang sumali sa masuwerteng pagguhit</string>
+    <string name="process_4">Rewards</string>
+    <string name="process_4_a">Automatic transfer for winning amount</string>
+    <string name="process_4_b">Ang bayaran ay awtomatiko na inilipat sa inyong pitaka sa loob ng 10 segundo.</string>
+
+    
+    <string name="rank_now">Live Payouts</string>
+    <string name="rank_day">Araw</string>
+    <string name="rank_week">Linggo</string>
+    <string name="rank_month">Monthly</string>
+    <string name="rank_item_address">Address</string>
+    <string name="rank_item_token">Currency</string>
+    <string name="rank_item_amount">Kabilang na bayad</string>
+    <string name="rank_item_time">Oras</string>
+
+    <string name="report_profit_loss_recharge">query-sort</string>
+    <string name="report_profit_loss_bet">Stock label</string>
+    <string name="report_profit_loss_win">Winning amount</string>
+    <string name="report_profit_loss_refund">Stock label</string>
+
+    <string name="report_user_name">Username</string>
+    <string name="report_user_register_time">query-sort</string>
+
+
+    <string name="record_date_picker">Piliin ang Araw</string>
+    <string name="record_date_start">Datang Simulan</string>
+    <string name="record_date_end">Data ng Tapos</string>
+    <string name="record_trx_num">TRX Number of order‌‌</string>
+    <string name="record_usdt_num">query-sort</string>
+    <string name="record_trx_amount">TRX Lump sum</string>
+    <string name="record_usdt_amount">USDT Lump sum</string>
+
+    <string name="income_token">Currency</string>
+    <string name="income_amount">Affect Amount</string>
+    <string name="income_type">Type</string>
+    <string name="income_time">Oras ng Araw</string>
+
+    <string name="mining_title">Ingatan sa Mina</string>
+    <string name="mining_usdt">USDT Income</string>
+    <string name="mining_trx">TRX Income</string>
+    <string name="mining_sub1">Ingatan sa Mina</string>
+    <string name="mining_sub2">24-oras na settlement</string>
+
+    <string name="user_pwd_1">Old Password</string>
+    <string name="user_pwd_1_hint">Pakiusap ipasok ang lumang password</string>
+    <string name="user_pwd_2">Bagong Password</string>
+    <string name="user_pwd_2_hint">Pakiusap ipasok ang bagong password</string>
+    <string name="user_pwd_3">Patvirtin ang Password</string>
+    <string name="user_pwd_3_hint">Pakiusap ipasok muli ang bagong password</string>
+    <string name="user_pwd__hint">Ang dalawang ipinasok na kontrasenyas ay hindi tumutugma</string>
+    <string name="user_pwd_update_success">Ang update ay nagtagumpay</string>
+    <string name="user_trc_edit">Baguhin ang TRC Address</string>
+    <string name="user_trc_address">TRC Address</string>
+    <string name="user_trc_address_hint">Paki-pasok ang TRC Address（ Magsimula sa \'T\'pinakamahaba 34 char）</string>
+    <string name="user_trc_pwd">Payment password</string>
+    <string name="user_trc_pwd_hint">Paki-enter ang payment password</string>
+
+    
+    <string name="withdrawal_amount_hint">Pakiusap ipasok ang halaga</string>
+    <string name="withdrawal_pwd_hint">Paki-enter ang payment password</string>
+    <string name="withdrawal_balance">%1$s Balance</string>
+    <string name="withdrawal_24">24-hour withdrawal</string>
+    <string name="withdrawal_success">Magtagumpay ang pag-withdraw</string>
+    <string name="withdrawal_token">Currency</string>
+    <string name="withdrawal_amount">Amount</string>
+    <string name="withdrawal_status">Status</string>
+    <string name="withdrawal_time">Oras</string>
+    <string name="withdrawal_status_0">padding</string>
+    <string name="withdrawal_status_1">lumipas</string>
+    <string name="withdrawal_status_2">not passed</string>
+    <string name="withdrawal_status_3">review</string>
+
+    
+    <string name="invite_title">Ibahagi ang QRCode</string>
+    <string name="invite_1">2022 Lumang Proyekto\nGawin ang USDT sa bahay</string>
+
+    
+    <string name="app_download">Download</string>
+
+    
+    <string name="kefu">Live Chat</string>
+    <string name="kefu_1">Customer service 24 hours\nWe serve you sincerely</string>
+    <string name="kefu_2">Kung mayroon kang problema at kailangan ng tulong, mangyaring makipag-ugnay sa online customer service</string>
+    <string name="kefu_ask">query-sort</string>
+
+    
+    <string name="guest_tip">Bagong regalo para sa triple registration ng user</string>
+    <string name="guest_tip_content">Araw-agad i-activate ang 0.5% turnover rebate\nAgad i-activate hanggang sa 1% agency commission rebate \n Tingnan ang betting return record sa real time</string>
+    <string name="guest_tip_button">Mag-sign up na ngayon</string>
+
+    
+    <string name="announcement_previous">Noong nakaraan</string>
+    <string name="announcement_next">Susunod</string>
+    <string name="announcement_close">Isara</string>
+
+    
+    <string name="point_detail">Mga detalye ng mga Punto</string>
+    <string name="point_order">Order No</string>
+    <string name="point_change">Mga Punto</string>
+    <string name="point_before">Bago</string>
+    <string name="point_after">Pagkatapos</string>
+
+    
+    <string name="bet_detail">Mga detalye sa Pagtatangka</string>
+    <string name="bet_detail_order">numero ng order</string>
+    <string name="bet_detail_game_name">Pangalan ng laro</string>
+    <string name="bet_detail_recharge_token">Recharge currency</string>
+    <string name="bet_detail_recharge_amount">Karagdagan ng Recharge</string>
+    <string name="bet_detail_recharge_first">Kung magbayad muna</string>
+    <string name="bet_detail_amount">Bet amount：</string>
+    <string name="bet_detail_status">Stock label</string>
+    <string name="bet_detail_status_1">keyboard label</string>
+    <string name="bet_detail_status_0">keyboard label</string>
+    <string name="bet_detail_status_01">Mawala</string>
+    <string name="bet_detail_status_02">Invalid</string>
+    <string name="bet_detail_status_03">Hindi iguhit</string>
+    <string name="bet_detail_win">keyboard label</string>
+    <string name="bet_detail_refund">Stock label</string>
+    <string name="bet_detail_pay">Mga paraan ng pag-aayos</string>
+    <string name="bet_detail_failed">Dahil sa pagkabigo</string>
+    <string name="bet_detail_trial">Whether to try：</string>
+    <string name="bet_detail_prize">Winning Details</string>
+
+    <string name="exchange_title">Exchange USDT/TRX</string>
+    <string name="exchange_to">Sa</string>
+    <string name="exchange_usdt_trx">USDT Upang TRX</string>
+    <string name="exchange_trx_usdt">TRX Upang USDT</string>
+    <string name="exchange_calc">Budget</string>
+    <string name="exchange_a">Pagpalitan ng paglipat ng mga address</string>
+    <string name="exchange_min">%1$s Minimum exchange amount --%2$s %3$s</string>
+    <string name="exchange_max">%1$s Ang pinakamalaking halaga ng palitan</string>
+    <string name="exchange_address">Wallet Address</string>
+    <string name="exchange_warning">Mga tips</string>
+    <string name="exchange_warning_content">1.Buksan ang wallet ng third party, i-copy ang transfer address upang i-transfer; \n2.Suportado lamang ang TRON TRC20-USDT at TRX, ang halaga ng paglipat ay hindi dapat maging mas mababa kaysa sa limitasyon, at walang refund ay ibinigay kung ito ay mas mababa kaysa sa limitasyon; \n3.Ang plataporma ay babalik sa iyo ang katumbas na halaga ng TRX o USDT sa loob ng 10 segundo para sa libre</string>
+
+    
+    <string name="product_list">Stock label</string>
+    <string name="product_rate">Araw-araw na interest rate 5% %1$d%%</string>
+    <string name="product_day">paper size</string>
+    <string name="product_detail_balance">balance</string>
+    <string name="product_detail_min">amount in units (real)</string>
+    <string name="product_detail_max">pinakamalaking pag-invest</string>
+    <string name="product_detail_cycle">Siklo</string>
+    <string name="product_detail_day">paper size</string>
+    <string name="product_detail_rate">average interest rate</string>
+    <string name="product_detail_invest_amount">halaga ng investasyon</string>
+    <string name="product_detail_invest_pwd">Payment password</string>
+    <string name="product_detail_pwd_hint">Paki-enter ang payment password</string>
+    <string name="product_detail_calc">%1$s+(%1$sx%2$fx%3$d)=%4$s</string>
+    <string name="product_detail_invest">Magkaroon ng pakikitungo</string>
+    <string name="product_detail_invest_success">tagumpay sa panukala</string>
+
+    
+    <string name="invest_my">ang aking investasyon</string>
+    <string name="invest_order">Order No：%1$s</string>
+    <string name="invest_amount">Suma ng pag-invest</string>
+    <string name="invest_status">Stock label</string>
+    <string name="invest_time">%1$s</string>
+    <string name="invest_status_1">Normal</string>
+    <string name="invest_status_2">Maturity</string>
+    <string name="invest_status_3">redemption</string>
+
+    <string name="upgrade">Bagong Bersyon</string>
+    <string name="upgrade_now">Upgrade Ngayon</string>
+
+    <string name="recharge_amount_hint">Paki-enter ang halaga ng recharge</string>
+    <string name="recharge_scan_tip">Iscan ang QRCode sa ibaba upang i-recharge</string>
+    <string name="recharge_time_tip">Para dumating ka sa oras, siguraduhin ninyo na magbayad ng %1$s</string>
+    <string name="recharge_time_h">%1$2d hour</string>
+    <string name="recharge_time_m">%1$2d minute</string>
+    <string name="recharge_time_s">%1$2d second</string>
+    <string name="recharge_tip">Please scan with you wallet\nOr copy the address to complete the payment</string>
+    <string name="recharge_failed">Recharge failed</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

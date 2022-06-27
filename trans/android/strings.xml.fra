@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Hachage okx</string>
+    <string name="network_error">Pas d'Internet</string>
+    <string name="page_404">404.</string>
+    <string name="coming_soon">J'arrive.</string>
+    <string name="data_null">Aucune donnée disponible</string>
+    <string name="ok">D'accord.</string>
+    <string name="copy">Copier</string>
+    <string name="copied">Copié</string>
+    <string name="yes">C'est exact.</string>
+    <string name="no">- Non.</string>
+
+    
+    <string name="launcher">Plate - forme</string>
+
+    
+    <string name="login">Nom de connexion</string>
+    <string name="login_account_hint_0">Veuillez saisir votre compte</string>
+    <string name="login_password_hint">Veuillez saisir votre mot de passe</string>
+    <string name="login_remember_password">Souviens - toi de moi.</string>
+    <string name="login_welcome">Bienvenue.</string>
+    <string name="login_0_account">Pas de compte</string>
+    <string name="login_register">Inscrivez - vous maintenant</string>
+    <string name="login_privacy">Veuillez lire l'Accord d'utilisateur et la politique de confidentialité</string>
+    <string name="login_privacy_1">Lire</string>
+    <string name="login_privacy_2">Accord utilisateur</string>
+    <string name="login_privacy_3">Et</string>
+    <string name="login_privacy_4">Politique de confidentialité</string>
+    <string name="register">Inscription</string>
+    <string name="register_account_hint_0">Veuillez saisir votre compte</string>
+    <string name="register_password_hint">Veuillez saisir votre mot de passe</string>
+    <string name="register_invite_hint_0">Veuillez saisir le Code d'invitation (option)</string>
+    <string name="register_invite_hint_1">Veuillez saisir le Code d'invitation</string>
+    <string name="register_auth_hint">Veuillez saisir le Code de vérification de l'image</string>
+    <string name="register_trc_hint">Veuillez saisir l'adresse trc20</string>
+    <string name="register_1_account">Vous avez un compte?</string>
+    <string name="register_login">Connectez - vous maintenant</string>
+
+    
+    <string name="main_home">La maison</string>
+    <string name="main_discount">Réduction</string>
+    <string name="main_reback">Récompenses</string>
+    <string name="main_invest">Gagner de l'argent</string>
+    <string name="main_my">Profil</string>
+
+    <string name="main_home_games">Blockchain Games</string>
+    <string name="main_home_process">Rejoignez le jeu</string>
+    <string name="main_home_exchange">Echange</string>
+    <string name="main_home_rank">Classement</string>
+    <string name="main_home_help">FAQ</string>
+    <string name="main_home_about">À propos de nous</string>
+
+    
+    <string name="main_discount_item_desc">Temps:% 1 $s -% 2 $s</string>
+
+    
+    <string name="main_reback_reback">Historique des récompenses</string>
+    <string name="main_reback_bet">Historique des transactions</string>
+    <string name="main_reback_rule">Règles d'activité</string>
+    <string name="main_reback_rule_1">Temps de règlement et d'émission du remboursement: transfert automatique tous les jours à 00: 00: 00 (montant de la veille)</string>
+    <string name="main_reback_rule_2">Méthode de calcul du remboursement - remboursement = mise totale de l'utilisateur * Taux de remboursement</string>
+
+    
+    <string name="main_income_invest">Investissements</string>
+    <string name="main_income_mining">Exploitation minière</string>
+    <string name="main_income_promote">La Commission</string>
+
+    
+    <string name="main_income_invest_usdt">Recettes cumulées de la tvus</string>
+    <string name="main_income_invest_trx">TRX recettes cumulées</string>
+    <string name="main_income_invest_all">Tous les produits</string>
+    <string name="main_income_invest_my">Mon investissement</string>s
+    <string name="main_income_invest_income">Revenus des placements</string>
+    <string name="main_income_invest_no_more">Pas de données pour le moment...</string>
+
+    
+    <string name="main_promote_title">La Commission</string>
+    <string name="main_promote_1">推者有礼\ N 人脉变钱买</string>
+    <string name="main_promote_3">- Oui. 呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">Membres de niveau 1</string>
+    <string name="main_promote_second_user">Membres de niveau II</string>
+    <string name="main_promote_third_user">Membres de niveau 3</string>
+    <string name="main_promote_first_commission">1% 1 $Commission</string>
+    <string name="main_promote_second_commission">Niveau 2% 1 $Commission</string>
+    <string name="main_promote_third_commission">Niveau 3 1 $Commission</string>
+    <string name="main_promote_first_bet">Niveau 1% 1 $mise</string>
+    <string name="main_promote_second_bet">Niveau 2% 1 $mise</string>
+    <string name="main_promote_third_bet">Niveau 3% 1 $mise</string>
+    <string name="main_promote_first_rebate">Recharge de niveau 1</string>
+    <string name="main_promote_second_rebate">Recharge secondaire</string>
+    <string name="main_promote_third_rebate">Recharge de niveau 3</string>
+    <string name="main_promote_rule_1">Commission de transfert après 00: 00 ce jour - là</string>
+    <string name="main_promote_rule_2">Comment calculer la Commission</string>
+    <string name="main_promote_rule_2_1">Commission de niveau 1 = membre de niveau 1 Montant du pari *% 1 $</string>
+    <string name="main_promote_rule_2_2">Commission de niveau 2 = montant du pari du membre de niveau 2 *% 1 $</string>
+    <string name="main_promote_rule_2_3">Commission de niveau 3 = montant du pari du membre de niveau 3 *% 1 $</string>
+    <string name="main_promote_share">Inviter des amis</string>
+    <string name="main_promote_share_save">Enregistrer QRCode</string>
+    <string name="main_promote_share_copy">Copier les lignes</string>
+    <string name="main_promote_share_1">Copier le lien pour le partager avec un ami</string>
+
+    
+    <string name="main_my_user">Compte:</string>
+    <string name="main_my_level">Niveau:</string>
+    <string name="main_my_usdt">Usdt</string>
+    <string name="main_my_trx">TRX</string>
+    <string name="main_my_point">Pointage</string>
+    <string name="main_my_trc">Adresse du CRT</string>
+    <string name="main_my_mining">Recettes minières</string>
+    <string name="main_my_withdrawing">Repliez - vous!</string>
+    <string name="main_my_recharge">Charge</string>
+    <string name="main_my_mall">Points Mall</string>
+    <string name="main_my_profit_loss">Compte de profits et pertes</string>
+    <string name="main_my_withdrawn">Enregistrement des retraits</string>
+    <string name="main_my_bet">Détails du transfert</string>
+    <string name="main_my_change">Détails de la transaction</string>
+    <string name="main_my_reback">Détails du remboursement</string>
+    <string name="main_my_rebate">Détails de la Commission</string>
+    <string name="main_my_login_pwd">Mot de passe de connexion</string>
+    <string name="main_my_pay_pwd">Mot de passe de paiement</string>
+    <string name="main_my_apps">Télécharger l'application</string>
+    <string name="main_my_share">Inviter des amis</string>
+    <string name="main_my_logout">Sortie</string>
+
+    
+
+    
+    <string name="game_odds">1 $SDDS</string>
+    <string name="game_start">Jouer maintenant</string>
+    <string name="game_rule">Les règles du jeu</string>
+    <string name="game_detail">Détails du jeu</string>
+    <string name="game_win_rule">Règles de victoire</string>
+    <string name="game_win_eg">Liste des prix</string>
+    <string name="game_qrcode_tip">Numériser les paris QR suivants</string>
+    <string name="game_address">Adresse officielle du portefeuille</string>
+    <string name="game_copy">Cliquez pour copier</string>
+
+    
+    <string name="process">Rejoignez le jeu</string>
+    <string name="process_1">Enregistrer le portefeuille</string>
+    <string name="process_1_a">Crypto Currency [scatter] Wallet download address</string>
+    <string name="process_1_b">Plate - forme</string>
+    <string name="process_1_c">Adresse unifiée de localisation des ressources</string>
+    <string name="process_1_d">Coaching</string>
+    <string name="process_1_e">Observations</string>
+    <string name="process_2">Acheter de la monnaie virtuelle</string>
+    <string name="process_2_a">Achat de TRX à la Bourse de monnaie numérique</string>
+    <string name="process_3">Transfert des paris</string>
+    <string name="process_3_a">Transfert à cette plateforme pour participer à la loterie</string>
+    <string name="process_3_b">Transfert réussi à l'adresse suivante pour le tirage au sort</string>
+    <string name="process_4">Récompenses</string>
+    <string name="process_4_a">Transfert automatique du montant gagnant</string>
+    <string name="process_4_b">Les récompenses seront automatiquement transférées dans votre portefeuille en 10 secondes.</string>
+
+    
+    <string name="rank_now">Paiement en temps réel</string>
+    <string name="rank_day">Jour</string>
+    <string name="rank_week">Hebdomadaire</string>
+    <string name="rank_month">Mensuel</string>
+    <string name="rank_item_address">Adresse</string>
+    <string name="rank_item_token">Monnaie</string>
+    <string name="rank_item_amount">Total des dépenses</string>
+    <string name="rank_item_time">Temps</string>
+
+    <string name="report_profit_loss_recharge">Montant de la recharge</string>
+    <string name="report_profit_loss_bet">Montant du pari</string>
+    <string name="report_profit_loss_win">Montant du prix gagné</string>
+    <string name="report_profit_loss_refund">Montant du remboursement</string>
+
+    <string name="report_user_name">Nom d'utilisateur</string>
+    <string name="report_user_register_time">Date d'inscription</string>
+
+
+    <string name="record_date_picker">Sélectionner la date</string>
+    <string name="record_date_start">Date de début</string>
+    <string name="record_date_end">Date de fin</string>
+    <string name="record_trx_num">TRX Order No:</string>
+    <string name="record_usdt_num">Numéro de commande usdt:</string>
+    <string name="record_trx_amount">Total TRX:</string>
+    <string name="record_usdt_amount">USD forfaitaire:</string>
+
+    <string name="income_token">Monnaie</string>
+    <string name="income_amount">Montant affecté</string>
+    <string name="income_type">Type</string>
+    <string name="income_time">Temps de commande</string>
+
+    <string name="mining_title">Recettes minières</string>
+    <string name="mining_usdt">Recettes usdt</string>
+    <string name="mining_trx">TRX Recettes</string>
+    <string name="mining_sub1">Recettes minières</string>
+    <string name="mining_sub2">Règlement 24 heures sur 24</string>
+
+    <string name="user_pwd_1">Ancien mot de passe</string>
+    <string name="user_pwd_1_hint">Veuillez saisir l'ancien mot de passe</string>
+    <string name="user_pwd_2">Nouveau mot de passe</string>
+    <string name="user_pwd_2_hint">Veuillez saisir un nouveau mot de passe</string>
+    <string name="user_pwd_3">Confirmer le mot de passe</string>
+    <string name="user_pwd_3_hint">Veuillez saisir à nouveau le nouveau mot de passe</string>
+    <string name="user_pwd__hint">Les deux mots de passe entrés ne correspondent pas</string>
+    <string name="user_pwd_update_success">Mise à jour réussie</string>
+    <string name="user_trc_edit">Modifier l'adresse du CRT</string>
+    <string name="user_trc_address">Adresse du CRT</string>
+    <string name="user_trc_address_hint">Veuillez saisir l'adresse TRC (commençant par "t" et la longueur maximale est de 34 caractères)</string>
+    <string name="user_trc_pwd">Mot de passe de paiement</string>
+    <string name="user_trc_pwd_hint">Veuillez saisir le mot de passe de paiement</string>
+
+    
+    <string name="withdrawal_amount_hint">Veuillez entrer le montant</string>
+    <string name="withdrawal_pwd_hint">Veuillez saisir le mot de passe de paiement</string>
+    <string name="withdrawal_balance">Solde de 1 $</string>
+    <string name="withdrawal_24">Retrait 24 heures sur 24</string>
+    <string name="withdrawal_success">Demande de retrait acceptée</string>
+    <string name="withdrawal_token">Monnaie</string>
+    <string name="withdrawal_amount">Nombre</string>
+    <string name="withdrawal_status">Statut</string>
+    <string name="withdrawal_time">Temps</string>
+    <string name="withdrawal_status_0">Doublure</string>
+    <string name="withdrawal_status_1">Adoption</string>
+    <string name="withdrawal_status_2">Échec</string>
+    <string name="withdrawal_status_3">Rétrospective</string>
+
+    
+    <string name="invite_title">Partager QRCode</string>
+    <string name="invite_1">Projets nationaux en cours en 2022</string>
+
+    
+    <string name="app_download">Télécharger</string>
+
+    
+    <string name="kefu">Chat en direct</string>
+    <string name="kefu_1">Service à la clientèle 24 heures sur 24</string>
+    <string name="kefu_2">Si vous avez des problèmes et avez besoin d'aide, veuillez communiquer avec le service à la clientèle en ligne.</string>
+    <string name="kefu_ask">Consultation (s)</string>
+
+    
+    <string name="guest_tip">Trois cadeaux pour les nouveaux utilisateurs</string>
+    <string name="guest_tip_content">Activez immédiatement un rabais de 0,5% sur le chiffre d'affaires</string>
+    <string name="guest_tip_button">Inscrivez - vous maintenant</string>
+
+    
+    <string name="announcement_previous">Avant</string>
+    <string name="announcement_next">Suivant.</string>
+    <string name="announcement_close">Coupez.</string>
+
+    
+    <string name="point_detail">Détails de l'intégration</string>
+    <string name="point_order">No de commande</string>
+    <string name="point_change">Intégrale</string>
+    <string name="point_before">Avant</string>
+    <string name="point_after">Après</string>
+
+    
+    <string name="bet_detail">Détails du pari</string>
+    <string name="bet_detail_order">No de commande:</string>
+    <string name="bet_detail_game_name">Nom du jeu:</string>
+    <string name="bet_detail_recharge_token">Monnaie de recharge:</string>
+    <string name="bet_detail_recharge_amount">Montant de recharge:</string>
+    <string name="bet_detail_recharge_first">Chargez d'abord:</string>
+    <string name="bet_detail_amount">Montant du pari:</string>
+    <string name="bet_detail_status">Statut:</string>
+    <string name="bet_detail_status_1">Gagner.</string>
+    <string name="bet_detail_status_0">Cravate</string>
+    <string name="bet_detail_status_01">Perdu</string>
+    <string name="bet_detail_status_02">Invalide</string>
+    <string name="bet_detail_status_03">Non dessiné</string>
+    <string name="bet_detail_win">Montant de la victoire:</string>
+    <string name="bet_detail_refund">Montant du remboursement:</string>
+    <string name="bet_detail_pay">Mode de règlement:</string>
+    <string name="bet_detail_failed">Cause de la défaillance:</string>
+    <string name="bet_detail_trial">Essayez:</string>
+    <string name="bet_detail_prize">Détails du prix</string>
+
+    <string name="exchange_title">USD / rupiah</string>
+    <string name="exchange_to">À</string>
+    <string name="exchange_usdt_trx">Usdt à TRX</string>
+    <string name="exchange_trx_usdt">TRX à usdt</string>
+    <string name="exchange_calc">Budget</string>
+    <string name="exchange_a">Commutateur de transfert d'adresse</string>
+    <string name="exchange_min">1 $s minimum Exchange amount:% 2 $s% 3 $s</string>
+    <string name="exchange_max">1 $s montant maximal de conversion:% 2 $s% 3 $s</string>
+    <string name="exchange_address">Adresse du portefeuille</string>
+    <string name="exchange_warning">Conseils de catégorie:</string>
+    <string name="exchange_warning_content">1. Ouvrir le portefeuille numérique du tiers et copier l'adresse de transfert pour le transfert; N2. Seuls Tron trc20 - USD T et TRX sont pris en charge. Le montant du transfert ne doit pas être inférieur à la limite et aucun remboursement ne doit être effectué en dessous de la limite; N3. La plate - forme vous renverra l'équivalent TRX ou usdt gratuitement dans les 10 secondes</string>
+
+    
+    <string name="product_list">Liste des produits</string>
+    <string name="product_rate">Taux d'intérêt journalier 5%% 1 $D%%</string>
+    <string name="product_day">Cycle:% 1 $D jours</string>
+    <string name="product_detail_balance">Solde disponible du compte</string>
+    <string name="product_detail_min">Montant initial</string>
+    <string name="product_detail_max">Investissement maximal</string>
+    <string name="product_detail_cycle">Cycle</string>
+    <string name="product_detail_day">1 $par jour</string>
+    <string name="product_detail_rate">Taux d'intérêt moyen</string>
+    <string name="product_detail_invest_amount">Montant des investissements</string>
+    <string name="product_detail_invest_pwd">Mot de passe de paiement</string>
+    <string name="product_detail_pwd_hint">Veuillez saisir le mot de passe de paiement</string>
+    <string name="product_detail_calc">1 $s + (% 1 $SX% 2 $FX% 3 $d) =% 4 $s</string>
+    <string name="product_detail_invest">Participation aux investissements</string>
+    <string name="product_detail_invest_success">Taux de réussite des investissements</string>
+
+    
+    <string name="invest_my">Mon investissement</string>
+    <string name="invest_order">Numéro de commande:% 1 $s</string>
+    <string name="invest_amount">Montant de l'investissement:</string>
+    <string name="invest_status">Statut:</string>
+    <string name="invest_time">Temps d'investissement:% 1 $s</string>
+    <string name="invest_status_1">Typique</string>
+    <string name="invest_status_2">Mature</string>
+    <string name="invest_status_3">Remboursement</string>
+
+    <string name="upgrade">Nouvelle version</string>
+    <string name="upgrade_now">Mise à jour maintenant</string>
+
+    <string name="recharge_amount_hint">Veuillez saisir le montant de recharge</string>
+    <string name="recharge_scan_tip">Numériser le QRCode ci - dessous pour charger</string>
+    <string name="recharge_time_tip">Pour arriver à temps, assurez - vous de payer% 1 $</string>
+    <string name="recharge_time_h">1 $2 heures</string>
+    <string name="recharge_time_m">1 $2 minutes</string>
+    <string name="recharge_time_s">1 $2 secondes</string>
+    <string name="recharge_tip">Veuillez numériser ou copier l'adresse avec votre portefeuille pour compléter le paiement</string>
+    <string name="recharge_failed">Échec de la recharge</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

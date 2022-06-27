@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Okx-hash</string>
     <string name="network_error">No Internet</string>
@@ -11,10 +11,10 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
-    <!-- 启动页 -->
+    
     <string name="launcher">platform</string>
 
-    <!-- 登录、注册 -->
+    
     <string name="login">Login</string>
     <string name="login_account_hint_0">Please enter your account</string>
     <string name="login_password_hint">Please enter your password</string>
@@ -37,7 +37,7 @@
     <string name="register_1_account">Have an account？</string>
     <string name="register_login">Login now</string>
 
-    <!-- 首页 -->
+    
     <string name="main_home">Home</string>
     <string name="main_discount">Discount</string>
     <string name="main_reback">Reward</string>
@@ -51,22 +51,22 @@
     <string name="main_home_help">FAQs</string>
     <string name="main_home_about">About US</string>
 
-    <!-- 优惠 -->
+    
     <string name="main_discount_item_desc">Time：%1$s - %2$s</string>
 
-    <!-- 返水 -->
+    
     <string name="main_reback_reback">Reward History</string>
     <string name="main_reback_bet">Transcation History</string>
     <string name="main_reback_rule">Activity Rules</string>
     <string name="main_reback_rule_1">Rebate settlement and distribution time: The system will automatically transfer at 00:00:00 every day (previous day\'s amount)</string>
     <string name="main_reback_rule_2">Rebate calculation method - rebate = user\'s total bet * rebate ratio</string>
 
-    <!-- 赚钱 -->
+    
     <string name="main_income_invest">Invest</string>
     <string name="main_income_mining">Mining</string>
     <string name="main_income_promote">Commission</string>
 
-    <!-- 赚钱(投资) -->
+    
     <string name="main_income_invest_usdt">USDT Cumulative Income</string>
     <string name="main_income_invest_trx">TRX Cumulative Income</string>
     <string name="main_income_invest_all">All products</string>
@@ -74,7 +74,7 @@
     <string name="main_income_invest_income">Investment Income</string>
     <string name="main_income_invest_no_more">No data temporarily…</string>
 
-    <!-- 赚钱(推广) -->
+    
     <string name="main_promote_title">Commission</string>
     <string name="main_promote_1">推者有礼\n人脉变钱买</string>
     <string name="main_promote_3">-呼朋呼友，享多多好礼-</string>
@@ -100,7 +100,7 @@
     <string name="main_promote_share_copy">Copy Line</string>
     <string name="main_promote_share_1">Copy link to share with friends</string>
 
-    <!-- 我的 -->
+    
     <string name="main_my_user">Account：</string>
     <string name="main_my_level">Level：</string>
     <string name="main_my_usdt">USDT</string>
@@ -123,9 +123,9 @@
     <string name="main_my_share">Invite Friends</string>
     <string name="main_my_logout">Sign Out</string>
 
-    <!-- 关于我们 -->
+    
 
-    <!-- 游戏 -->
+    
     <string name="game_odds">%1$sOdds</string>
     <string name="game_start">Play Now</string>
     <string name="game_rule">Game Rules</string>
@@ -136,24 +136,24 @@
     <string name="game_address">Official Wallet Address</string>
     <string name="game_copy">Click to copy</string>
 
-    <!-- 参与流程 -->
+    
     <string name="process">Join the game</string>
     <string name="process_1">Register Wallet</string>
-    <string name="process_1_a">Cryptocurrency 【Decentralized】wallet download address </string>
+    <string name="process_1_a">Cryptocurrency 【Decentralized】wallet download address</string>
     <string name="process_1_b">Platform</string>
     <string name="process_1_c">URL</string>
     <string name="process_1_d">Tutorial</string>
     <string name="process_1_e">View</string>
     <string name="process_2">Buy Virtual Currency</string>
-    <string name="process_2_a">Buy TRX on digital currency exchanges </string>
+    <string name="process_2_a">Buy TRX on digital currency exchanges</string>
     <string name="process_3">Transfer Bet</string>
     <string name="process_3_a">Transfer money to this platform to participate in the lottery</string>
     <string name="process_3_b">Successfully transfer to the address below to participate in lucky draw</string>
     <string name="process_4">Rewards</string>
-    <string name="process_4_a">Automatic transfer for winning amount </string>
+    <string name="process_4_a">Automatic transfer for winning amount</string>
     <string name="process_4_b">Rewards will be automatically transferred to your wallet within 10 seconds.</string>
 
-    <!-- 中奖排名 -->
+    
     <string name="rank_now">Live Payouts</string>
     <string name="rank_day">Day</string>
     <string name="rank_week">Weekly</string>
@@ -205,7 +205,7 @@
     <string name="user_trc_pwd">Payment password</string>
     <string name="user_trc_pwd_hint">Please enter payment password</string>
 
-    <!-- 提现 -->
+    
     <string name="withdrawal_amount_hint">Please enter amount</string>
     <string name="withdrawal_pwd_hint">Please enter payment password</string>
     <string name="withdrawal_balance">%1$s Balance</string>
@@ -220,37 +220,37 @@
     <string name="withdrawal_status_2">not passed</string>
     <string name="withdrawal_status_3">review</string>
 
-    <!-- 邀请好友 -->
+    
     <string name="invite_title">Share QRCode</string>
     <string name="invite_1">2022 Outstanding Project\nEarn USDT at home</string>
 
-    <!-- 下载App -->
+    
     <string name="app_download">Download</string>
 
-    <!-- 客服 -->
+    
     <string name="kefu">Live Chat</string>
     <string name="kefu_1">Customer service 24 hours\nWe serve you sincerely</string>
     <string name="kefu_2">If you encounter problems and need help, please contact online customer service</string>
     <string name="kefu_ask">Consult</string>
 
-    <!-- 未登陆提示 -->
+    
     <string name="guest_tip">New user registration triple gift</string>
     <string name="guest_tip_content">Immediately activate 0.5% turnover rebate\nImmediately activate up to 1% agency commission rebate \n View the betting return record in real time</string>
     <string name="guest_tip_button">Sign up now</string>
 
-    <!-- 未登陆提示 -->
+    
     <string name="announcement_previous">Previous</string>
     <string name="announcement_next">Next</string>
     <string name="announcement_close">Close</string>
 
-    <!-- 积分 -->
+    
     <string name="point_detail">Points Details</string>
     <string name="point_order">Order No</string>
     <string name="point_change">Points</string>
     <string name="point_before">Before</string>
     <string name="point_after">After</string>
 
-    <!-- 投注 -->
+    
     <string name="bet_detail">Betting Details</string>
     <string name="bet_detail_order">Order number：</string>
     <string name="bet_detail_game_name">Game name：</string>
@@ -283,7 +283,7 @@
     <string name="exchange_warning">Kind tips：</string>
     <string name="exchange_warning_content">1.Open a third-party digital wallet, copy the transfer address to transfer;\n2.Only TRON TRC20-USDT and TRX are supported, the transfer amount should not be lower than the limit, and no refund will be given if it is lower than the limit;\n3.The platform will return the equivalent value of TRX or USDT to you within 10 seconds for free</string>
 
-    <!-- 产品 -->
+    
     <string name="product_list">Product List</string>
     <string name="product_rate">Daily interest rate 5% %1$d%%</string>
     <string name="product_day">Cycle: %1$d Day</string>
@@ -300,7 +300,7 @@
     <string name="product_detail_invest">Participate in investment</string>
     <string name="product_detail_invest_success">investment success</string>
 
-    <!-- 投资 -->
+    
     <string name="invest_my">my investment</string>
     <string name="invest_order">Order No：%1$s</string>
     <string name="invest_amount">Investment amount：</string>
@@ -323,29 +323,25 @@
     <string name="recharge_failed">Recharge failed</string>
 
 
-    <string-array name="main_tabs_name">
-        <item>@string/main_home</item>
+    <string-array name="main_tabs_name"><item>@string/main_home</item>
         <item>@string/main_discount</item>
         <item>@string/main_reback</item>
         <item>@string/main_invest</item>
         <item>@string/main_my</item>
     </string-array>
-    <integer-array name="main_tabs_icon">
-        <item>@drawable/main_tab_home</item>
+    <integer-array name="main_tabs_icon"><item>@drawable/main_tab_home</item>
         <item>@drawable/main_tab_discount</item>
         <item>@drawable/main_tab_reback</item>
         <item>@drawable/main_tab_invest</item>
         <item>@drawable/main_tab_my</item>
     </integer-array>
 
-    <string-array name="process_tabs_name">
-        <item>@string/process_1</item>
+    <string-array name="process_tabs_name"><item>@string/process_1</item>
         <item>@string/process_2</item>
         <item>@string/process_3</item>
         <item>@string/process_4</item>
     </string-array>
-    <integer-array name="process_tabs_icon">
-        <item>@drawable/process_tab</item>
+    <integer-array name="process_tabs_icon"><item>@drawable/process_tab</item>
         <item>@drawable/process_tab</item>
         <item>@drawable/process_tab</item>
         <item>@drawable/process_tab</item>

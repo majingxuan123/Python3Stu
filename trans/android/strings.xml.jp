@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OKXハッシュ</string>
+    <string name="network_error">インターネットなし</string>
+    <string name="page_404">404</string>
+    <string name="coming_soon">カミングスーン</string>
+    <string name="data_null">データなし</string>
+    <string name="ok">OK</string>
+    <string name="copy">コピー</string>
+    <string name="copied">コピー</string>
+    <string name="yes">はい</string>
+    <string name="no">なし</string>
+
+    
+    <string name="launcher">プラットホーム</string>
+
+    
+    <string name="login">ログイン</string>
+    <string name="login_account_hint_0">アカウントを入力してください</string>
+    <string name="login_password_hint">パスワードを入力してください</string>
+    <string name="login_remember_password">覚えて</string>
+    <string name="login_welcome">歓迎</string>
+    <string name="login_0_account">いいえアカウント？</string>
+    <string name="login_register">サインアップ</string>
+    <string name="login_privacy">ユーザー規約とプライバシーポリシーをお読みください</string>
+    <string name="login_privacy_1">どうぞお読みください</string>
+    <string name="login_privacy_2">利用規約</string>
+    <string name="login_privacy_3">And</string>
+    <string name="login_privacy_4">プライバシーポリシー</string>
+    <string name="register">サインアップ</string>
+    <string name="register_account_hint_0">アカウントを入力してください</string>
+    <string name="register_password_hint">パスワードを入力してください</string>
+    <string name="register_invite_hint_0">招待コードを入力してください</string>
+    <string name="register_invite_hint_1">招待コードを入力してください</string>
+    <string name="register_auth_hint">イメージ確認コードを入力してください</string>
+    <string name="register_trc_hint">TRC 20アドレスを入力してください</string>
+    <string name="register_1_account">アカウントがありますか？</string>
+    <string name="register_login">現在ログイン</string>
+
+    
+    <string name="main_home">ホーム</string>
+    <string name="main_discount">割引</string>
+    <string name="main_reback">報酬</string>
+    <string name="main_invest">貨幣</string>
+    <string name="main_my">プロフィール</string>
+
+    <string name="main_home_games">ブロックチェーンゲーム</string>
+    <string name="main_home_process">参加する</string>
+    <string name="main_home_exchange">交流</string>
+    <string name="main_home_rank">ランキング</string>
+    <string name="main_home_help">よくある質問</string>
+    <string name="main_home_about">アバウトアス</string>
+
+    
+    <string name="main_discount_item_desc">時間: % 1 $ s</string>
+
+    
+    <string name="main_reback_reback">報酬履歴</string>
+    <string name="main_reback_bet">越流史</string>
+    <string name="main_reback_rule">アクティビティルール</string>
+    <string name="main_reback_rule_1">リバウンド決済と配布時間：毎日00 : 00 00 : 00に自動的に転送されます</string>
+    <string name="main_reback_rule_2">リベート計算方法-リベート=ユーザー\の合計ベット*リベート率</string>
+
+    
+    <string name="main_income_invest">投資</string>
+    <string name="main_income_mining">マイニング</string>
+    <string name="main_income_promote">委員会</string>
+
+    
+    <string name="main_income_invest_usdt">USDT累積所得</string>
+    <string name="main_income_invest_trx">TRX累積所得</string>
+    <string name="main_income_invest_all">全製品</string>
+    <string name="main_income_invest_my">マイ投資</string>s
+    <string name="main_income_invest_income">投資収益</string>
+    <string name="main_income_invest_no_more">データは一時的にはない。</string>
+
+    
+    <string name="main_promote_title">委員会</string>
+    <string name="main_promote_1">推者有礼\n人脉变钱买</string>
+    <string name="main_promote_3">-呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">LVL 1メンバー</string>
+    <string name="main_promote_second_user">LVL 2メンバー</string>
+    <string name="main_promote_third_user">LVL 3メンバー</string>
+    <string name="main_promote_first_commission">LVL 1 % 1 $手数料</string>
+    <string name="main_promote_second_commission">LVL 2 % 1 $ sコミッション</string>
+    <string name="main_promote_third_commission">lvl 3 % 1 $ sコミッション</string>
+    <string name="main_promote_first_bet">LVL 1 % 1 $賭け</string>
+    <string name="main_promote_second_bet">LVL 2 % 1 $ sベット</string>
+    <string name="main_promote_third_bet">LVL 3 % 1 $ sベット</string>
+    <string name="main_promote_first_rebate">LVL 1リチャージ</string>
+    <string name="main_promote_second_rebate">LVL 2チャージ</string>
+    <string name="main_promote_third_rebate">LVL 3リチャージ</string>
+    <string name="main_promote_rule_1">委員会は、00 : 00の後、同じ日に移りました</string>
+    <string name="main_promote_rule_2">委員会計算法</string>
+    <string name="main_promote_rule_2_1">レベル1手数料=レベル1メンバーベット金額</string>
+    <string name="main_promote_rule_2_2">レベル2手数料=レベル2メンバーベット金額</string>
+    <string name="main_promote_rule_2_3">レベル3手数料=レベル3メンバーベット金額</string>
+    <string name="main_promote_share">友達を招待</string>
+    <string name="main_promote_share_save">Qrcodeを保存する</string>
+    <string name="main_promote_share_copy">コピーライン</string>
+    <string name="main_promote_share_1">友人と共有へのコピー・リンク</string>
+
+    
+    <string name="main_my_user">アカウント</string>
+    <string name="main_my_level">レベル</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">TRX</string>
+    <string name="main_my_point">ポイント</string>
+    <string name="main_my_trc">TRCアドレス</string>
+    <string name="main_my_mining">鉱業所得</string>
+    <string name="main_my_withdrawing">回収する</string>
+    <string name="main_my_recharge">涵養</string>
+    <string name="main_my_mall">ポイントモール</string>
+    <string name="main_my_profit_loss">損益計算書</string>
+    <string name="main_my_withdrawn">引き出し記録</string>
+    <string name="main_my_bet">譲渡詳細</string>
+    <string name="main_my_change">取引詳細</string>
+    <string name="main_my_reback">リベート詳細</string>
+    <string name="main_my_rebate">委員会の詳細</string>
+    <string name="main_my_login_pwd">ログインパスワード</string>
+    <string name="main_my_pay_pwd">支払いパスワード</string>
+    <string name="main_my_apps">ダウンロード</string>
+    <string name="main_my_share">友達を招待</string>
+    <string name="main_my_logout">署名する</string>
+
+    
+
+    
+    <string name="game_odds">% 1 $ sodds</string>
+    <string name="game_start">今すぐプレイ</string>
+    <string name="game_rule">ゲームルール</string>
+    <string name="game_detail">ゲームの詳細</string>
+    <string name="game_win_rule">勝利ルール</string>
+    <string name="game_win_eg">賞のリスト</string>
+    <string name="game_qrcode_tip">下記のQRコードをスキャンする</string>
+    <string name="game_address">オフィシャルウォレットアドレス</string>
+    <string name="game_copy">クリックしてコピー</string>
+
+    
+    <string name="process">参加する</string>
+    <string name="process_1">レジスター</string>
+    <string name="process_1_a">分散されたAEの財布をダウンロード</string>
+    <string name="process_1_b">プラットホーム</string>
+    <string name="process_1_c">URL</string>
+    <string name="process_1_d">チュートリアル</string>
+    <string name="process_1_e">ビュー</string>
+    <string name="process_2">仮想通貨</string>
+    <string name="process_2_a">デジタル通貨交換でTRXを買う</string>
+    <string name="process_3">転送ベット</string>
+    <string name="process_3_a">宝くじに参加するには、このプラットフォームにお金を転送する</string>
+    <string name="process_3_b">幸運な図面に参加するには、以下のアドレスに首尾よく転送</string>
+    <string name="process_4">報酬</string>
+    <string name="process_4_a">自動投入量</string>
+    <string name="process_4_b">報酬は自動的にあなたの財布に10秒以内に転送されます。</string>
+
+    
+    <string name="rank_now">ライブ支払い</string>
+    <string name="rank_day">日</string>
+    <string name="rank_week">週間</string>
+    <string name="rank_month">月例</string>
+    <string name="rank_item_address">アドレス</string>
+    <string name="rank_item_token">通貨</string>
+    <string name="rank_item_amount">合計支払い</string>
+    <string name="rank_item_time">時間</string>
+
+    <string name="report_profit_loss_recharge">涵養量</string>
+    <string name="report_profit_loss_bet">ベット量</string>
+    <string name="report_profit_loss_win">勝利額</string>
+    <string name="report_profit_loss_refund">払戻額</string>
+
+    <string name="report_user_name">ユーザー名</string>
+    <string name="report_user_register_time">登録時間</string>
+
+
+    <string name="record_date_picker">選択日付</string>
+    <string name="record_date_start">開始日</string>
+    <string name="record_date_end">終了日付</string>
+    <string name="record_trx_num">TRX数:</string>
+    <string name="record_usdt_num">USDT番号：</string>
+    <string name="record_trx_amount">trx一括</string>
+    <string name="record_usdt_amount">USDT一括</string>
+
+    <string name="income_token">通貨</string>
+    <string name="income_amount">影響量</string>
+    <string name="income_type">種類</string>
+    <string name="income_time">注文時間</string>
+
+    <string name="mining_title">鉱業所得</string>
+    <string name="mining_usdt">USDT所得</string>
+    <string name="mining_trx">TRX所得</string>
+    <string name="mining_sub1">鉱業所得</string>
+    <string name="mining_sub2">24時間沈下</string>
+
+    <string name="user_pwd_1">古いパスワード</string>
+    <string name="user_pwd_1_hint">古いパスワードを入力してください</string>
+    <string name="user_pwd_2">新しいパスワード</string>
+    <string name="user_pwd_2_hint">新しいパスワードを入力してください</string>
+    <string name="user_pwd_3">パスワード確認</string>
+    <string name="user_pwd_3_hint">新しいパスワードをもう一度入力してください</string>
+    <string name="user_pwd__hint">2つの入力パスワードは一致しません</string>
+    <string name="user_pwd_update_success">更新成功</string>
+    <string name="user_trc_edit">アドレスを変更する</string>
+    <string name="user_trc_address">TRCアドレス</string>
+    <string name="user_trc_address_hint">TRCアドレスを入力してください。</string>
+    <string name="user_trc_pwd">支払いパスワード</string>
+    <string name="user_trc_pwd_hint">支払いパスワードを入力してください</string>
+
+    
+    <string name="withdrawal_amount_hint">金額を入力してください</string>
+    <string name="withdrawal_pwd_hint">支払いパスワードを入力してください</string>
+    <string name="withdrawal_balance">% 1 sバランス</string>
+    <string name="withdrawal_24">24時間取水</string>
+    <string name="withdrawal_success">撤退は成功</string>
+    <string name="withdrawal_token">通貨</string>
+    <string name="withdrawal_amount">量</string>
+    <string name="withdrawal_status">ステータス</string>
+    <string name="withdrawal_time">時間</string>
+    <string name="withdrawal_status_0">パディング</string>
+    <string name="withdrawal_status_1">通過</string>
+    <string name="withdrawal_status_2">通過しない</string>
+    <string name="withdrawal_status_3">レビュー</string>
+
+    
+    <string name="invite_title">シェアQrcode</string>
+    <string name="invite_1">自宅の2022の目立つプロジェクト</string>
+
+    
+    <string name="app_download">ダウンロード</string>
+
+    
+    <string name="kefu">ライブチャット</string>
+    <string name="kefu_1">カスタマーサービス24時間</string>
+    <string name="kefu_2">あなたが問題に遭遇し、助けが必要な場合は、オンラインカスタマーサービスに連絡してください</string>
+    <string name="kefu_ask">相談する</string>
+
+    
+    <string name="guest_tip">新しいユーザー登録トリプルギフト</string>
+    <string name="guest_tip_content">すぐに0.5 %ターンオーバーリベートを有効にする</string>
+    <string name="guest_tip_button">サインアップ</string>
+
+    
+    <string name="announcement_previous">前</string>
+    <string name="announcement_next">次</string>
+    <string name="announcement_close">クローズ</string>
+
+    
+    <string name="point_detail">ポイント詳細</string>
+    <string name="point_order">注文なし</string>
+    <string name="point_change">ポイント</string>
+    <string name="point_before">以前</string>
+    <string name="point_after">アフター</string>
+
+    
+    <string name="bet_detail">賭けの詳細</string>
+    <string name="bet_detail_order">注文番号:</string>
+    <string name="bet_detail_game_name">ゲーム名：</string>
+    <string name="bet_detail_recharge_token">リチャージ通貨：</string>
+    <string name="bet_detail_recharge_amount">充電量：</string>
+    <string name="bet_detail_recharge_first">最初に充電するかどうか。</string>
+    <string name="bet_detail_amount">賭け金額：</string>
+    <string name="bet_detail_status">状態:</string>
+    <string name="bet_detail_status_1">勝利</string>
+    <string name="bet_detail_status_0">タイ</string>
+    <string name="bet_detail_status_01">負ける</string>
+    <string name="bet_detail_status_02">無効</string>
+    <string name="bet_detail_status_03">描かれない</string>
+    <string name="bet_detail_win">勝利金額：</string>
+    <string name="bet_detail_refund">払戻額</string>
+    <string name="bet_detail_pay">決済方法</string>
+    <string name="bet_detail_failed">失敗の理由</string>
+    <string name="bet_detail_trial">試してみてください。</string>
+    <string name="bet_detail_prize">勝利の詳細</string>
+
+    <string name="exchange_title">エクスチェンジUSDT / TRX</string>
+    <string name="exchange_to">To</string>
+    <string name="exchange_usdt_trx">USDTからTRXへ</string>
+    <string name="exchange_trx_usdt">TRXからUSDTまで</string>
+    <string name="exchange_calc">予算</string>
+    <string name="exchange_a">アドレス転送交換</string>
+    <string name="exchange_min">% 1 s最低為替額：% 2 $ s</string>
+    <string name="exchange_max">% 1 $最大為替額</string>
+    <string name="exchange_address">財布アドレス</string>
+    <string name="exchange_warning">種類のヒント：</string>
+    <string name="exchange_warning_content">サードパーティ製のデジタル財布を開き、転送するアドレスを転送します\ n 2 TRON TRC 20 USDTとTRXだけがサポートされているので、転送量は制限より低くなければなりません。\ n 3プラットフォームはTRXまたはUSDTの等価値を10秒間以内に無料で返します</string>
+
+    
+    <string name="product_list">製品一覧</string>
+    <string name="product_rate">デイリー金利5 %</string>
+    <string name="product_day">サイクル：1ドル</string>
+    <string name="product_detail_balance">口座利用残高</string>
+    <string name="product_detail_min">始動量</string>
+    <string name="product_detail_max">最大投資額</string>
+    <string name="product_detail_cycle">サイクル</string>
+    <string name="product_detail_day">% 1 $ d day</string>
+    <string name="product_detail_rate">平均金利</string>
+    <string name="product_detail_invest_amount">投資額</string>
+    <string name="product_detail_invest_pwd">支払いパスワード</string>
+    <string name="product_detail_pwd_hint">支払いパスワードを入力してください</string>
+    <string name="product_detail_calc">% 1 $ s +( % 1 $ sx % 2 $ fx % 3 $ d )= % 4 $ s</string>
+    <string name="product_detail_invest">投資に参加する</string>
+    <string name="product_detail_invest_success">投資成功</string>
+
+    
+    <string name="invest_my">マイ投資</string>
+    <string name="invest_order">オーダーNo : 1</string>
+    <string name="invest_amount">投資額</string>
+    <string name="invest_status">状態:</string>
+    <string name="invest_time">投資時間：%</string>
+    <string name="invest_status_1">標準</string>
+    <string name="invest_status_2">成熟</string>
+    <string name="invest_status_3">償還</string>
+
+    <string name="upgrade">新バージョン</string>
+    <string name="upgrade_now">アップグレード</string>
+
+    <string name="recharge_amount_hint">充電量を入力してください</string>
+    <string name="recharge_scan_tip">以下のQrcodeを再充電するためにスキャンします</string>
+    <string name="recharge_time_tip">あなたが時間通りに到着するために、%</string>
+    <string name="recharge_time_h">% 1ドル</string>
+    <string name="recharge_time_m">% 1 $ 2 D分</string>
+    <string name="recharge_time_s">% 1</string>
+    <string name="recharge_tip">あなたの財布をスキャンしてください</string>
+    <string name="recharge_failed">リチャージ失敗</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

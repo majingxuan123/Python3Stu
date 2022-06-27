@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Comment</string>
+    <string name="network_error">Không có Mạng</string>
+    <string name="page_404">404</string>
+    <string name="coming_soon">Mau lên.</string>
+    <string name="data_null">Chưa có dữ liệu</string>
+    <string name="ok">Được.</string>
+    <string name="copy">Chép</string>
+    <string name="copied">Nghe</string>
+    <string name="yes">Phải.</string>
+    <string name="no">Không</string>
+
+    
+    <string name="launcher">bục</string>
+
+    
+    <string name="login">Đăng</string>
+    <string name="login_account_hint_0">Xin hãy nhập tài khoản.</string>
+    <string name="login_password_hint">Hãy nhập mật khẩu.</string>
+    <string name="login_remember_password">Hãy nhớ tôi.</string>
+    <string name="login_welcome">Chào.</string>
+    <string name="login_0_account">Không tài khoản</string>
+    <string name="login_register">Đăng ký ngay.</string>
+    <string name="login_privacy">Xin hãy đọc hợp đồng người dùng và bảo mật.</string>
+    <string name="login_privacy_1">Xin hãy đọc...</string>
+    <string name="login_privacy_2">Thỏa thuận người dùng</string>
+    <string name="login_privacy_3">Và</string>
+    <string name="login_privacy_4">Chính sách cá nhân</string>
+    <string name="register">Đăng ký đi.</string>
+    <string name="register_account_hint_0">Xin hãy nhập tài khoản.</string>
+    <string name="register_password_hint">Hãy nhập mật khẩu.</string>
+    <string name="register_invite_hint_0">Hãy nhập mã thư mời'652.89;tùy chọn).</string>
+    <string name="register_invite_hint_1">Hãy nhập mã thư mời.</string>
+    <string name="register_auth_hint">Hãy nhập mã xác nhận ảnh</string>
+    <string name="register_trc_hint">Hãy nhập địa chỉ khẩu C2</string>
+    <string name="register_1_account">Có một tài khoản</string>
+    <string name="register_login">Đăng nhập ngay.</string>
+
+    
+    <string name="main_home">Nhà</string>
+    <string name="main_discount">Giảm</string>
+    <string name="main_reback">Phần</string>
+    <string name="main_invest">Tiền</string>
+    <string name="main_my">Comment</string>
+
+    <string name="main_home_games">Trò chơi Blockchain</string>
+    <string name="main_home_process">Tham gia đi</string>
+    <string name="main_home_exchange">Đổi</string>
+    <string name="main_home_rank">Hạng</string>
+    <string name="main_home_help">FAQComment</string>
+    <string name="main_home_about">Về Mỹ</string>
+
+    
+    <string name="main_discount_item_desc">Thời gian 6306;% 1's% 2</string>
+
+    
+    <string name="main_reback_reback">Thay đổi lịch sử</string>
+    <string name="main_reback_bet">Dịch lịch sử</string>
+    <string name="main_reback_rule">Quy tắc hoạt động</string>
+    <string name="main_reback_rule_1">Sắp xếp lại và giờ phân phối: Hệ thống s ẽ tự động chuyển đổi sang có 00:00 mỗi ngày (ngày hôm trước).</string>
+    <string name="main_reback_rule_2">Bảo trợ phương pháp tính toán - s ự bao</string>
+
+    
+    <string name="main_income_invest">Đầu</string>
+    <string name="main_income_mining">Đào</string>
+    <string name="main_income_promote">Ủy ban</string>
+
+    
+    <string name="main_income_invest_usdt">Bộ thu nhỏ</string>
+    <string name="main_income_invest_trx">Con thu nhỏ</string>
+    <string name="main_income_invest_all">Mọi sản phẩm</string>
+    <string name="main_income_invest_my">Đầu tư</string>s
+    <string name="main_income_invest_income">Đầu tư</string>
+    <string name="main_income_invest_no_more">Không có dữ liệu</string>
+
+    
+    <string name="main_promote_title">Ủy ban</string>
+    <string name="main_promote_1">推者有礼\ Comment 人脉变钱买</string>
+    <string name="main_promote_3">- 呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">Lvl 1 member.</string>
+    <string name="main_promote_second_user">Lvl 2 member</string>
+    <string name="main_promote_third_user">Lvl 3 member</string>
+    <string name="main_promote_first_commission">Lvl 1% 1 ln s Commission</string>
+    <string name="main_promote_second_commission">Lvl 2% 1 s Commission</string>
+    <string name="main_promote_third_commission">Lvl 3% 1 s Commission</string>
+    <string name="main_promote_first_bet">Lvl 1% 1 s Bet</string>
+    <string name="main_promote_second_bet">Lvl 2% 1 s Bet</string>
+    <string name="main_promote_third_bet">Lvl 3% 1 s Bet</string>
+    <string name="main_promote_first_rebate">Nạp đạn Lvl.</string>
+    <string name="main_promote_second_rebate">Bộ nạp Lvl 2.</string>
+    <string name="main_promote_third_rebate">Bộ nạp Lvl 3.</string>
+    <string name="main_promote_rule_1">Truyền hàng ngày này qua chiều khác</string>
+    <string name="main_promote_rule_2">Cách tính tiền hoa hồng</string>
+    <string name="main_promote_rule_2_1">Giá trị cá cược cấp 1</string>
+    <string name="main_promote_rule_2_2">Bộ phân bổ cấp 2</string>
+    <string name="main_promote_rule_2_3">Giá trị cá cược cấp 3</string>
+    <string name="main_promote_share">Bạn mời</string>
+    <string name="main_promote_share_save">Lưu đoạn mã</string>
+    <string name="main_promote_share_copy">Chép dòng</string>
+    <string name="main_promote_share_1">Kết nối Chép để chia sẻ với bạn bè</string>
+
+    
+    <string name="main_my_user">Biên bản:</string>
+    <string name="main_my_level">Cấp III</string>
+    <string name="main_my_usdt">Comment</string>
+    <string name="main_my_trx">Comment</string>
+    <string name="main_my_point">Điểm</string>
+    <string name="main_my_trc">Giá trị</string>
+    <string name="main_my_mining">Thu nhỏ</string>
+    <string name="main_my_withdrawing">Rút</string>
+    <string name="main_my_recharge">Nạp</string>
+    <string name="main_my_mall">Bán điểm</string>
+    <string name="main_my_profit_loss">Ghi chú lợi nhuận</string>
+    <string name="main_my_withdrawn">Thu hồi</string>
+    <string name="main_my_bet">Chi tiết truyền</string>
+    <string name="main_my_change">Thiết lập giao dịch</string>
+    <string name="main_my_reback">Gia nhập</string>
+    <string name="main_my_rebate">Thông tin</string>
+    <string name="main_my_login_pwd">Mật khẩu đăng nhập</string>
+    <string name="main_my_pay_pwd">Mật khẩu</string>
+    <string name="main_my_apps">Tải về ảnh</string>
+    <string name="main_my_share">Bạn mời</string>
+    <string name="main_my_logout">Ký tên</string>
+
+    
+
+    
+    <string name="game_odds">Tháng Năm</string>
+    <string name="game_start">Giờ chơi</string>
+    <string name="game_rule">Luật chơi</string>
+    <string name="game_detail">Game Name</string>
+    <string name="game_win_rule">Luật thắng</string>
+    <string name="game_win_eg">Danh sách giải thưởng</string>
+    <string name="game_qrcode_tip">Quét đoạn mã QR bên dưới để đặt cược</string>
+    <string name="game_address">Địa chỉ Ví</string>
+    <string name="game_copy">Nhấn vào để chép</string>
+
+    
+    <string name="process">Tham gia đi</string>
+    <string name="process_1">Ghi ví</string>
+    <string name="process_1_a">Bộ giải mã</string>
+    <string name="process_1_b">PlanName</string>
+    <string name="process_1_c">URL</string>
+    <string name="process_1_d">Description</string>
+    <string name="process_1_e">Xem</string>
+    <string name="process_2">Mua tiền tệ ảo</string>
+    <string name="process_2_a">Mua TRX trên giao dịch tiền tệ số</string>
+    <string name="process_3">Đặt độ truyền</string>
+    <string name="process_3_a">Chuyển tiền đến đây để tham gia xổ số</string>
+    <string name="process_3_b">Chuyển thành công đến địa chỉ bên dưới để tham gia rút thăm may mắn</string>
+    <string name="process_4">Thay</string>
+    <string name="process_4_a">Sự chuyển nhượng tự động</string>
+    <string name="process_4_b">Phần thưởng sẽ tự động được chuyển vào ví của bạn trong vòng mười giây.</string>
+
+    
+    <string name="rank_now">Phát sinh trực tiếp</string>
+    <string name="rank_day">Ngày</string>
+    <string name="rank_week">Ngày</string>
+    <string name="rank_month">Tháng</string>
+    <string name="rank_item_address">Địa chỉ</string>
+    <string name="rank_item_token">Tiền</string>
+    <string name="rank_item_amount">Tổng chi trả</string>
+    <string name="rank_item_time">Giờ</string>
+
+    <string name="report_profit_loss_recharge">Số bộ nạp</string>
+    <string name="report_profit_loss_bet">Số Cá</string>
+    <string name="report_profit_loss_win">Giá thắng</string>
+    <string name="report_profit_loss_refund">Số lần vay</string>
+
+    <string name="report_user_name">Tên</string>
+    <string name="report_user_register_time">Thời gian đăng ký</string>
+
+
+    <string name="record_date_picker">Chọn ngày</string>
+    <string name="record_date_start">Ngày đầu</string>
+    <string name="record_date_end">Ngày cuối</string>
+    <string name="record_trx_num">Con số TRX</string>
+    <string name="record_usdt_num">Số thứ tự USTD</string>
+    <string name="record_trx_amount">bản giá giá TRX</string>
+    <string name="record_usdt_amount">USDT Lump sum. 6306;</string>
+
+    <string name="income_token">Tiền</string>
+    <string name="income_amount">Giá trị</string>
+    <string name="income_type">Kiểu</string>
+    <string name="income_time">Khoảng thời gian</string>
+
+    <string name="mining_title">Thu nhỏ</string>
+    <string name="mining_usdt">Bộ nhập USDT</string>
+    <string name="mining_trx">Đường dẫn:</string>
+    <string name="mining_sub1">Thu nhỏ</string>
+    <string name="mining_sub2">giảm giờ 24h</string>
+
+    <string name="user_pwd_1">Mật khẩu cũ</string>
+    <string name="user_pwd_1_hint">Hãy nhập mật khẩu cũ.</string>
+    <string name="user_pwd_2">Mật khẩu mới</string>
+    <string name="user_pwd_2_hint">Hãy nhập mật khẩu mới.</string>
+    <string name="user_pwd_3">Xác nhận mật khẩu</string>
+    <string name="user_pwd_3_hint">Xin nhập lại mật khẩu mới.</string>
+    <string name="user_pwd__hint">Hai mật khẩu nhập không trùng nhau</string>
+    <string name="user_pwd_update_success">Cập nhật thành công</string>
+    <string name="user_trc_edit">Sửa địa chỉ TRC</string>
+    <string name="user_trc_address">Giá trị</string>
+    <string name="user_trc_address_hint">Hãy nhập vào địa chỉ TRC 6589;Bắt đầu bằng chữ'T'\ 6592; chiều dài tối đa 34 char 658999;</string>
+    <string name="user_trc_pwd">Mật khẩu</string>
+    <string name="user_trc_pwd_hint">Hãy nhập mật khẩu thanh toán.</string>
+
+    
+    <string name="withdrawal_amount_hint">Hãy nhập số</string>
+    <string name="withdrawal_pwd_hint">Hãy nhập mật khẩu thanh toán.</string>
+    <string name="withdrawal_balance">Tháng Năm</string>
+    <string name="withdrawal_24">giảm ngày</string>
+    <string name="withdrawal_success">Kết thúc thành công</string>
+    <string name="withdrawal_token">Tiền</string>
+    <string name="withdrawal_amount">Nguồn:</string>
+    <string name="withdrawal_status">Chính:</string>
+    <string name="withdrawal_time">Giờ</string>
+    <string name="withdrawal_status_0">thêm vải</string>
+    <string name="withdrawal_status_1">hết</string>
+    <string name="withdrawal_status_2">không được qua</string>
+    <string name="withdrawal_status_3">duyệt</string>
+
+    
+    <string name="invite_title">Chia bài</string>
+    <string name="invite_1">Một thám chí duy nhất</string>
+
+    
+    <string name="app_download">Tải</string>
+
+    
+    <string name="kefu">Trò chuyện</string>
+    <string name="kefu_1">Dịch vụ khách hàng 24h\ Miễn Chúng tôi phục vụ bạn chân thành</string>
+    <string name="kefu_2">Nếu bạn gặp vấn đề và cần trợ giúp, hãy liên lạc với dịch vụ khách hàng trực tuyến.</string>
+    <string name="kefu_ask">Mời</string>
+
+    
+    <string name="guest_tip">Quà ba lần đăng ký mới</string>
+    <string name="guest_tip_content">Ngay lập tức kích hoạt gói giảm thương lượng 0.5</string>
+    <string name="guest_tip_button">Đăng ký ngay.</string>
+
+    
+    <string name="announcement_previous">Trước</string>
+    <string name="announcement_next">Tiếp</string>
+    <string name="announcement_close">Đóng</string>
+
+    
+    <string name="point_detail">Chi tiết điểm</string>
+    <string name="point_order">Số lần</string>
+    <string name="point_change">Điểm</string>
+    <string name="point_before">Trước</string>
+    <string name="point_after">Sau</string>
+
+    
+    <string name="bet_detail">Phần đặt cược</string>
+    <string name="bet_detail_order">Số Thứ tự'6độc;</string>
+    <string name="bet_detail_game_name">Game name(65006;</string>
+    <string name="bet_detail_recharge_token">Bộ nhớ Lần thu nhập</string>
+    <string name="bet_detail_recharge_amount">Ngân lượng chịu trách nhiệm</string>
+    <string name="bet_detail_recharge_first">Có nạp tên đầu đề s6306;</string>
+    <string name="bet_detail_amount">Giá cả giải đấu</string>
+    <string name="bet_detail_status">Trạng thái</string>
+    <string name="bet_detail_status_1">Thắng</string>
+    <string name="bet_detail_status_0">Buộc</string>
+    <string name="bet_detail_status_01">Thua</string>
+    <string name="bet_detail_status_02">Description</string>
+    <string name="bet_detail_status_03">Chưa vẽ</string>
+    <string name="bet_detail_win">Bằng bao nhiêu;</string>
+    <string name="bet_detail_refund">Nguồn bù đầu</string>
+    <string name="bet_detail_pay">Phương pháp giải quyết</string>
+    <string name="bet_detail_failed">Lý do thiếu sót</string>
+    <string name="bet_detail_trial">Có nên thử chưa?</string>
+    <string name="bet_detail_prize">Chi tiết chiến thắng</string>
+
+    <string name="exchange_title">Giao dịch USDT/TRX</string>
+    <string name="exchange_to">Vì</string>
+    <string name="exchange_usdt_trx">USDT to TRX</string>
+    <string name="exchange_trx_usdt">TRX tới USDT</string>
+    <string name="exchange_calc">Nguồn:</string>
+    <string name="exchange_a">Giao dịch địa chỉ</string>
+    <string name="exchange_min">Giá trị trao đổi tối thiểu s6306;% 2., s% 3 Đường s</string>
+    <string name="exchange_max">Giá trị trao đổi tối đa 6306;% 2., s% 3s</string>
+    <string name="exchange_address">Địa chỉ nhà</string>
+    <string name="exchange_warning">Kiểu đầu đề</string>
+    <string name="exchange_warning_content">1.Mở một cái ví kỹ thuật số, sao chép địa chỉ chuyển hàng; Độ khẩn cấp này chỉ có giá trị của khẩu TRON TRO2-USDT và TRX, số tiền chuyển nhượng không thể giảm xuống, và sẽ không được trả lại nếu nó thấp hơn giới hạn; \ n.the platform sẽ trả lại giá trị tương đương của TRX hay USDT cho con miễn phí trong vòng mười giây</string>
+
+    
+    <string name="product_list">Danh sách sản xuất</string>
+    <string name="product_rate">Trả lãi suất hàng ngày cao% 1 d%%</string>
+    <string name="product_day">Vòng tròn% 1 d Day</string>
+    <string name="product_detail_balance">Tài khoản dư</string>
+    <string name="product_detail_min">Bắt đầu</string>
+    <string name="product_detail_max">tổng đầu tư</string>
+    <string name="product_detail_cycle">Vòng</string>
+    <string name="product_detail_day">♪% d Day</string>
+    <string name="product_detail_rate">lãi suất trung bình</string>
+    <string name="product_detail_invest_amount">đầu tư</string>
+    <string name="product_detail_invest_pwd">Mật khẩu</string>
+    <string name="product_detail_pwd_hint">Hãy nhập mật khẩu thanh toán.</string>
+    <string name="product_detail_calc">Ghi bao nhiêu lần xem thử?</string>
+    <string name="product_detail_invest">Tham gia đầu tư</string>
+    <string name="product_detail_invest_success">thành công</string>
+
+    
+    <string name="invest_my">Đầu tư của tôi</string>
+    <string name="invest_order">Thứ tự: ¶ 6706;% 1</string>
+    <string name="invest_amount">Vốn đầu tư</string>
+    <string name="invest_status">Trạng thái</string>
+    <string name="invest_time">Thời gian đầu tư</string>
+    <string name="invest_status_1">Chuẩn</string>
+    <string name="invest_status_2">Hết</string>
+    <string name="invest_status_3">Tạ</string>
+
+    <string name="upgrade">Phiên bản mới</string>
+    <string name="upgrade_now">Nâng cấp ngay</string>
+
+    <string name="recharge_amount_hint">Hãy nhập số lượng nạp lại.</string>
+    <string name="recharge_scan_tip">Quét cơ bản phía dưới để nạp lại.</string>
+    <string name="recharge_time_tip">Để bạn đến đúng giờ, hãy chắc chắn phải trả</string>
+    <string name="recharge_time_h">Tháng Năm</string>
+    <string name="recharge_time_m">Tháng Năm</string>
+    <string name="recharge_time_s">Tháng Năm</string>
+    <string name="recharge_tip">Hãy quét với ví\ N Hay chép lại địa chỉ để thực hiện thanh to án</string>
+    <string name="recharge_failed">Lỗi nạp lại</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

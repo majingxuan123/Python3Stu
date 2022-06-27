@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Okx-hash</string>
+    <string name="network_error">Tiada Internet</string>
+    <string name="page_404">404</string>
+    <string name="coming_soon">COMING SOON</string>
+    <string name="data_null">Tiada Data</string>
+    <string name="ok">OK</string>
+    <string name="copy">Salin</string>
+    <string name="copied">Disalin</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    
+    <string name="launcher">platform</string>
+
+    
+    <string name="login">Login</string>
+    <string name="login_account_hint_0">Sila masukkan akaun anda</string>
+    <string name="login_password_hint">Sila masukkan kata laluan anda</string>
+    <string name="login_remember_password">Ingat Aku</string>
+    <string name="login_welcome">Selamat Datang</string>
+    <string name="login_0_account">Tiada Akaun</string>
+    <string name="login_register">Sign up now</string>
+    <string name="login_privacy">Please read the User Agreement and Privacy Policy</string>
+    <string name="login_privacy_1">Sila baca</string>
+    <string name="login_privacy_2">Perjanjian Pengguna</string>
+    <string name="login_privacy_3">Dan</string>
+    <string name="login_privacy_4">Polisi Privasi</string>
+    <string name="register">Daftar</string>
+    <string name="register_account_hint_0">Sila masukkan akaun anda</string>
+    <string name="register_password_hint">Sila masukkan kata laluan anda</string>
+    <string name="register_invite_hint_0">Sila masukkan kod jemputan Opsyen Name</string>
+    <string name="register_invite_hint_1">Sila masukkan kod undangan</string>
+    <string name="register_auth_hint">Sila masukkan kod pengesahan imej</string>
+    <string name="register_trc_hint">Sila masukkan alamat TRC20</string>
+    <string name="register_1_account">Memiliki akaun</string>
+    <string name="register_login">Daftar masuk sekarang</string>
+
+    
+    <string name="main_home">Home</string>
+    <string name="main_discount">Nyahkira</string>
+    <string name="main_reback">Hadiah</string>
+    <string name="main_invest">EarnMoney</string>
+    <string name="main_my">Profil</string>
+
+    <string name="main_home_games">Permainan rantai blok</string>
+    <string name="main_home_process">Sertai permainan</string>
+    <string name="main_home_exchange">Tukar</string>
+    <string name="main_home_rank">Rangkaian</string>
+    <string name="main_home_help">FAQ</string>
+    <string name="main_home_about">Tentang Amerika Syarikat</string>
+
+    
+    <string name="main_discount_item_desc">Masa</string>
+
+    
+    <string name="main_reback_reback">Sejarah Balas</string>
+    <string name="main_reback_bet">Sejarah Transaksi</string>
+    <string name="main_reback_rule">Peraturan Aktiviti</string>
+    <string name="main_reback_rule_1">Balas semula masa penyelesaian dan distribusi: Sistem akan automatik dipindahkan pada 00:00:00 setiap hari (jumlah hari sebelumnya)</string>
+    <string name="main_reback_rule_2">Balas semula kaedah pengiraan - rebate = taruhan keseluruhan pengguna\ * nisbah rebate</string>
+
+    
+    <string name="main_income_invest">Invest</string>
+    <string name="main_income_mining">Menyembah</string>
+    <string name="main_income_promote">Komis</string>
+
+    
+    <string name="main_income_invest_usdt">Penghasilan Kumulatif USDT</string>
+    <string name="main_income_invest_trx">Income Kumulatif TRX</string>
+    <string name="main_income_invest_all">Semua produk</string>
+    <string name="main_income_invest_my">Pelayanan saya</string>s
+    <string name="main_income_invest_income">Penghasilan pelaburan</string>
+    <string name="main_income_invest_no_more">No data temporarily…</string>
+
+    
+    <string name="main_promote_title">Komis</string>
+    <string name="main_promote_1">推者有礼\ n 人脉变钱买</string>
+    <string name="main_promote_3">- 呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">Lvl 1 Ahli</string>
+    <string name="main_promote_second_user">Lvl 2 Ahli</string>
+    <string name="main_promote_third_user">Lvl 3 Ahli</string>
+    <string name="main_promote_first_commission">Komisi Lvl 1 %1$s</string>
+    <string name="main_promote_second_commission">Lvl 2 %1$s Commission</string>
+    <string name="main_promote_third_commission">Komisi Lvl 3 %1$s</string>
+    <string name="main_promote_first_bet">Lvl 1 %1$s Taruhan</string>
+    <string name="main_promote_second_bet">Lvl 2 %1$s Taruhan</string>
+    <string name="main_promote_third_bet">Lvl 3 %1$s Taruhan</string>
+    <string name="main_promote_first_rebate">Lvl 1 Muat Semula</string>
+    <string name="main_promote_second_rebate">Lvl 2 Muat Semula</string>
+    <string name="main_promote_third_rebate">Lvl 3 Muat Semula</string>
+    <string name="main_promote_rule_1">Komisi dipindahkan pada hari yang sama selepas 00:00</string>
+    <string name="main_promote_rule_2">Bagaimana menghitung komisi</string>
+    <string name="main_promote_rule_2_1">Aras 1 komisi=Aras 1 Jumlah Taruhan Ahli*%1$s</string>
+    <string name="main_promote_rule_2_2">Aras 2 komisi=Aras 2 Jumlah Taruhan Ahli*%1$s</string>
+    <string name="main_promote_rule_2_3">Aras 3 komisi=Aras 3 Jumlah Taruhan Ahli*%1$s</string>
+    <string name="main_promote_share">Panggil kawan</string>
+    <string name="main_promote_share_save">Simpan QRCode</string>
+    <string name="main_promote_share_copy">Salin Baris</string>
+    <string name="main_promote_share_1">Copy link to share with friends</string>
+
+    
+    <string name="main_my_user">Account：</string>
+    <string name="main_my_level">Aras</string>
+    <string name="main_my_usdt">USDT</string>
+    <string name="main_my_trx">TRX</string>
+    <string name="main_my_point">Titik</string>
+    <string name="main_my_trc">Alamat TRC</string>
+    <string name="main_my_mining">Menyembah Income</string>
+    <string name="main_my_withdrawing">Tarik</string>
+    <string name="main_my_recharge">Muat Semula</string>
+    <string name="main_my_mall">Points Mall</string>
+    <string name="main_my_profit_loss">Kenyataan keuntungan dan kehilangan</string>
+    <string name="main_my_withdrawn">Rekod tarik</string>
+    <string name="main_my_bet">Perincian Pemindahan</string>
+    <string name="main_my_change">Perincian Transaksi</string>
+    <string name="main_my_reback">Pembalikan Perincian</string>
+    <string name="main_my_rebate">Perincian</string>
+    <string name="main_my_login_pwd">Katalaluan Login</string>
+    <string name="main_my_pay_pwd">Kata Laluan Pembayaran</string>
+    <string name="main_my_apps">Muat Turun Aplikasi</string>
+    <string name="main_my_share">Panggil Kawan</string>
+    <string name="main_my_logout">Tandatangan Keluar</string>
+
+    
+
+    
+    <string name="game_odds">%1$sOdds</string>
+    <string name="game_start">Main Sekarang</string>
+    <string name="game_rule">Peraturan Permainan</string>
+    <string name="game_detail">Perincian Permainan</string>
+    <string name="game_win_rule">Peraturan Pemenangan</string>
+    <string name="game_win_eg">Senarai hadiah</string>
+    <string name="game_qrcode_tip">Imbas kod QR di bawah untuk bertaruh</string>
+    <string name="game_address">Alamat Dompet Rasmi</string>
+    <string name="game_copy">Klik untuk salin</string>
+
+    
+    <string name="process">Sertai permainan</string>
+    <string name="process_1">Daftar Dompet</string>
+    <string name="process_1_a">Penulisan 【Alamat muat turun Decentralised】wallet</string>
+    <string name="process_1_b">Platform</string>
+    <string name="process_1_c">URL</string>
+    <string name="process_1_d">Tutorial</string>
+    <string name="process_1_e">Papar</string>
+    <string name="process_2">Beli wang maya</string>
+    <string name="process_2_a">Buy TRX on digital currency exchanges</string>
+    <string name="process_3">Taruhan Pemindahan</string>
+    <string name="process_3_a">Pindahkan wang ke platform ini untuk berpartisipasi dalam loteri</string>
+    <string name="process_3_b">Berjaya dipindahkan ke alamat di bawah untuk berpartisipasi dalam lukisan bertuah</string>
+    <string name="process_4">Balas</string>
+    <string name="process_4_a">Pemindahan automatik untuk jumlah menang</string>
+    <string name="process_4_b">Hadiah akan dipindahkan secara automatik ke dompet anda dalam 10 saat.</string>
+
+    
+    <string name="rank_now">Pembayaran Hidup</string>
+    <string name="rank_day">Hari</string>
+    <string name="rank_week">Minggu</string>
+    <string name="rank_month">Bulan</string>
+    <string name="rank_item_address">Alamat</string>
+    <string name="rank_item_token">Uang</string>
+    <string name="rank_item_amount">Jumlah pembayaran</string>
+    <string name="rank_item_time">Masa</string>
+
+    <string name="report_profit_loss_recharge">Jumlah muat semula</string>
+    <string name="report_profit_loss_bet">Bet amount</string>
+    <string name="report_profit_loss_win">Jumlah menang</string>
+    <string name="report_profit_loss_refund">Jumlah semula</string>
+
+    <string name="report_user_name">Nama Pengguna</string>
+    <string name="report_user_register_time">Masa Daftar</string>
+
+
+    <string name="record_date_picker">Pilih Tarikh</string>
+    <string name="record_date_start">Tarikh Mula</string>
+    <string name="record_date_end">Tarikh akhir</string>
+    <string name="record_trx_num">Bilangan tertib TRX</string>
+    <string name="record_usdt_num">Bilangan tertib USDT</string>
+    <string name="record_trx_amount">Jumlah Lump TRX</string>
+    <string name="record_usdt_amount">Jumlah Lump USDT</string>
+
+    <string name="income_token">Uang</string>
+    <string name="income_amount">Jumlah Kesan</string>
+    <string name="income_type">Type</string>
+    <string name="income_time">Order Time</string>
+
+    <string name="mining_title">Menyembah Income</string>
+    <string name="mining_usdt">USDT Income</string>
+    <string name="mining_trx">Income TRX</string>
+    <string name="mining_sub1">Menyembah Income</string>
+    <string name="mining_sub2">Pemutusan 24 jam</string>
+
+    <string name="user_pwd_1">Katalaluan lama</string>
+    <string name="user_pwd_1_hint">Sila masukkan kata laluan lama</string>
+    <string name="user_pwd_2">Katalaluan Baru</string>
+    <string name="user_pwd_2_hint">Sila masukkan kata laluan baru</string>
+    <string name="user_pwd_3">Sahkan Katalaluan</string>
+    <string name="user_pwd_3_hint">Sila masukkan kata laluan baru lagi</string>
+    <string name="user_pwd__hint">Dua kata laluan yang dimasukkan tidak sepadan</string>
+    <string name="user_pwd_update_success">Kemaskini berjaya</string>
+    <string name="user_trc_edit">Ubah Alamat TRC</string>
+    <string name="user_trc_address">Alamat TRC</string>
+    <string name="user_trc_address_hint">Sila masukkan Alamat TRC（Mula dengan \'T\'panjang maksimum 34 aksara a;</string>
+    <string name="user_trc_pwd">Payment password</string>
+    <string name="user_trc_pwd_hint">Sila masukkan kata laluan pembayaran</string>
+
+    
+    <string name="withdrawal_amount_hint">Sila masukkan jumlah</string>
+    <string name="withdrawal_pwd_hint">Sila masukkan kata laluan pembayaran</string>
+    <string name="withdrawal_balance">Balansamount in units (integer)</string>
+    <string name="withdrawal_24">Pengunduran 24 jam</string>
+    <string name="withdrawal_success">Pengunduran aplikasi berjaya</string>
+    <string name="withdrawal_token">Uang</string>
+    <string name="withdrawal_amount">Jumlah</string>
+    <string name="withdrawal_status">Status</string>
+    <string name="withdrawal_time">Masa</string>
+    <string name="withdrawal_status_0">padding</string>
+    <string name="withdrawal_status_1">lewat</string>
+    <string name="withdrawal_status_2">tidak lulus</string>
+    <string name="withdrawal_status_3">ulasan</string>
+
+    
+    <string name="invite_title">Kongsi QRCode</string>
+    <string name="invite_1">2022 Outstanding Project\nEarn USDT at home</string>
+
+    
+    <string name="app_download">Muat Turun</string>
+
+    
+    <string name="kefu">Sembang Hidup</string>
+    <string name="kefu_1">Perkhidmatan pelanggan 24 jam\nKami melayani anda dengan jujur</string>
+    <string name="kefu_2">Jika anda menghadapi masalah dan perlukan bantuan, sila hubungi perkhidmatan pelanggan online</string>
+    <string name="kefu_ask">Konsultasi</string>
+
+    
+    <string name="guest_tip">Hadiah tiga pendaftaran pengguna baru</string>
+    <string name="guest_tip_content">Secara segera aktifkan rebate 0.5% turnover\nSecara segera aktifkan hingga 1% rebate komisi agensi \n Lihat rekod kembalian taruhan dalam masa sebenar</string>
+    <string name="guest_tip_button">Sign up now</string>
+
+    
+    <string name="announcement_previous">Sebelumnya</string>
+    <string name="announcement_next">Seterusnya</string>
+    <string name="announcement_close">Tutup</string>
+
+    
+    <string name="point_detail">Perincian Titik</string>
+    <string name="point_order">Nombor Arahan</string>
+    <string name="point_change">Titik</string>
+    <string name="point_before">Sebelum</string>
+    <string name="point_after">Selepas</string>
+
+    
+    <string name="bet_detail">Perincian Bertaruhan</string>
+    <string name="bet_detail_order">Nombor perintah</string>
+    <string name="bet_detail_game_name">Nama permainan</string>
+    <string name="bet_detail_recharge_token">Muat semula wang</string>
+    <string name="bet_detail_recharge_amount">Jumlah muat semula</string>
+    <string name="bet_detail_recharge_first">Sama ada hendak muat dahulu</string>
+    <string name="bet_detail_amount">Jumlah taruhan</string>
+    <string name="bet_detail_status">Status</string>
+    <string name="bet_detail_status_1">Win</string>
+    <string name="bet_detail_status_0">Ikat</string>
+    <string name="bet_detail_status_01">Lose</string>
+    <string name="bet_detail_status_02">Tidak sah</string>
+    <string name="bet_detail_status_03">Tidak dicat</string>
+    <string name="bet_detail_win">Jumlah Ganti</string>
+    <string name="bet_detail_refund">Jumlah Kembali</string>
+    <string name="bet_detail_pay">Kaedah penyelesaian</string>
+    <string name="bet_detail_failed">Alasan kegagalan</string>
+    <string name="bet_detail_trial">Sama ada hendak cuba</string>
+    <string name="bet_detail_prize">Perincian Pemenangan</string>
+
+    <string name="exchange_title">Tukar USDT/TRX</string>
+    <string name="exchange_to">Ke</string>
+    <string name="exchange_usdt_trx">USDT Ke TRX</string>
+    <string name="exchange_trx_usdt">TRX Ke USDT</string>
+    <string name="exchange_calc">Buget</string>
+    <string name="exchange_a">Tukar pemindahan alamat</string>
+    <string name="exchange_min">%1$s Jumlah pertukaran minimum «%%2$s %3$s</string>
+    <string name="exchange_max">%1$s Jumlah pertukaran maksimum%2$s %3$s</string>
+    <string name="exchange_address">Wallet Address</string>
+    <string name="exchange_warning">tip jenis</string>
+    <string name="exchange_warning_content">1.Buka dompet digital pihak ketiga, salin alamat pemindahan untuk dipindahkan; \n2.Hanya TRON TRC20-USDT dan TRX disokong, jumlah pemindahan seharusnya tidak lebih rendah daripada had, dan tiada kembalian akan diberikan jika ia lebih rendah daripada had; \n3.Platform akan mengembalikan nilai sama TRX atau USDT kepada anda dalam 10 saat percuma</string>
+
+    
+    <string name="product_list">Senarai Produk</string>
+    <string name="product_rate">Kadar faedah sehari 5% %1$d%%</string>
+    <string name="product_day">Siklo:% 1$d Hari</string>
+    <string name="product_detail_balance">Akaun yang tersedia</string>
+    <string name="product_detail_min">jumlah permulaan</string>
+    <string name="product_detail_max">pelaburan maksimum</string>
+    <string name="product_detail_cycle">Cycle</string>
+    <string name="product_detail_day">%1$d Hari</string>
+    <string name="product_detail_rate">kadar faedah rata-rata</string>
+    <string name="product_detail_invest_amount">jumlah pelaburan</string>
+    <string name="product_detail_invest_pwd">Payment password</string>
+    <string name="product_detail_pwd_hint">Sila masukkan kata laluan pembayaran</string>
+    <string name="product_detail_calc">%1$s+(%1$sx%2$fx%3$d)=%4$s</string>
+    <string name="product_detail_invest">Dalam pelaburan</string>
+    <string name="product_detail_invest_success">sukses pelaburan</string>
+
+    
+    <string name="invest_my">pelaburan saya</string>
+    <string name="invest_order">Perintah No</string>
+    <string name="invest_amount">Jumlah pelaburan</string>
+    <string name="invest_status">Status</string>
+    <string name="invest_time">Masa pelaburan</string>
+    <string name="invest_status_1">Normal</string>
+    <string name="invest_status_2">Maturiti</string>
+    <string name="invest_status_3">penebusan</string>
+
+    <string name="upgrade">Versi Baru</string>
+    <string name="upgrade_now">Naikkan Sekarang</string>
+
+    <string name="recharge_amount_hint">Please enter the recharge amount</string>
+    <string name="recharge_scan_tip">Scan the QRCode below to recharge</string>
+    <string name="recharge_time_tip">Untuk anda tiba tepat waktu, sila pastikan untuk membayar %1$s</string>
+    <string name="recharge_time_h">%1$2d jam</string>
+    <string name="recharge_time_m">%1$2d minit</string>
+    <string name="recharge_time_s">%1$2d saat</string>
+    <string name="recharge_tip">Sila imbas dengan dompet\nAtau salin alamat untuk menyelesaikan pembayaran</string>
+    <string name="recharge_failed">Muat semula gagal</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>

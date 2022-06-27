@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">اوكس هاش</string>
+    <string name="network_error">بدون انترنت</string>
+    <string name="page_404">٤٠٤</string>
+    <string name="coming_soon">تعال حالاً</string>
+    <string name="data_null">لا توجد بيانات</string>
+    <string name="ok">حسناً</string>
+    <string name="copy">نسخ</string>
+    <string name="copied">نسخ</string>
+    <string name="yes">حق .</string>
+    <string name="no">لا .</string>
+
+    
+    <string name="launcher">منصة</string>
+
+    
+    <string name="login">اسم الدخول</string>
+    <string name="login_account_hint_0">من فضلك أدخل حسابك</string>
+    <string name="login_password_hint">الرجاء إدخال كلمة السر الخاصة بك</string>
+    <string name="login_remember_password">تذكر لي</string>
+    <string name="login_welcome">مرحبا</string>
+    <string name="login_0_account">لا حساب</string>
+    <string name="login_register">تسجيل فوري</string>
+    <string name="login_privacy">يرجى قراءة اتفاقية المستخدم وسياسة الخصوصية</string>
+    <string name="login_privacy_1">يرجى قراءة</string>
+    <string name="login_privacy_2">اتفاق المستخدم</string>
+    <string name="login_privacy_3">و .</string>
+    <string name="login_privacy_4">سياسة الخصوصية</string>
+    <string name="register">التسجيل</string>
+    <string name="register_account_hint_0">من فضلك أدخل حسابك</string>
+    <string name="register_password_hint">الرجاء إدخال كلمة السر الخاصة بك</string>
+    <string name="register_invite_hint_0">الرجاء إدخال رمز الدعوة ( الخيار )</string>
+    <string name="register_invite_hint_1">الرجاء إدخال رمز الدعوة</string>
+    <string name="register_auth_hint">الرجاء إدخال رمز التحقق من الصورة</string>
+    <string name="register_trc_hint">الرجاء إدخال عنوان trc20</string>
+    <string name="register_1_account">هل لديك حساب ؟</string>
+    <string name="register_login">تسجيل الدخول الفوري</string>
+
+    
+    <string name="main_home">منزل .</string>
+    <string name="main_discount">خصومات</string>
+    <string name="main_reback">مكافأة</string>
+    <string name="main_invest">كسب المال</string>
+    <string name="main_my">مخطط</string>
+
+    <string name="main_home_games">كتلة سلسلة لعبة</string>
+    <string name="main_home_process">الانضمام إلى اللعبة</string>
+    <string name="main_home_exchange">مبادلة</string>
+    <string name="main_home_rank">رتب</string>
+    <string name="main_home_help">أسئلة وأجوبة</string>
+    <string name="main_home_about">عنا</string>
+
+    
+    <string name="main_discount_item_desc">الوقت : %1 دولار ق - %2 دولار ق</string>
+
+    
+    <string name="main_reback_reback">مكافأة التاريخ</string>
+    <string name="main_reback_bet">تاريخ المعاملة</string>
+    <string name="main_reback_rule">قواعد النشاط</string>
+    <string name="main_reback_rule_1">خصم التسوية وإصدار الوقت : نظام التحويل التلقائي في الساعة 00 : 00 كل يوم ( المبلغ في اليوم السابق )</string>
+    <string name="main_reback_rule_2">طريقة الخصم - الخصم = المستخدم مجموع الرهانات * معدل العائد</string>
+
+    
+    <string name="main_income_invest">استثمر</string>
+    <string name="main_income_mining">التعدين</string>
+    <string name="main_income_promote">اللجنة</string>
+
+    
+    <string name="main_income_invest_usdt">USDT الدخل التراكمي</string>
+    <string name="main_income_invest_trx">تراكمي الدخل TRX</string>
+    <string name="main_income_invest_all">جميع المنتجات</string>
+    <string name="main_income_invest_my">بلدي الاستثمار</string>s
+    <string name="main_income_invest_income">عائدات الاستثمار</string>
+    <string name="main_income_invest_no_more">لا توجد بيانات مؤقتة . . .</string>
+
+    
+    <string name="main_promote_title">اللجنة</string>
+    <string name="main_promote_1">推者有礼\ ن &gt; ? 人脉变钱买</string>
+    <string name="main_promote_3">و 呼朋呼友，享多多好礼-</string>
+    <string name="main_promote_first_user">المستوى 1 عضو</string>
+    <string name="main_promote_second_user">عضو ثانوي</string>
+    <string name="main_promote_third_user">مستوى الأعضاء</string>
+    <string name="main_promote_first_commission">1 ٪</string>
+    <string name="main_promote_second_commission">المستوى 2 ٪ 1 دولار عمولة</string>
+    <string name="main_promote_third_commission">المستوى 3 دولار واحد للجنة</string>
+    <string name="main_promote_first_bet">المستوى 1 ٪ 1 دولار الرهان</string>
+    <string name="main_promote_second_bet">المستوى 2 ٪ 1 دولار الرهان</string>
+    <string name="main_promote_third_bet">المستوى 3 ٪ 1 دولار الرهان</string>
+    <string name="main_promote_first_rebate">المستوى 1 شحن</string>
+    <string name="main_promote_second_rebate">الثانوية شحن</string>
+    <string name="main_promote_third_rebate">المستوى 3 شحن</string>
+    <string name="main_promote_rule_1">عمولة التحويل بعد 00 : 00</string>
+    <string name="main_promote_rule_2">كيفية حساب اللجنة</string>
+    <string name="main_promote_rule_2_1">المستوى 1 اللجنة = 1 عضو الرهان على مبلغ 1 ٪</string>
+    <string name="main_promote_rule_2_2">اللجنة الثانية = 1 دولار أمريكي الرهان على الأعضاء من الدرجة الثانية</string>
+    <string name="main_promote_rule_2_3">اللجنة الثالثة = الرهان على مبلغ 1 دولار أمريكي</string>
+    <string name="main_promote_share">دعوة الأصدقاء</string>
+    <string name="main_promote_share_save">حفظ qrcode</string>
+    <string name="main_promote_share_copy">نسخ خط</string>
+    <string name="main_promote_share_1">نسخ الرابط للمشاركة مع الأصدقاء</string>
+
+    
+    <string name="main_my_user">حساب</string>
+    <string name="main_my_level">المستوى</string>
+    <string name="main_my_usdt">اس دي تي</string>
+    <string name="main_my_trx">شركة TRX</string>
+    <string name="main_my_point">نقطة</string>
+    <string name="main_my_trc">عنوان لجنة الحقيقة والمصالحة</string>
+    <string name="main_my_mining">إيرادات التعدين</string>
+    <string name="main_my_withdrawing">تراجع</string>
+    <string name="main_my_recharge">مشحونة</string>
+    <string name="main_my_mall">بوينت مول</string>
+    <string name="main_my_profit_loss">بيان الدخل</string>
+    <string name="main_my_withdrawn">سجل السحب</string>
+    <string name="main_my_bet">نقل المعلومات التفصيلية</string>
+    <string name="main_my_change">تفاصيل الصفقة</string>
+    <string name="main_my_reback">تفاصيل الخصم</string>
+    <string name="main_my_rebate">تفاصيل اللجنة</string>
+    <string name="main_my_login_pwd">كلمة السر</string>
+    <string name="main_my_pay_pwd">دفع كلمة السر</string>
+    <string name="main_my_apps">تحميل تطبيقات</string>
+    <string name="main_my_share">دعوة الأصدقاء</string>
+    <string name="main_my_logout">سحب</string>
+
+    
+
+    
+    <string name="game_odds">1 ٪</string>
+    <string name="game_start">اللعب على الفور</string>
+    <string name="game_rule">قواعد اللعبة</string>
+    <string name="game_detail">معلومات اللعبة</string>
+    <string name="game_win_rule">قواعد الفوز</string>
+    <string name="game_win_eg">قائمة الجوائز</string>
+    <string name="game_qrcode_tip">مسح تحت رمز ثنائي الأبعاد الرهان</string>
+    <string name="game_address">عنوان المحفظة الرسمية</string>
+    <string name="game_copy">انقر فوق نسخ</string>
+
+    
+    <string name="process">الانضمام إلى اللعبة</string>
+    <string name="process_1">محفظة مسجلة</string>
+    <string name="process_1_a">تشفير العملة [ مبعثر ] محفظة تحميل العنوان</string>
+    <string name="process_1_b">منصة</string>
+    <string name="process_1_c">عنوان الموقع الموحد للموارد</string>
+    <string name="process_1_d">التوجيه</string>
+    <string name="process_1_e">رأي .</string>
+    <string name="process_2">شراء العملة الافتراضية</string>
+    <string name="process_2_a">شراء TRX في بورصة العملات الرقمية</string>
+    <string name="process_3">نقل الرهان</string>
+    <string name="process_3_a">نقل الأموال إلى منصة اليانصيب</string>
+    <string name="process_3_b">انتقل بنجاح إلى العنوان التالي للمشاركة في السحب</string>
+    <string name="process_4">مكافأة</string>
+    <string name="process_4_a">التلقائي نقل المبلغ الفائز</string>
+    <string name="process_4_b">المكافآت سيتم نقلها تلقائيا إلى محفظتك في 10 ثانية .</string>
+
+    
+    <string name="rank_now">الدفع في الوقت الحقيقي</string>
+    <string name="rank_day">نهاري</string>
+    <string name="rank_week">الأسبوعية</string>
+    <string name="rank_month">مجلة شهرية</string>
+    <string name="rank_item_address">العنوان</string>
+    <string name="rank_item_token">العملة</string>
+    <string name="rank_item_amount">مجموع النفقات</string>
+    <string name="rank_item_time">الوقت .</string>
+
+    <string name="report_profit_loss_recharge">شحن المبلغ</string>
+    <string name="report_profit_loss_bet">مبلغ الرهان</string>
+    <string name="report_profit_loss_win">المبلغ الفائز</string>
+    <string name="report_profit_loss_refund">المبلغ المسترد</string>
+
+    <string name="report_user_name">اسم المستخدم</string>
+    <string name="report_user_register_time">وقت التسجيل</string>
+
+
+    <string name="record_date_picker">اختيار التاريخ</string>
+    <string name="record_date_start">تاريخ البدء</string>
+    <string name="record_date_end">نهاية التاريخ</string>
+    <string name="record_trx_num">رقم طلب TRX :</string>
+    <string name="record_usdt_num">رقم طلب USDT :</string>
+    <string name="record_trx_amount">إجمالي تراكس :</string>
+    <string name="record_usdt_amount">USDT السعر :</string>
+
+    <string name="income_token">العملة</string>
+    <string name="income_amount">تأثير المبلغ</string>
+    <string name="income_type">نوع .</string>
+    <string name="income_time">وقت الطلب</string>
+
+    <string name="mining_title">إيرادات التعدين</string>
+    <string name="mining_usdt">USDT الإيرادات</string>
+    <string name="mining_trx">TRX الإيرادات</string>
+    <string name="mining_sub1">إيرادات التعدين</string>
+    <string name="mining_sub2">تسوية 24 ساعة</string>
+
+    <string name="user_pwd_1">كلمة السر القديمة</string>
+    <string name="user_pwd_1_hint">الرجاء إدخال كلمة المرور القديمة</string>
+    <string name="user_pwd_2">كلمة السر الجديدة</string>
+    <string name="user_pwd_2_hint">الرجاء إدخال كلمة المرور الجديدة</string>
+    <string name="user_pwd_3">تأكيد كلمة المرور</string>
+    <string name="user_pwd_3_hint">الرجاء إدخال كلمة المرور الجديدة</string>
+    <string name="user_pwd__hint">اثنين من كلمات السر دخلت لا تتطابق</string>
+    <string name="user_pwd_update_success">تحديث بنجاح</string>
+    <string name="user_trc_edit">تعديل عنوان لجنة الحقيقة والمصالحة</string>
+    <string name="user_trc_address">عنوان لجنة الحقيقة والمصالحة</string>
+    <string name="user_trc_address_hint">من فضلك أدخل عنوان لجنة الحقيقة والمصالحة ( بدءا من " تي " ، مع الحد الأقصى لطول 34 حرفا )</string>
+    <string name="user_trc_pwd">دفع كلمة السر</string>
+    <string name="user_trc_pwd_hint">الرجاء إدخال كلمة السر للدفع</string>
+
+    
+    <string name="withdrawal_amount_hint">من فضلك أدخل المبلغ</string>
+    <string name="withdrawal_pwd_hint">الرجاء إدخال كلمة السر للدفع</string>
+    <string name="withdrawal_balance">1 ٪</string>
+    <string name="withdrawal_24">سحب 24 ساعة</string>
+    <string name="withdrawal_success">طلب سحب بنجاح</string>
+    <string name="withdrawal_token">العملة</string>
+    <string name="withdrawal_amount">الكمية</string>
+    <string name="withdrawal_status">مركز</string>
+    <string name="withdrawal_time">الوقت .</string>
+    <string name="withdrawal_status_0">بطانة المواد</string>
+    <string name="withdrawal_status_1">ب &gt; ?</string>
+    <string name="withdrawal_status_2">لم يمر</string>
+    <string name="withdrawal_status_3">استعراض</string>
+
+    
+    <string name="invite_title">تقاسم QRCODE</string>
+    <string name="invite_1">المشاريع المحلية غير المنجزة في عام 2022</string>
+
+    
+    <string name="app_download">للتحميل</string>
+
+    
+    <string name="kefu">في الوقت الحقيقي دردشة</string>
+    <string name="kefu_1">24 ساعة خدمة العملاء \\ \\ ن نحن بإخلاص في خدمتكم</string>
+    <string name="kefu_2">إذا كنت تواجه مشاكل و تحتاج إلى مساعدة ، يرجى الاتصال بخدمة العملاء على الانترنت</string>
+    <string name="kefu_ask">تشاور</string>
+
+    
+    <string name="guest_tip">تسجيل مستخدم جديد هدية الثلاثي</string>
+    <string name="guest_tip_content">تفعيل فوري 0.5 ٪ خصم على دوران \\ \\ n تفعيل فوري يصل إلى 1 ٪ عمولة وكيل الخصم \\ \\ n عرض في الوقت الحقيقي سجل الرهان العودة</string>
+    <string name="guest_tip_button">تسجيل فوري</string>
+
+    
+    <string name="announcement_previous">سابق</string>
+    <string name="announcement_next">التالي</string>
+    <string name="announcement_close">قريب</string>
+
+    
+    <string name="point_detail">جزءا لا يتجزأ من التفاصيل</string>
+    <string name="point_order">رقم الطلب</string>
+    <string name="point_change">لا يتجزأ</string>
+    <string name="point_before">قبل</string>
+    <string name="point_after">بعد</string>
+
+    
+    <string name="bet_detail">الرهان على التفاصيل</string>
+    <string name="bet_detail_order">رقم الطلب :</string>
+    <string name="bet_detail_game_name">اسم اللعبة :</string>
+    <string name="bet_detail_recharge_token">العملة القابلة لإعادة الشحن :</string>
+    <string name="bet_detail_recharge_amount">شحن المبلغ :</string>
+    <string name="bet_detail_recharge_first">ما إذا كان المسؤول الأول :</string>
+    <string name="bet_detail_amount">مبلغ الرهان :</string>
+    <string name="bet_detail_status">الحالة :</string>
+    <string name="bet_detail_status_1">وين</string>
+    <string name="bet_detail_status_0">ربطة عنق</string>
+    <string name="bet_detail_status_01">خسرت</string>
+    <string name="bet_detail_status_02">باطل</string>
+    <string name="bet_detail_status_03">لا رسم</string>
+    <string name="bet_detail_win">المبلغ الفائز :</string>
+    <string name="bet_detail_refund">المبلغ المسترد :</string>
+    <string name="bet_detail_pay">طرق التسوية :</string>
+    <string name="bet_detail_failed">أسباب الفشل :</string>
+    <string name="bet_detail_trial">إذا حاول :</string>
+    <string name="bet_detail_prize">تفاصيل الجائزة</string>
+
+    <string name="exchange_title">الدولار مقابل الروبية</string>
+    <string name="exchange_to">إلى</string>
+    <string name="exchange_usdt_trx">USDT TRX</string>
+    <string name="exchange_trx_usdt">TRX USDT</string>
+    <string name="exchange_calc">الميزنة</string>
+    <string name="exchange_a">نقل عنوان التبديل</string>
+    <string name="exchange_min">٪ 1 دولار ق الحد الأدنى من مبلغ التحويل : % 2 دولار س 3 دولار ق</string>
+    <string name="exchange_max">الحد الأقصى لمبلغ الصرف : %1 دولار ق 2 دولار س 3 $ %</string>
+    <string name="exchange_address">عنوان المحفظة</string>
+    <string name="exchange_warning">نوع تلميح :</string>
+    <string name="exchange_warning_content">1 ، فتح المحفظة الرقمية من طرف ثالث ، نسخ عنوان التحويل إلى نقل ؛ دعم ترون trc20-usdt و TRX فقط ، نقل المبلغ لا ينبغي أن يكون أقل من الحد ، لا برد أقل من الحد ؛ منصة سوف يعود لك ما يعادل TRX أو USDT مجانا في 10 ثوان .</string>
+
+    
+    <string name="product_list">قائمة المنتجات</string>
+    <string name="product_rate">سعر الفائدة اليومي 5 ٪ ٪ د 1 دولار</string>
+    <string name="product_day">الفترة : %1 دولار د أيام</string>
+    <string name="product_detail_balance">رصيد الحساب المتاح</string>
+    <string name="product_detail_min">المبلغ الأولي</string>
+    <string name="product_detail_max">أقصى قدر من الاستثمار</string>
+    <string name="product_detail_cycle">دورة</string>
+    <string name="product_detail_day">دولار واحد في اليوم</string>
+    <string name="product_detail_rate">متوسط سعر الفائدة</string>
+    <string name="product_detail_invest_amount">مبلغ الاستثمار</string>
+    <string name="product_detail_invest_pwd">دفع كلمة السر</string>
+    <string name="product_detail_pwd_hint">الرجاء إدخال كلمة السر للدفع</string>
+    <string name="product_detail_calc">1 $ + ( 1 دولار SX ٪ 2 دولار FX ٪ 3 دولار د ) = 4 $ %</string>
+    <string name="product_detail_invest">المشاركة في الاستثمار</string>
+    <string name="product_detail_invest_success">نسبة نجاح الاستثمار</string>
+
+    
+    <string name="invest_my">بلدي الاستثمار</string>
+    <string name="invest_order">رقم الطلب : %1 دولار ق</string>
+    <string name="invest_amount">مبلغ الاستثمار :</string>
+    <string name="invest_status">الحالة :</string>
+    <string name="invest_time">وقت الاستثمار : %1 دولار ق</string>
+    <string name="invest_status_1">نموذجي</string>
+    <string name="invest_status_2">ناضج</string>
+    <string name="invest_status_3">الفداء</string>
+
+    <string name="upgrade">النسخة الجديدة</string>
+    <string name="upgrade_now">ترقية فورية</string>
+
+    <string name="recharge_amount_hint">من فضلك أدخل مبلغ الشحن</string>
+    <string name="recharge_scan_tip">مسح أدناه QRCODE لشحن</string>
+    <string name="recharge_time_tip">من أجل الوصول في الوقت المحدد ، تأكد من دفع 1 ٪</string>
+    <string name="recharge_time_h">1 $ % 2 ساعات</string>
+    <string name="recharge_time_m">1 $ % 2 دقيقة</string>
+    <string name="recharge_time_s">1 $ % 2 ثانية</string>
+    <string name="recharge_tip">الرجاء استخدام المحفظة الخاصة بك لمسح أو نسخ العنوان لإكمال الدفع</string>
+    <string name="recharge_failed">فشل شحن</string>
+
+
+    <string-array name="main_tabs_name">
+        <item>@string/main_home</item>
+        <item>@string/main_discount</item>
+        <item>@string/main_reback</item>
+        <item>@string/main_invest</item>
+        <item>@string/main_my</item>
+    </string-array>
+    <integer-array name="main_tabs_icon">
+        <item>@drawable/main_tab_home</item>
+        <item>@drawable/main_tab_discount</item>
+        <item>@drawable/main_tab_reback</item>
+        <item>@drawable/main_tab_invest</item>
+        <item>@drawable/main_tab_my</item>
+    </integer-array>
+
+    <string-array name="process_tabs_name">
+        <item>@string/process_1</item>
+        <item>@string/process_2</item>
+        <item>@string/process_3</item>
+        <item>@string/process_4</item>
+    </string-array>
+    <integer-array name="process_tabs_icon">
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+        <item>@drawable/process_tab</item>
+    </integer-array>
+</resources>
