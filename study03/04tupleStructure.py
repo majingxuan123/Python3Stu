@@ -4,8 +4,8 @@
 ##可以改变元组中的可变类型  比如 group1中的那个数组 我可以往里面新增一个4
 
 ##最外面的小括号可以省略
-group1 = ("pyahon", "java", "go",[1,2,3])
-group1 = "pyahon", "java", "go"
+group1 = ("python", "java", "go",[1,2,3])
+group1 = "python", "java", "go"
 
 group2 = tuple(("python", "java", "go"))
 # 只有一个元素的话  最后也要加上逗号！
@@ -18,12 +18,24 @@ print("空字典",{})
 print("空元组",())
 print("===========以下是测试===========")
 
+testIndex = group1.index("java")
+print(f"测试index:{testIndex}")
+print(f"测试count:{group1.count("java")}")
+print(f"测试count:{len(group1)}")
 
 ##函数直接返回元组
 def getTuple():
     return group1[0],group1[1],group1[2]
 
+
+def test1():
+    testTuple = (1,2,3,4,5,6,7,8)
+    # 从头开始到尾结束  步进-2
+    print(f"元组切片:{testTuple[::-2]}")
+test1()
+
 if __name__ == '__main__':
     python,java,go = getTuple()
     # 直接三个参数接入元组
     print(python,java,go)
+

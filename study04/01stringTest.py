@@ -1,17 +1,12 @@
-
-
 str = "Python java c go javascript"
 
+#正向找
 print("[j]  index ",str.index("j"))
+# 反向找
 print("[j]  rindex ",str.rindex("j"))
 
 
 #找不到就返回-1
-##find first appear
-print("[y]  find ",str.find("o"))
-##find last appear
-print("[y]  rfind ",str.rfind("o"))
-
 print("------字符串大小写------")
 #大小写转换
 print(str.upper())
@@ -54,3 +49,27 @@ print(str5.isalpha())
 
 print("-------拼接---------")
 print(1,2,3,4,5,6,sep="|")
+
+print("------字符串去除空格回车------")
+str6 = "  python  "
+print(str6.strip())
+
+def cutStr():
+    print("------字符串切片------")
+    testStr = "0123456789"
+    testStr = testStr[::2]
+    print(testStr)
+cutStr()
+
+def test4():
+    print("------字符串反转------")
+    testStr = "0123456789"
+    print(testStr[::-1])
+test4()
+
+def test5():
+    print("------字符串作业------")
+    testStr = "万过薪月,员序程马黑来,nohtyp学"
+    testStr = testStr[::-1]
+    print(testStr.split(",")[1][1::1])
+test5()
