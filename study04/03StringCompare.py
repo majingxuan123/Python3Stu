@@ -6,6 +6,7 @@ print("apple" > "banana")
 print(chr(97), chr(98))
 a = "abc"
 b = "abce"
+print("======= a is b  ========")
 # 比较内存地址
 print(a is b)
 # 输出a的内存地址

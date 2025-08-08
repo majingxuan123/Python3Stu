@@ -10,6 +10,11 @@ d = {}
 print(type(teacher))
 print(teacher)
 print(student)
+
+teacherStr = " {'name': '张三', 'age': 30}"
+## 字符串转字典
+testEval = eval(teacherStr)
+print(f"testEval:{testEval}  type:{type(testEval)}")
 print("===========以下是测试===========")
 
 def getDic():
