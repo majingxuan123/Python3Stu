@@ -15,25 +15,35 @@ class ConnectMysqlStu:
         self.password = password
         self.database = database
 
+    def __del__(self):
+        print("==================")
+        print("删除了connect")
+        print("==================")
+        return ConnectMysqlStu.closeConnect(self)
+
+    def closeConnect(self):
+        return self.conn.close()
+
     def selfConnect(self) -> Connection:
         # autocommit=True  代表会自动commit
-        conn = Connection(host=self.host, port=self.port, user=self.user, password=self.password,
-                          database=self.database, autocommit=ConnectMysqlStu.autoCommit)
-        return conn
+        self.conn = Connection(host=self.host, port=self.port, user=self.user, password=self.password,
+                               database=self.database, autocommit=ConnectMysqlStu.autoCommit)
+        return self.conn
 
     @staticmethod
     def staticConnect(host: str, port: int, user: str, password: str, database: str) -> Connection:
         # autocommit=True  代表会自动commit
-        conn = Connection(host=host, port=port, user=user, password=password, database=database, autocommit=ConnectMysqlStu.autoCommit)
+        conn = Connection(host=host, port=port, user=user, password=password, database=database,
+                          autocommit=ConnectMysqlStu.autoCommit)
         return conn
 
     @classmethod
     def classConnect(cls) -> Connection:
         # cls 只能使用类方法中的元素 无法使用实例方法中的元素
         # autocommit=True  代表会自动commit
-        conn = Connection(host=cls.host, port=cls.port, user=cls.user, password=cls.password, database=cls.database, autocommit=ConnectMysqlStu.autoCommit)
+        conn = Connection(host=cls.host, port=cls.port, user=cls.user, password=cls.password, database=cls.database,
+                          autocommit=ConnectMysqlStu.autoCommit)
         return conn
-
 
     @staticmethod
     def query(conn: Connection, sql: str) -> (list[str]):
@@ -62,3 +72,4 @@ if __name__ == '__main__':
     response = ConnectMysqlStu.query(conn, "select * from t_country")
     for res in response:
         print(res)
+    del conn
