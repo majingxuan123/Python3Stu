@@ -33,6 +33,12 @@ def testImport():
 
 import my_package.my_module1 as module1
 import my_package.my_module2 as module2
+
 if __name__ == '__main__':
-    module1.testImport01()
-    module2.testImport02()
+    test1: module1.testModule1 = module1.testModule1(99)
+
+    test2: module2.testModule2 = module2.testModule2()
+
+    print(test1.__str__())
+    print(test2.__str__())
+    test1.changeValue(["ceshi",1])
