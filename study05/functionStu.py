@@ -19,7 +19,7 @@ testFun(**dic)
 
 print("中间多了一个* 代表从这里开始后面的必须要用指定参数")
 def testFun1(a, b, *, c, d):
-    #这样定义的变量就是全局变量
+    #这样定义的变量就是全局变量 声明为全局变量
     global gl_str
     gl_str = "马境宣"
     print("a:", a)
