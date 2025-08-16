@@ -8,7 +8,7 @@ rebel-remote.xml
 target/
 venu/
 /venv
-
+.venv/
 # Log file
 *.log.gz
 *.log
