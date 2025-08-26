@@ -1,12 +1,9 @@
 from typing import Union
 
 from pymysql import Connection
-
-
-class ConnectMysqlStu:
+class MySqlUtil:
     # 类属性
     autoCommit = False
-
     def __init__(self, host: str, port: int, user: str, password: str, database: str):
         # 实例属性
         self.host = host
@@ -19,7 +16,7 @@ class ConnectMysqlStu:
         print("==================")
         print("删除了connect")
         print("==================")
-        return ConnectMysqlStu.closeConnect(self)
+        return MySqlUtil.closeConnect(self)
 
     def closeConnect(self):
         return self.conn.close()
@@ -27,14 +24,14 @@ class ConnectMysqlStu:
     def selfConnect(self) -> Connection:
         # autocommit=True  代表会自动commit
         self.conn = Connection(host=self.host, port=self.port, user=self.user, password=self.password,
-                               database=self.database, autocommit=ConnectMysqlStu.autoCommit)
+                               database=self.database, autocommit=MySqlUtil.autoCommit)
         return self.conn
 
     @staticmethod
     def staticConnect(host: str, port: int, user: str, password: str, database: str) -> Connection:
         # autocommit=True  代表会自动commit
         conn = Connection(host=host, port=port, user=user, password=password, database=database,
-                          autocommit=ConnectMysqlStu.autoCommit)
+                          autocommit=MySqlUtil.autoCommit)
         return conn
 
     @classmethod
@@ -42,7 +39,7 @@ class ConnectMysqlStu:
         # cls 只能使用类方法中的元素 无法使用实例方法中的元素
         # autocommit=True  代表会自动commit
         conn = Connection(host=cls.host, port=cls.port, user=cls.user, password=cls.password, database=cls.database,
-                          autocommit=ConnectMysqlStu.autoCommit)
+                          autocommit=MySqlUtil.autoCommit)
         return conn
 
     @staticmethod
@@ -65,7 +62,7 @@ class ConnectMysqlStu:
 
 if __name__ == '__main__':
     # 这里是用成员方法调用的
-    test = ConnectMysqlStu("192.168.88.20", 4000, "root", "Root@123", "game")
+    test = MySqlUtil("192.168.88.20", 4000, "root", "Root@123", "game")
 
     # 这里用类方法调  cls 只能使用类方法中的元素 无法使用实例方法中的元素
     # conn = test.classConnect()
@@ -74,7 +71,7 @@ if __name__ == '__main__':
     print(conn.get_server_info())
 
     # 这里是用类静态方法调用的
-    response = ConnectMysqlStu.query(conn, "select * from t_country")
+    response = MySqlUtil.query(conn, "select * from t_country")
     for res in response:
         print(res)
     conn.commit()
