@@ -81,9 +81,11 @@ def queryCurrentKlineData(conn: pymysql.Connection, currentIndex: int, querySize
         kline_data_list.append(kline_data)
     return kline_data_list
 
+
 # 计算均价
 def caculateAvgPrice(old_avg: float, oldCount: float, new_price: float, count: float) -> float:
     return (old_avg * oldCount + new_price * count) / (oldCount + count)
+
 
 # 计算未实现收益
 def caculateUnDoProfit(line: KlineData):
@@ -94,16 +96,26 @@ def caculateUnDoProfit(line: KlineData):
         "count"] * orderLevel
     return longProfit, shortProfit
 
+
 # 每一次跳动处理
 def singleLineDeal(line: KlineData):
-    highPrice = float(line.high_price)
-    lowPrice = float(line.low_price)
+    highPrice = keep_three_decimal(float(line.high_price), 3)
+    lowPrice = keep_three_decimal(float(line.low_price), 3)
     # 盈利卖出价格
-    longSellPrice = currentLong["currentAvg"] * (1 + profitPercent)
-    shortSellPrice = currentShort["currentAvg"] * (1 - profitPercent)
+    longSellPrice = keep_three_decimal(currentLong["currentAvg"] * (1 + profitPercent), 3)
+    shortSellPrice = keep_three_decimal(currentShort["currentAvg"] * (1 - profitPercent), 3)
+
     # 补仓价格
-    longAddPrice = currentLong["currentAvg"] * (1 - longAddList[currentLong["currentAddIndex"]][0])
-    shortAddPrice = currentShort["currentAvg"] * (1 + shortAddList[currentShort["currentAddIndex"]][0])
+    if currentLong["currentAddIndex"] <= len(longAddList) - 1:
+        longAddPrice = keep_three_decimal(
+            currentLong["currentAvg"] * (1 - longAddList[currentLong["currentAddIndex"]][0]), 3)
+    else:
+        longAddPrice = None
+    if currentShort["currentAddIndex"] <= len(shortAddList) - 1:
+        shortAddPrice = keep_three_decimal(
+            currentShort["currentAvg"] * (1 + shortAddList[currentShort["currentAddIndex"]][0]), 3)
+    else:
+        shortAddPrice = None
 
     # 如果没有仓位就开仓
     if currentLong["count"] == 0 and currentShort["count"] == 0:
@@ -112,17 +124,58 @@ def singleLineDeal(line: KlineData):
     else:
         # todo 这里要计算
         # ================================多单操作====================================
-        if longAddPrice < highPrice:
-            buySwap(line=line, addPrice=longAddPrice, side="long")
+        if longAddPrice is not None:
+            if longAddPrice > highPrice and longAddPrice > lowPrice:
+                # 补仓
+                buySwap(line=line, addPrice=longAddPrice, side="long")
+            elif longAddPrice > lowPrice and longAddPrice < highPrice:
+                # 补仓
+                buySwap(line=line, addPrice=longAddPrice, side="long")
+            elif highPrice > longAddPrice and lowPrice > longAddPrice:
+                if longSellPrice > highPrice and longSellPrice > lowPrice:
+                    pass
+                elif highPrice > longSellPrice and lowPrice < longSellPrice:
+                    sellSwap(line, longSellPrice, "long")
+                elif highPrice < longSellPrice and lowPrice < longSellPrice:
+                    sellSwap(line, longSellPrice, "long")
+                else:
+                    print("其他情况")
         else:
-            if longSellPrice > lowPrice:
+            if longSellPrice > highPrice and longSellPrice > lowPrice:
+                pass
+            elif highPrice > longSellPrice and lowPrice < longSellPrice:
                 sellSwap(line, longSellPrice, "long")
+            elif highPrice < longSellPrice and lowPrice < longSellPrice:
+                sellSwap(line, longSellPrice, "long")
+            else:
+                print("其他情况")
         # ================================空单操作====================================
-        if shortAddPrice > lowPrice:
-            buySwap(line=line, addPrice=shortAddPrice, side="short")
+        if shortAddPrice is not None:
+            if shortAddPrice < lowPrice and shortAddPrice < highPrice:
+                # 补仓
+                buySwap(line=line, addPrice=shortAddPrice, side="short")
+            elif shortAddPrice < highPrice and shortAddPrice > lowPrice:
+                # 补仓
+                buySwap(line=line, addPrice=shortAddPrice, side="short")
+            elif highPrice < shortAddPrice and lowPrice < shortAddPrice:
+                if shortSellPrice < highPrice and shortSellPrice < lowPrice:
+                    pass
+                elif lowPrice < shortSellPrice and highPrice > shortSellPrice:
+                    sellSwap(line, shortSellPrice, "short")
+                elif lowPrice < shortSellPrice and highPrice < shortSellPrice:
+                    sellSwap(line, shortSellPrice, "short")
+                else:
+                    print("其他情况")
         else:
-            if shortSellPrice < highPrice:
+            if shortSellPrice < highPrice and shortSellPrice < lowPrice:
+                pass
+            elif lowPrice < shortSellPrice and highPrice > shortSellPrice:
                 sellSwap(line, shortSellPrice, "short")
+            elif lowPrice < shortSellPrice and highPrice < shortSellPrice:
+                sellSwap(line, shortSellPrice, "short")
+            else:
+                print("其他情况")
+
 
 # 卖出仓位
 def sellSwap(line: KlineData, sellPrice: float, side: str):
@@ -133,7 +186,6 @@ def sellSwap(line: KlineData, sellPrice: float, side: str):
         # 因为实际上还要扣除手续费 所以我这里约等于打88折
         longProfit = (sellPrice - currentLong["currentAvg"]) / (line.close_price / 10) * currentLong[
             "count"] * orderLevel * 0.88
-        print(f" {side}盈利{longProfit}")
         startBalance += longProfit
         # 清空所有仓位
         currentLong["count"] = 0
@@ -150,14 +202,12 @@ def sellSwap(line: KlineData, sellPrice: float, side: str):
         # 因为实际上还要扣除手续费 所以我这里约等于打88折
         shortProfit = (currentShort["currentAvg"] - sellPrice) / (line.close_price / 10) * currentShort[
             "count"] * orderLevel * 0.88
-        print(f" {side}盈利{shortProfit}")
         startBalance += shortProfit
         # 清空所有仓位
         currentShort["count"] = 0
         currentShort["currentAvg"] = 0
         currentShort["beginPrice"] = 0
         currentShort["currentAddIndex"] = 0
-
         if sellPrice > lowPrice and sellPrice < highPrice:
             buySwap(line, sellPrice, "short")
         # 再次购买仓位
@@ -169,7 +219,6 @@ def sellSwap(line: KlineData, sellPrice: float, side: str):
 def buySwap(line: KlineData, addPrice: float, side: str):
     if "long" == side:
         if currentLong["count"] == 0:
-            print(f"开仓  方向:{side} 价格:{addPrice} ")
             currentLong["count"] = orderCount * firstOrderMultiple
             currentLong["currentAvg"] = addPrice
             currentLong["beginPrice"] = addPrice
@@ -178,27 +227,30 @@ def buySwap(line: KlineData, addPrice: float, side: str):
             # 补仓 需要计算均价
             newAvgPrice = caculateAvgPrice(currentLong["currentAvg"], currentLong["count"], addPrice,
                                            longAddList[currentLong["currentAddIndex"]][1] * orderCount)
-            print(
-                f"补仓  方向:{side} 补仓价格:{addPrice} 原均价:{currentLong["currentAvg"]}  新均价：{newAvgPrice} 总仓位:{currentLong["count"] + longAddList[currentLong["currentAddIndex"]][1] * orderCount}")
             currentLong["count"] = currentLong["count"] + longAddList[currentLong["currentAddIndex"]][1] * orderCount
             currentLong["currentAvg"] = newAvgPrice
             currentLong["currentAddIndex"] = currentLong["currentAddIndex"] + 1
     if "short" == side:
         if currentShort["count"] == 0:
-            print(f"开仓  方向:{side} 价格:{addPrice}")
+            # print(f"开仓  方向:{side} 价格:{addPrice}")
             currentShort["count"] = orderCount * firstOrderMultiple
             currentShort["currentAvg"] = addPrice
             currentShort["beginPrice"] = addPrice
             currentShort["currentAddIndex"] = 0
         else:
             # 补仓 需要计算均价
-            newAvgPrice = caculateAvgPrice(currentLong["currentAvg"], currentLong["count"], addPrice,
-                                           longAddList[currentLong["currentAddIndex"]][1] * orderCount)
-            print(
-                f"补仓  方向:{side} 补仓价格:{addPrice} 原均价:{currentShort["currentAvg"]}  新均价：{newAvgPrice} 总仓位:{currentShort["count"] + shortAddList[currentShort["currentAddIndex"]][1] * orderCount}")
-            currentShort["count"] = currentShort["count"] + longAddList[currentShort["currentAddIndex"]][1] * orderCount
+            newAvgPrice = caculateAvgPrice(currentShort["currentAvg"], currentShort["count"], addPrice,
+                                           shortAddList[currentShort["currentAddIndex"]][1] * orderCount)
+            currentShort["count"] = currentShort["count"] + shortAddList[currentShort["currentAddIndex"]][
+                1] * orderCount
             currentShort["currentAvg"] = newAvgPrice
             currentShort["currentAddIndex"] = currentShort["currentAddIndex"] + 1
+
+
+def keep_three_decimal(num, num2=3):
+    formatStr = "{:." + str(num2) + "f}"
+    result = formatStr.format(num)
+    return float(result)
 
 
 if __name__ == '__main__':
@@ -213,8 +265,11 @@ if __name__ == '__main__':
     while True:
         klineData = queryCurrentKlineData(conn, currentIndex, querySize)
         currentIndex += querySize
+        longProfit, shortProfit = caculateUnDoProfit(klineData[0])
+        print(
+            f"时间:{klineData[0].create_time} 价格:{keep_three_decimal(klineData[0].close_price, 3)} "
+            f"总资产:{keep_three_decimal(startBalance + longProfit + shortProfit, 3)} 多:{keep_three_decimal(currentLong["currentAvg"], 3)} {keep_three_decimal(currentLong["count"])}张 空:{keep_three_decimal(currentShort["currentAvg"], 3)} {keep_three_decimal(currentShort["count"])}张")
         for line in klineData:
-            longProfit, shortProfit = caculateUnDoProfit(line)
-            print(
-                f"时间:{line.create_time} 价格:{line.close_price} 总资产:{startBalance + longProfit + shortProfit} 多:{longProfit} 空:{shortProfit}")
+            if (startBalance + longProfit + shortProfit) < 0:
+                break
             singleLineDeal(line)
