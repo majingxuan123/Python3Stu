@@ -38,12 +38,15 @@ def insertLine(conn: pymysql.Connection, sql: str) -> int:
 
 
 ## 组织参数
-instId = "ETH-USDT"
-beginDatetime = datetime(2025, 1, 1, 0, 0, 0)
-beginDateTs = int(time.mktime(beginDatetime.timetuple())) * 1000
-endDateTime = datetime(2025, 1, 1, 1, 0, 0)
-endDateTime = int(time.mktime(endDateTime.timetuple())) * 1000
+instId = "BTC-USDT"
+beginDatetime = datetime(2024, 1, 19, 0, 0, 0)
+endDateTime = datetime(2024, 1, 19, 1, 0, 0)
 
+# beginDatetime = datetime(2025, 1, 1, 0, 0, 0)
+# endDateTime = datetime(2025, 1, 1, 1, 0, 0)
+
+beginDateTs = int(time.mktime(beginDatetime.timetuple())) * 1000
+endDateTime = int(time.mktime(endDateTime.timetuple())) * 1000
 globalDict = {"begin": beginDateTs, "end": endDateTime}
 lock1 = threading.Lock()
 
@@ -54,7 +57,6 @@ connect = mysqlUtil.selfConnect()
 lock2 = threading.Lock()
 
 currentTimeStamp = int(time.time() * 1000)
-
 
 def blockExec():
     firstExec = True

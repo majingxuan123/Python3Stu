@@ -4,15 +4,24 @@ import pymysql
 
 from okxtest.MySqlUtil.MySqlUtil import MySqlUtil
 
+# 3倍 sol 0.006  [(0.01, 0.5), (0.02, 1.5), (0.055, 3), (0.085, 6),  (0.18, 18)]
+# 时间: '2025-09-01 14:59:00' 价格:198.81
+# 总资产:706.155
+#  多:-24.486695840249492 均:210.981 0.8张 起:217.034  下次补仓:193.047
+#  空:-1.7783310698657184 均:196.79 0.35张 起:196.509  下次补仓:200.726
+
+startDate = "2025-06-01 00:00:00"
+
 # 订单数量
-orderCount = 0.1
+orderCount = 0.3
 # 收单翻倍
-firstOrderMultiple = 3
+firstOrderMultiple = 2
 # 买的货币
-missionInstId = "ETH-USDT"
+missionInstId = "SOL-USDT"
 # 杠杆倍数
 orderLevel = 50
 # 盈利收益百分比
+# sol 7.7 440
 profitPercent = 0.006
 # 止损百分比
 stopPercent = 999
@@ -21,10 +30,14 @@ startBalance = 400
 # 未实现收益
 unDoProfit = 0
 
-longAddList = [(0.005, 0.2), (0.01, 0.3), (0.015, 1), (0.025, 2), (0.035, 1), (0.04, 3), (0.07, 1),
-               (0.08, 4), (0.12, 4), (0.15, 2), (0.18, 8)]
-shortAddList = [(0.005, 0.2), (0.01, 0.3), (0.015, 1), (0.025, 2), (0.035, 1), (0.04, 3), (0.07, 1),
-                (0.08, 4), (0.12, 4), (0.15, 2), (0.18, 8)]
+# 时间: [(0.025, 1),(0.055, 2), (0.085, 3), (0.014,6), (0.020, 12)] '2025-07-11 05:17:00' 价格:162.0 # 总资产:-24.328
+
+
+
+# 逐渐减少 [(0.005, 0.2),(0.01, 0.5), (0.02, 1.5), (0.055, 3), (0.085, 6),  (0.18, 18)]
+
+longAddList = [(0.005, 0.2),(0.01, 0.5), (0.02, 1.5), (0.055, 3), (0.085, 6),  (0.18, 18)]
+shortAddList = [(0.005, 0.2),(0.01, 0.5), (0.02, 1.5), (0.055, 3), (0.085, 6),  (0.18, 18)]
 
 currentLong = {"count": 0, "currentAddIndex": 0, "currentAvg": 0, "beginPrice": 0}
 currentShort = {"count": 0, "currentAddIndex": 0, "currentAvg": 0, "beginPrice": 0}
@@ -70,7 +83,8 @@ class KlineData:
 #   mysql 查询
 def queryCurrentKlineData(conn: pymysql.Connection, currentIndex: int, querySize: int) -> (list[KlineData]):
     # 这里是用类静态方法调用的
-    rows = MySqlUtil.query(conn, f"select * from t_klinedata order by ts asc limit {currentIndex},{querySize}")
+    rows = MySqlUtil.query(conn,
+                           f"select * from t_klinedata where inst_id = '{missionInstId}' and date_str > '{startDate}' order by ts asc limit {currentIndex},{querySize}")
     # 将每一行数据转换为KlineData对象
     kline_data_list = []
     rows = rows[1:]
@@ -116,13 +130,17 @@ def singleLineDeal(line: KlineData):
             currentShort["currentAvg"] * (1 + shortAddList[currentShort["currentAddIndex"]][0]), 3)
     else:
         shortAddPrice = None
-
+    longProfit, shortProfit = caculateUnDoProfit(line)
+    print(f"总资产:{keep_three_decimal(startBalance + longProfit + shortProfit, 3)} ")
+    print(
+        f" 多:{longProfit} 均:{keep_three_decimal(currentLong["currentAvg"], 3)} {keep_three_decimal(currentLong["count"])}张 起:{currentLong["beginPrice"]}  下次补仓:{longAddPrice}")
+    print(
+        f" 空:{shortProfit} 均:{keep_three_decimal(currentShort["currentAvg"], 3)} {keep_three_decimal(currentShort["count"])}张 起:{currentShort["beginPrice"]}  下次补仓:{shortAddPrice}")
     # 如果没有仓位就开仓
     if currentLong["count"] == 0 and currentShort["count"] == 0:
         buySwap(line=line, addPrice=line.close_price, side="long")
         buySwap(line=line, addPrice=line.close_price, side="short")
     else:
-        # todo 这里要计算
         # ================================多单操作====================================
         if longAddPrice is not None:
             if longAddPrice > highPrice and longAddPrice > lowPrice:
@@ -134,9 +152,11 @@ def singleLineDeal(line: KlineData):
             elif highPrice > longAddPrice and lowPrice > longAddPrice:
                 if longSellPrice > highPrice and longSellPrice > lowPrice:
                     pass
-                elif highPrice > longSellPrice and lowPrice < longSellPrice:
+                elif lowPrice < longSellPrice and longSellPrice < highPrice:
                     sellSwap(line, longSellPrice, "long")
-                elif highPrice < longSellPrice and lowPrice < longSellPrice:
+                elif lowPrice < longSellPrice and highPrice < longSellPrice:
+                    sellSwap(line, longSellPrice, "long")
+                elif longSellPrice < lowPrice and longSellPrice < highPrice:
                     sellSwap(line, longSellPrice, "long")
                 else:
                     print("其他情况")
@@ -163,6 +183,8 @@ def singleLineDeal(line: KlineData):
                 elif lowPrice < shortSellPrice and highPrice > shortSellPrice:
                     sellSwap(line, shortSellPrice, "short")
                 elif lowPrice < shortSellPrice and highPrice < shortSellPrice:
+                    sellSwap(line, shortSellPrice, "short")
+                elif shortSellPrice < lowPrice and shortSellPrice < highPrice:
                     sellSwap(line, shortSellPrice, "short")
                 else:
                     print("其他情况")
@@ -265,11 +287,10 @@ if __name__ == '__main__':
     while True:
         klineData = queryCurrentKlineData(conn, currentIndex, querySize)
         currentIndex += querySize
-        longProfit, shortProfit = caculateUnDoProfit(klineData[0])
-        print(
-            f"时间:{klineData[0].create_time} 价格:{keep_three_decimal(klineData[0].close_price, 3)} "
-            f"总资产:{keep_three_decimal(startBalance + longProfit + shortProfit, 3)} 多:{keep_three_decimal(currentLong["currentAvg"], 3)} {keep_three_decimal(currentLong["count"])}张 空:{keep_three_decimal(currentShort["currentAvg"], 3)} {keep_three_decimal(currentShort["count"])}张")
+
         for line in klineData:
-            if (startBalance + longProfit + shortProfit) < 0:
-                break
+            print("----------------------")
+            print(f"时间:{line.create_time} 价格:{keep_three_decimal(line.close_price, 3)}")
+
             singleLineDeal(line)
+            print("----------------------")
